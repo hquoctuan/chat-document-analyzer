@@ -1,0 +1,3 @@
+[2025-10-17 18:33:53] INFO - llama_service:  => GroqLlamaService initialized with model: llama-3.1-8b-instant
+[2025-10-17 18:33:53] INFO - llama_service:  Prompt input  What is the capital in Korea...
+[2025-10-17 18:33:54] INFO - llama_service:  Groq repone recived (110 chars)
