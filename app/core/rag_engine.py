@@ -76,7 +76,7 @@ if __name__ == '__main__':
     print(f"Retriever built: {type(retriver)}")
 
     rag = RagEngine(retriver=retriver)
-    question = "What is the laptop with the highest performance?"
+    question = "Discuss all information of all laptop in this resource?"
     answer = rag.gernerate(question)
 
     print(question)
