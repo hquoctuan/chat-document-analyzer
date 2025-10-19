@@ -1,0 +1,5 @@
+[2025-10-19 17:55:53] INFO - PipelineRAG: Starting data pipe line for file: data/laptop.csv
+[2025-10-19 17:55:53] INFO - PipelineRAG: Loaded 100 documents of type: csv
+[2025-10-19 17:55:53] INFO - PipelineRAG: Split into 10 chunks
+[2025-10-19 17:55:57] INFO - PipelineRAG: Using embedding model: sentence-transformers/all-MiniLM-L6-v2
+[2025-10-19 17:55:57] ERROR - PipelineRAG: Failed to build pipeline: 'NoneType' object has no attribute 'embed_documents'

@@ -1,0 +1,101 @@
+Brand,Model,Processor,RAM,Storage,GPU,Operating System,Screen Size,Resolution,Weight (kg),Battery,Warranty,Price (USD),Customer Rating
+Razer,Razer Model 618,Intel Core i3,16GB,1TB SSD,NVIDIA GTX 1650,FreeDOS,13.3 inch,2560x1440,2.18,43Wh,3 years,2037,4.7
+Razer,Razer Model 171,AMD Ryzen 3,64GB,1TB SSD,NVIDIA RTX 4070,Ubuntu,15.6 inch,2560x1440,1.18,65Wh,1 years,1951,4.2
+Acer,Acer Model 491,Intel Core i5,32GB,256GB SSD,NVIDIA GTX 1650,macOS,13.3 inch,2560x1440,3.49,57Wh,1 years,694,3.8
+Dell,Dell Model 214,Intel Core i5,4GB,2TB HDD,Intel Iris Xe,Windows 10,13.3 inch,1920x1080,2.55,64Wh,1 years,3207,4.1
+LG,LG Model 316,Intel Core i3,32GB,2TB HDD,NVIDIA RTX 4070,Windows 10,16 inch,2560x1440,3.25,67Wh,2 years,1696,3.6
+Samsung,Samsung Model 504,AMD Ryzen 7,8GB,1TB SSD,Intel Iris Xe,Ubuntu,17 inch,2560x1440,2.07,97Wh,3 years,959,4.4
+HP,HP Model 376,Intel Core i3,8GB,512GB SSD,NVIDIA RTX 3050,Windows 11,16 inch,2560x1440,2.07,97Wh,1 years,2421,4.7
+Apple,Apple Model 584,Intel Core i5,8GB,256GB SSD,AMD Radeon RX 6600M,macOS,17 inch,1920x1080,1.21,61Wh,1 years,2489,4.0
+Razer,Razer Model 934,AMD Ryzen 9,8GB,256GB SSD,NVIDIA RTX 3060,Windows 10,17 inch,2560x1440,2.44,72Wh,3 years,2487,4.5
+Apple,Apple Model 919,Intel Core i7,16GB,1TB HDD,NVIDIA RTX 4070,Ubuntu,17 inch,1920x1080,1.77,45Wh,1 years,3378,4.1
+Razer,Razer Model 386,AMD Ryzen 3,64GB,512GB SSD,NVIDIA RTX 3050,Ubuntu,15.6 inch,3840x2160,1.31,45Wh,2 years,2792,4.8
+Samsung,Samsung Model 591,AMD Ryzen 7,8GB,2TB HDD,NVIDIA RTX 3060,FreeDOS,16 inch,3840x2160,1.22,58Wh,1 years,599,4.9
+Apple,Apple Model 389,Intel Core i3,4GB,2TB SSD,Integrated,Windows 11,17 inch,3840x2160,1.77,43Wh,3 years,757,4.8
+Apple,Apple Model 759,Intel Core i7,64GB,1TB SSD,AMD Radeon RX 6600M,Windows 11,17 inch,2560x1440,1.31,79Wh,1 years,1313,4.5
+Samsung,Samsung Model 103,Intel Core i7,64GB,1TB SSD,Integrated,Windows 10,14 inch,1920x1080,1.52,48Wh,1 years,1778,4.2
+Razer,Razer Model 925,AMD Ryzen 7,32GB,1TB HDD,NVIDIA RTX 3050,Windows 11,17 inch,3840x2160,2.55,91Wh,3 years,1240,4.0
+LG,LG Model 490,AMD Ryzen 5,64GB,2TB HDD,Integrated,Ubuntu,16 inch,1920x1080,2.3,53Wh,3 years,846,3.8
+Razer,Razer Model 585,AMD Ryzen 3,64GB,1TB HDD,NVIDIA GTX 1650,macOS,16 inch,1920x1080,1.56,75Wh,3 years,549,3.9
+Lenovo,Lenovo Model 949,Intel Core i9,4GB,256GB SSD,Integrated,Windows 10,16 inch,2560x1440,2.27,89Wh,1 years,2008,5.0
+HP,HP Model 444,AMD Ryzen 3,4GB,2TB HDD,NVIDIA RTX 3050,Windows 11,17 inch,1920x1080,2.3,48Wh,1 years,641,4.7
+Dell,Dell Model 264,AMD Ryzen 7,32GB,512GB SSD,NVIDIA RTX 4070,macOS,15.6 inch,1920x1080,3.17,58Wh,3 years,3485,3.9
+MSI,MSI Model 856,AMD Ryzen 3,16GB,1TB HDD,NVIDIA RTX 3060,macOS,15.6 inch,1920x1080,2.3,87Wh,3 years,2510,4.3
+HP,HP Model 341,Intel Core i5,4GB,2TB SSD,NVIDIA RTX 3050,macOS,17 inch,2560x1440,3.49,75Wh,3 years,896,3.8
+MSI,MSI Model 182,Intel Core i9,8GB,1TB HDD,NVIDIA GTX 1650,Ubuntu,14 inch,1920x1080,1.59,78Wh,1 years,1973,4.0
+LG,LG Model 593,AMD Ryzen 9,32GB,1TB HDD,NVIDIA RTX 3050,Ubuntu,15.6 inch,3840x2160,3.16,77Wh,2 years,1926,4.3
+LG,LG Model 251,AMD Ryzen 9,64GB,512GB SSD,Integrated,Windows 10,17 inch,3840x2160,2.61,42Wh,3 years,1456,4.0
+Acer,Acer Model 676,Intel Core i9,64GB,1TB SSD,NVIDIA RTX 4070,FreeDOS,14 inch,2560x1440,1.22,48Wh,2 years,3275,3.8
+Acer,Acer Model 359,Intel Core i7,8GB,1TB HDD,Intel Iris Xe,Windows 10,15.6 inch,1920x1080,3.17,95Wh,1 years,2856,4.1
+Acer,Acer Model 658,AMD Ryzen 9,4GB,1TB HDD,Intel Iris Xe,Ubuntu,16 inch,2560x1440,1.23,63Wh,3 years,2817,4.9
+MSI,MSI Model 996,AMD Ryzen 9,4GB,256GB SSD,NVIDIA RTX 3060,Ubuntu,16 inch,1920x1080,2.27,48Wh,3 years,1888,4.7
+Samsung,Samsung Model 652,AMD Ryzen 3,8GB,1TB SSD,Intel Iris Xe,FreeDOS,14 inch,3840x2160,3.17,72Wh,1 years,3329,4.3
+Samsung,Samsung Model 941,Intel Core i3,4GB,2TB HDD,Intel Iris Xe,macOS,15.6 inch,3840x2160,1.08,74Wh,3 years,2750,3.7
+Lenovo,Lenovo Model 418,AMD Ryzen 7,64GB,2TB HDD,AMD Radeon RX 6600M,macOS,13.3 inch,2560x1440,1.03,42Wh,2 years,1730,4.5
+Razer,Razer Model 344,AMD Ryzen 5,16GB,1TB HDD,Intel Iris Xe,Ubuntu,13.3 inch,1920x1080,1.01,87Wh,2 years,948,4.2
+HP,HP Model 144,AMD Ryzen 3,64GB,256GB SSD,NVIDIA GTX 1650,Windows 11,17 inch,1920x1080,3.37,60Wh,2 years,1623,4.8
+Dell,Dell Model 504,AMD Ryzen 5,16GB,512GB SSD,NVIDIA RTX 4070,Windows 11,17 inch,2560x1440,1.18,63Wh,2 years,1595,4.2
+Apple,Apple Model 147,Intel Core i7,8GB,1TB SSD,Intel Iris Xe,Windows 10,13.3 inch,3840x2160,1.16,52Wh,1 years,3174,3.8
+Acer,Acer Model 392,Intel Core i5,32GB,1TB HDD,Intel Iris Xe,macOS,15.6 inch,2560x1440,2.18,85Wh,2 years,2251,4.5
+HP,HP Model 798,Intel Core i7,16GB,256GB SSD,Intel Iris Xe,FreeDOS,17 inch,3840x2160,1.47,89Wh,1 years,3411,4.0
+Razer,Razer Model 628,AMD Ryzen 3,8GB,1TB SSD,AMD Radeon RX 6600M,Windows 10,16 inch,3840x2160,1.26,45Wh,1 years,1143,4.5
+MSI,MSI Model 857,Intel Core i3,64GB,2TB HDD,Integrated,Ubuntu,17 inch,3840x2160,3.49,76Wh,1 years,1084,4.0
+Asus,Asus Model 390,Intel Core i9,64GB,2TB HDD,NVIDIA RTX 4070,Ubuntu,16 inch,2560x1440,3.16,77Wh,2 years,2758,4.2
+Samsung,Samsung Model 905,Intel Core i3,4GB,2TB HDD,AMD Radeon RX 6600M,Ubuntu,15.6 inch,1920x1080,2.46,97Wh,3 years,1163,3.7
+Lenovo,Lenovo Model 148,Intel Core i9,64GB,1TB SSD,Integrated,FreeDOS,16 inch,1920x1080,2.15,55Wh,2 years,2841,4.2
+MSI,MSI Model 986,AMD Ryzen 3,8GB,2TB SSD,NVIDIA RTX 3060,macOS,14 inch,2560x1440,2.44,98Wh,1 years,2339,4.7
+HP,HP Model 211,Intel Core i7,16GB,1TB SSD,NVIDIA RTX 3060,Ubuntu,14 inch,1920x1080,1.31,81Wh,2 years,1922,3.8
+Lenovo,Lenovo Model 169,Intel Core i3,4GB,2TB HDD,AMD Radeon RX 6600M,Windows 10,17 inch,2560x1440,1.49,89Wh,2 years,1478,4.1
+Razer,Razer Model 703,Intel Core i7,4GB,2TB SSD,NVIDIA RTX 3060,Windows 11,17 inch,2560x1440,3.04,46Wh,1 years,1016,4.8
+Dell,Dell Model 551,AMD Ryzen 7,4GB,2TB HDD,NVIDIA GTX 1650,Windows 11,15.6 inch,3840x2160,1.01,62Wh,2 years,1886,4.2
+Asus,Asus Model 481,AMD Ryzen 3,64GB,512GB SSD,AMD Radeon RX 6600M,macOS,17 inch,1920x1080,1.22,81Wh,1 years,3059,4.4
+MSI,MSI Model 840,Intel Core i9,32GB,512GB SSD,Intel Iris Xe,macOS,15.6 inch,1920x1080,3.16,74Wh,2 years,1585,4.0
+LG,LG Model 599,Intel Core i7,16GB,256GB SSD,NVIDIA RTX 4070,macOS,17 inch,2560x1440,2.3,44Wh,2 years,1394,4.5
+Asus,Asus Model 569,AMD Ryzen 9,64GB,256GB SSD,NVIDIA RTX 4070,Windows 11,16 inch,1920x1080,1.62,76Wh,2 years,2522,3.8
+Asus,Asus Model 707,AMD Ryzen 9,8GB,256GB SSD,NVIDIA GTX 1650,Windows 11,17 inch,2560x1440,1.84,48Wh,1 years,3393,3.6
+HP,HP Model 235,Intel Core i3,4GB,512GB SSD,NVIDIA GTX 1650,macOS,14 inch,1920x1080,1.77,55Wh,1 years,3206,4.9
+Razer,Razer Model 543,AMD Ryzen 3,8GB,1TB HDD,NVIDIA GTX 1650,Windows 10,14 inch,2560x1440,1.38,47Wh,1 years,2546,4.8
+Samsung,Samsung Model 474,Intel Core i9,4GB,2TB SSD,AMD Radeon RX 6600M,macOS,17 inch,2560x1440,3.04,41Wh,2 years,1281,3.8
+LG,LG Model 921,Intel Core i3,8GB,512GB SSD,AMD Radeon RX 6600M,FreeDOS,16 inch,3840x2160,2.53,51Wh,2 years,2653,4.6
+Dell,Dell Model 181,AMD Ryzen 5,32GB,512GB SSD,NVIDIA RTX 3060,FreeDOS,13.3 inch,1920x1080,1.42,76Wh,2 years,1074,3.6
+Asus,Asus Model 732,Intel Core i5,4GB,256GB SSD,NVIDIA RTX 4070,macOS,15.6 inch,1920x1080,1.96,61Wh,2 years,2387,4.3
+Apple,Apple Model 559,Intel Core i5,16GB,1TB SSD,NVIDIA RTX 3050,Windows 11,14 inch,1920x1080,2.68,96Wh,1 years,2274,4.4
+Lenovo,Lenovo Model 782,AMD Ryzen 7,16GB,256GB SSD,NVIDIA RTX 3050,Ubuntu,17 inch,3840x2160,2.12,89Wh,2 years,1931,3.8
+MSI,MSI Model 854,Intel Core i7,8GB,2TB SSD,AMD Radeon RX 6600M,macOS,17 inch,1920x1080,2.91,87Wh,2 years,1162,4.3
+Dell,Dell Model 165,AMD Ryzen 9,8GB,1TB SSD,Intel Iris Xe,Windows 10,16 inch,1920x1080,1.18,94Wh,1 years,729,4.8
+Dell,Dell Model 787,AMD Ryzen 3,4GB,1TB SSD,Integrated,Windows 10,15.6 inch,2560x1440,1.47,64Wh,2 years,2820,4.5
+Asus,Asus Model 376,Intel Core i5,16GB,1TB SSD,NVIDIA RTX 4070,Ubuntu,15.6 inch,2560x1440,1.47,80Wh,1 years,2924,4.0
+Dell,Dell Model 531,AMD Ryzen 3,32GB,2TB HDD,NVIDIA RTX 3060,Windows 10,14 inch,1920x1080,3.31,62Wh,1 years,2657,3.8
+Samsung,Samsung Model 360,Intel Core i3,16GB,512GB SSD,Intel Iris Xe,Windows 11,17 inch,2560x1440,2.13,56Wh,1 years,1727,5.0
+Razer,Razer Model 653,Intel Core i9,4GB,256GB SSD,NVIDIA RTX 3050,Windows 10,13.3 inch,2560x1440,3.16,52Wh,1 years,1747,4.2
+Lenovo,Lenovo Model 125,Intel Core i3,64GB,2TB SSD,NVIDIA RTX 3050,Windows 10,15.6 inch,1920x1080,1.9,42Wh,1 years,1863,4.1
+MSI,MSI Model 152,AMD Ryzen 3,32GB,2TB HDD,NVIDIA RTX 3060,macOS,14 inch,1920x1080,2.53,60Wh,2 years,668,4.5
+Samsung,Samsung Model 506,Intel Core i9,64GB,512GB SSD,Integrated,macOS,13.3 inch,2560x1440,1.48,66Wh,2 years,1836,3.8
+Asus,Asus Model 620,Intel Core i7,64GB,1TB SSD,Integrated,Windows 11,13.3 inch,3840x2160,2.68,96Wh,1 years,3022,4.2
+Asus,Asus Model 369,Intel Core i5,8GB,1TB HDD,Intel Iris Xe,Windows 11,13.3 inch,3840x2160,1.77,99Wh,2 years,2888,4.8
+LG,LG Model 310,Intel Core i9,16GB,1TB SSD,Intel Iris Xe,macOS,15.6 inch,3840x2160,2.07,53Wh,3 years,1032,4.4
+LG,LG Model 897,Intel Core i3,64GB,512GB SSD,Intel Iris Xe,Ubuntu,14 inch,2560x1440,3.37,52Wh,3 years,3126,5.0
+Dell,Dell Model 427,Intel Core i7,8GB,2TB SSD,Integrated,Windows 11,16 inch,3840x2160,2.33,75Wh,1 years,996,3.8
+Apple,Apple Model 628,Intel Core i5,4GB,1TB SSD,NVIDIA RTX 4070,Ubuntu,14 inch,3840x2160,3.36,92Wh,3 years,1367,4.2
+MSI,MSI Model 314,AMD Ryzen 7,4GB,256GB SSD,NVIDIA GTX 1650,Windows 11,16 inch,1920x1080,2.37,88Wh,1 years,2981,4.9
+Apple,Apple Model 167,Intel Core i7,64GB,512GB SSD,Integrated,macOS,17 inch,2560x1440,1.42,63Wh,2 years,1477,4.2
+LG,LG Model 666,Intel Core i5,64GB,512GB SSD,NVIDIA RTX 3050,Ubuntu,15.6 inch,1920x1080,2.07,86Wh,1 years,3359,4.5
+Razer,Razer Model 719,AMD Ryzen 5,64GB,1TB SSD,Intel Iris Xe,FreeDOS,13.3 inch,2560x1440,3.18,87Wh,3 years,1872,3.6
+Dell,Dell Model 311,AMD Ryzen 5,4GB,2TB HDD,Intel Iris Xe,Windows 10,15.6 inch,3840x2160,1.31,65Wh,1 years,1359,4.4
+Asus,Asus Model 144,AMD Ryzen 3,16GB,512GB SSD,NVIDIA RTX 4070,macOS,16 inch,2560x1440,2.18,71Wh,2 years,1457,3.9
+Acer,Acer Model 871,Intel Core i5,8GB,512GB SSD,NVIDIA RTX 3060,Windows 11,16 inch,2560x1440,3.36,95Wh,2 years,1451,4.9
+Lenovo,Lenovo Model 538,Intel Core i9,64GB,256GB SSD,NVIDIA RTX 3060,Windows 10,15.6 inch,3840x2160,1.24,42Wh,1 years,3137,4.1
+HP,HP Model 203,Intel Core i3,32GB,1TB SSD,Intel Iris Xe,Windows 10,14 inch,1920x1080,2.36,97Wh,3 years,2479,4.2
+Asus,Asus Model 294,AMD Ryzen 3,16GB,512GB SSD,AMD Radeon RX 6600M,Windows 10,15.6 inch,3840x2160,2.4,63Wh,3 years,679,3.5
+Dell,Dell Model 166,Intel Core i5,16GB,2TB HDD,NVIDIA RTX 3060,macOS,16 inch,2560x1440,3.01,97Wh,2 years,2843,4.2
+LG,LG Model 738,AMD Ryzen 3,16GB,256GB SSD,NVIDIA RTX 3050,macOS,15.6 inch,3840x2160,1.18,73Wh,1 years,2395,4.4
+LG,LG Model 287,Intel Core i9,64GB,256GB SSD,NVIDIA RTX 3060,Ubuntu,14 inch,3840x2160,1.6,93Wh,1 years,3272,4.5
+Acer,Acer Model 711,AMD Ryzen 9,64GB,256GB SSD,Integrated,Ubuntu,17 inch,3840x2160,2.97,61Wh,3 years,3387,4.6
+Apple,Apple Model 692,Intel Core i5,32GB,2TB SSD,NVIDIA RTX 3050,FreeDOS,17 inch,3840x2160,2.18,50Wh,2 years,2757,4.2
+Lenovo,Lenovo Model 901,Intel Core i3,64GB,2TB SSD,NVIDIA GTX 1650,FreeDOS,14 inch,3840x2160,1.68,66Wh,3 years,577,4.7
+MSI,MSI Model 674,Intel Core i9,32GB,2TB SSD,AMD Radeon RX 6600M,Ubuntu,15.6 inch,2560x1440,2.89,85Wh,2 years,3033,4.4
+Lenovo,Lenovo Model 231,Intel Core i5,4GB,2TB SSD,NVIDIA RTX 4070,FreeDOS,16 inch,3840x2160,3.04,44Wh,2 years,3465,4.3
+Apple,Apple Model 189,AMD Ryzen 9,4GB,1TB SSD,NVIDIA GTX 1650,Ubuntu,16 inch,1920x1080,2.88,45Wh,1 years,2449,4.2
+Acer,Acer Model 452,Intel Core i7,64GB,2TB HDD,NVIDIA RTX 3050,Windows 10,17 inch,1920x1080,3.25,90Wh,1 years,505,4.0
+LG,LG Model 233,AMD Ryzen 9,16GB,512GB SSD,NVIDIA GTX 1650,Ubuntu,16 inch,3840x2160,2.61,96Wh,3 years,1480,4.1
+MSI,MSI Model 932,AMD Ryzen 3,4GB,1TB HDD,AMD Radeon RX 6600M,Ubuntu,14 inch,2560x1440,2.07,49Wh,1 years,1096,3.5

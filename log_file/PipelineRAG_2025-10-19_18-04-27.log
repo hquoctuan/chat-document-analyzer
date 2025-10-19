@@ -1,0 +1,7 @@
+[2025-10-19 18:04:27] INFO - PipelineRAG: Starting data pipe line for file: data/laptop.csv
+[2025-10-19 18:04:27] INFO - PipelineRAG: Loaded 100 documents of type: csv
+[2025-10-19 18:04:27] INFO - PipelineRAG: Split into 10 chunks
+[2025-10-19 18:04:27] INFO - PipelineRAG: Using embedding model: sentence-transformers/all-MiniLM-L6-v2
+[2025-10-19 18:04:28] INFO - PipelineRAG: FAISS vector store built successfully
+[2025-10-19 18:04:28] INFO - PipelineRAG: Vector Store saved at: data/vector_store\faiss_index
+[2025-10-19 18:04:28] INFO - PipelineRAG: Pipeline completed successfully

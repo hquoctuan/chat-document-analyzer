@@ -3,6 +3,7 @@ from app.services.embedding_service import EmbeddingService
 from app.helper.logger import get_logger
 from langchain.prompts import PromptTemplate
 from langchain.chains.retrieval_qa.base import RetrievalQA
+from app.core.retriaval_handler import RetrivalHandler
 
 logger = get_logger('Core_Engine')
 
@@ -55,8 +56,8 @@ class RagEngine:
         
             
         
-       
-rag = RagEngine()
-print(rag.gernerate("What is the capital in Korea"))
+retriver =  RetrivalHandler().get_retriver(save_dir='data/vector_store')      
+rag = RagEngine(retriver=retriver)
+print(rag.gernerate("What is laptop with highest performance?"))
 
     
