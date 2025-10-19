@@ -1,1 +1,0 @@
-[2025-10-19 17:55:57] ERROR - VectorStore: Erro build vector store'NoneType' object has no attribute 'embed_documents'

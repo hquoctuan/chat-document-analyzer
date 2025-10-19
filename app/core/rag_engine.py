@@ -4,6 +4,9 @@ from app.helper.logger import get_logger
 from langchain.prompts import PromptTemplate
 from langchain.chains.retrieval_qa.base import RetrievalQA
 from app.core.retriaval_handler import RetrivalHandler
+from app.core.vector_store import VectorStore
+from app.core.data_loader import DataLoader
+from app.core.chunk_handler import ChunkHandler
 
 logger = get_logger('Core_Engine')
 
@@ -36,11 +39,11 @@ class RagEngine:
                 llm= self.llm,
                 retriever = self.retriver,
                 chain_type= 'stuff',
-                chain_type_kwargs={"promt":self.promt},
-                return_source_document = True
+                chain_type_kwargs={"prompt":self.promt},
+                return_source_documents=True 
                   
             )
-            result = qa_chain.invoke({"question": question})
+            result = qa_chain.invoke({"query": question})
             answer = result.get("result","")
             sources= result.get('source_document', [])
             logger.info(f" Answer generated ({len(answer)} chars, len{len(sources)})")
@@ -54,10 +57,27 @@ class RagEngine:
             logger.info(f"Error during RAG generation {e}")
             return "Sorry, an error occurred while generating the answer."
         
-            
-        
-retriver =  RetrivalHandler().get_retriver(save_dir='data/vector_store')      
-rag = RagEngine(retriver=retriver)
-print(rag.gernerate("What is laptop with highest performance?"))
+if __name__ == '__main__':
+    vt_store = VectorStore().load_vectore_store(
+        save_dir='data/vector_store',
+        embedding_model=EmbeddingService().model
+    )
+
+    data_loader = DataLoader()
+    docs, file_type = data_loader.load_file("data/laptop.csv")
 
     
+    chunk_handler = ChunkHandler()
+    chunks = chunk_handler.split_documents(docs, file_type=file_type)
+    retriver_handler = RetrivalHandler()
+    logger.info(f"Docs passed to retriever: {len(chunks) if chunks else 0}")
+
+    retriver = retriver_handler.build(vt_store, all_docs=chunks)
+    print(f"Retriever built: {type(retriver)}")
+
+    rag = RagEngine(retriver=retriver)
+    question = "What is the laptop with the highest performance?"
+    answer = rag.gernerate(question)
+
+    print(question)
+    print(answer)

@@ -1,4 +1,0 @@
-[2025-10-19 17:59:29] INFO - PipelineRAG: Starting data pipe line for file: data/laptop.csv
-[2025-10-19 17:59:29] INFO - PipelineRAG: Loaded 100 documents of type: csv
-[2025-10-19 17:59:29] INFO - PipelineRAG: Split into 10 chunks
-[2025-10-19 17:59:29] ERROR - PipelineRAG: Failed to build pipeline: 'HuggingFaceEmbeddings' object has no attribute '_initalize_model'

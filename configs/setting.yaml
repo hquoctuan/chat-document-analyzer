@@ -25,7 +25,7 @@ rag:
 retrieval:
   type: ["hybrid","dense","bm25"]       # "dense" | "bm25" | "hybrid"
   k_bm25: 30
-  k_vector: 30
+  k_vector: 5
   weights: [0.5, 0.5]     # [w_bm25, w_vector] cho EnsembleRetriever
   k_final: 5              # sau rerank
 

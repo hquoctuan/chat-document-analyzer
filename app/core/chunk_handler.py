@@ -74,7 +74,7 @@ class ChunkHandler:
     # -------------------------------------------------------
     # CSV Chunker
     # -------------------------------------------------------
-    def _split_csv_docs(self, docs: list[Document], group_size: int = 10) -> list[Document]:
+    def _split_csv_docs(self, docs: list[Document], group_size: int = 2) -> list[Document]:
         """
         Group multiple CSV rows (each row = 1 Document) into larger chunks.
         This helps LLM understand structured data better.

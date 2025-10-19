@@ -75,3 +75,4 @@ class Config:
 
 config  = Config()
 print(config.summary())
+print(config.TYPE_RETRIEVAL)

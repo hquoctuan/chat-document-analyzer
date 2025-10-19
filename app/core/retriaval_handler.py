@@ -1,7 +1,9 @@
 from langchain.retrievers import EnsembleRetriever, ContextualCompressionRetriever
 from langchain_community.retrievers import BM25Retriever
 from langchain.retrievers.document_compressors import CrossEncoderReranker
+from sentence_transformers import CrossEncoder
 from langchain.vectorstores.base import VectorStoreRetriever
+from langchain_community.cross_encoders import HuggingFaceCrossEncoder
 from app.config import config
 from app.helper.logger import get_logger
 logger = get_logger("RetrivalHandler")
@@ -41,7 +43,8 @@ class RetrivalHandler:
                 base = self._dense_only(vector_store)
             
             if self.rerank_enable:
-                reranker = CrossEncoderReranker( model  = self.rerank_model,top_n= self.k_final)
+                cross_model = HuggingFaceCrossEncoder(model_name=self.rerank_model)
+                reranker = CrossEncoderReranker(model=cross_model, top_n=self.k_final)
                 retriever = ContextualCompressionRetriever(
                     base_compressor= reranker,
                     base_retriever= base
@@ -62,8 +65,9 @@ class RetrivalHandler:
     def _dense_only(self,vector_store) -> VectorStoreRetriever:
         dense = vector_store.as_retriever(search_kwargs={"k":self.k_vector})
         logger.info(f" Dense only  retriever (k_vector {self.k_vector})")
+        return dense
 
-retriever = RetrivalHandler()
+
 
 
 

@@ -53,5 +53,3 @@ class EmbeddingService:
 
 embedder = EmbeddingService()
 vector = embedder.embed_text("Xin chào, đây là câu test embedding.")
-print(vector)
-print(len(vector))
