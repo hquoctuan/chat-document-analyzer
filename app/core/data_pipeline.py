@@ -2,7 +2,6 @@ import os
 from app.core.chunk_handler import ChunkHandler
 from app.core.vector_store import VectorStore
 from app.services.embedding_service import EmbeddingService
-from app.core.retriaval_handler import RetrivalHandler
 from app.core.data_loader import DataLoader
 from app.helper.logger import get_logger
 
@@ -20,6 +19,7 @@ class DataPipeLine:
         self.chunk = ChunkHandler()
         self.embedding_service = EmbeddingService()
         self.vector_store = VectorStore()
+        
         
     def process(self, file_path: str, save_dir: str = 'data/vector_store') -> str:
         """

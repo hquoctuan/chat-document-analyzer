@@ -1,0 +1,2 @@
+[2025-10-21 23:00:38] INFO - DataLoader:  Loaded 9 rows from CSV: laptop.csv
+[2025-10-21 23:00:38] INFO - DataLoader: Successfully loaded file: data/laptop.csv

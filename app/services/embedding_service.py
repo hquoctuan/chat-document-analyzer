@@ -45,7 +45,7 @@ class EmbeddingService:
         try: 
             logger.info(f" Generating embeddding for {len(documents)} document")
             embeddings = self.model.embed_documents(documents)
-            logger.info(f"✅ Successfully generated {len(embeddings)} embeddings.")
+            logger.info(f"Successfully generated {len(embeddings)} embeddings.")
             return embeddings
         except Exception as e:
             logger.error(f" Erro generate embeeding for text {e}")

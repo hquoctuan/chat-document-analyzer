@@ -60,7 +60,6 @@ class RetrivalHandler:
             logger.error(f"Erro building retriever {e}") 
             return self._dense_only(vector_store)
 
-        
     
     def _dense_only(self,vector_store) -> VectorStoreRetriever:
         dense = vector_store.as_retriever(search_kwargs={"k":self.k_vector})

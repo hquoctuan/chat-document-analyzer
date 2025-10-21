@@ -27,6 +27,9 @@ class RagEngine:
             "Respond in the same language as the question, using a natural and concise tone."),
             input_variables=['context','question'],
         )
+    def format_prompt(self, context: str, question: str) -> str:
+        """Ghép context + question thành prompt hoàn chỉnh."""
+        return self.prompt.format(context=context, question=question)
         
     
     def gernerate(self, question: str)-> str:
@@ -51,7 +54,8 @@ class RagEngine:
                 for i, doc in enumerate(sources[:2]):
                     snippet = doc.page_content[:80].replace("\n", " ")
                     logger.info(f"Source {i+1}: {snippet}...")
-                    
+            
+                   
             return answer
         except Exception as e:
             logger.info(f"Error during RAG generation {e}")
@@ -77,6 +81,8 @@ if __name__ == '__main__':
 
     rag = RagEngine(retriver=retriver)
     question = "Discuss all information of all laptop in this resource?"
+    #top_relavent = retriver.get_relevant_documents(question)
+    #logger.info(f'Vector sent  {[top_relavent]}')
     answer = rag.gernerate(question)
 
     print(question)
