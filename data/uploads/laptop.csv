@@ -1,0 +1,11 @@
+Brand,Model,Processor,RAM,Storage,GPU,Operating System,Screen Size,Resolution,Weight (kg),Battery,Warranty,Price (USD),Customer Rating
+Razer,Razer Model 618,Intel Core i3,16GB,1TB SSD,NVIDIA GTX 1650,FreeDOS,13.3 inch,2560x1440,2.18,43Wh,3 years,2037,4.7
+Razer,Razer Model 171,AMD Ryzen 3,64GB,1TB SSD,NVIDIA RTX 4070,Ubuntu,15.6 inch,2560x1440,1.18,65Wh,1 years,1951,4.2
+Acer,Acer Model 491,Intel Core i5,32GB,256GB SSD,NVIDIA GTX 1650,macOS,13.3 inch,2560x1440,3.49,57Wh,1 years,694,3.8
+Dell,Dell Model 214,Intel Core i5,4GB,2TB HDD,Intel Iris Xe,Windows 10,13.3 inch,1920x1080,2.55,64Wh,1 years,3207,4.1
+LG,LG Model 316,Intel Core i3,32GB,2TB HDD,NVIDIA RTX 4070,Windows 10,16 inch,2560x1440,3.25,67Wh,2 years,1696,3.6
+Samsung,Samsung Model 504,AMD Ryzen 7,8GB,1TB SSD,Intel Iris Xe,Ubuntu,17 inch,2560x1440,2.07,97Wh,3 years,959,4.4
+HP,HP Model 376,Intel Core i3,8GB,512GB SSD,NVIDIA RTX 3050,Windows 11,16 inch,2560x1440,2.07,97Wh,1 years,2421,4.7
+Apple,Apple Model 584,Intel Core i5,8GB,256GB SSD,AMD Radeon RX 6600M,macOS,17 inch,1920x1080,1.21,61Wh,1 years,2489,4.0
+Razer,Razer Model 934,AMD Ryzen 9,8GB,256GB SSD,NVIDIA RTX 3060,Windows 10,17 inch,2560x1440,2.44,72Wh,3 years,2487,4.5
+

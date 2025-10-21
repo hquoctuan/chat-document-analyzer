@@ -1,6 +1,7 @@
 import os
 import time
 import hashlib
+import shutil
 from typing import Any, List, Optional, Generator
 # Langchain lib
 from langchain.memory import ConversationBufferMemory
@@ -14,16 +15,18 @@ from app.core.vector_store import VectorStore
 from app.core.rag_engine import RagEngine
 from app.core.retriaval_handler import RetrivalHandler
 from app.core.data_pipeline import DataPipeLine
+from app.config import config
 
 logger = get_logger('ChatHandler')
 
-def compute_hash_lib(file_path: str)-> str:
-    ''' Create hash lib only for reuse vtDB'''
+def compute_hash_lib(file_path: str) -> str:
+    """Tạo hash md5 cho file để tái sử dụng vector DB"""
     h = hashlib.md5()
-    with open(file_path,"rb"):
-        for chunk in iter (lambda: h.read(1024*1024),b""):
+    with open(file_path, "rb") as f:
+        for chunk in iter(lambda: f.read(1024 * 1024), b""):
             h.update(chunk)
     return h.hexdigest()
+
 
 class ChatHandler():
     def __init__(self, use_id:str='guest',base_dir:str="data"):
@@ -33,9 +36,12 @@ class ChatHandler():
         self.session_dir = os.path.join(base_dir,f"session_{use_id}_{self.session_id}")
         os.makedirs(self.session_dir,exist_ok=True)
         
+        self.TOP_k = config.K_FINAL
+        
         # Service
         self.llm = GroqLlamaService()
         self.ebedding_service = EmbeddingService()
+        self.ebedding_model = EmbeddingService().model
         self.vector_store  = VectorStore()
         self.retriver_handler = RetrivalHandler()
         self.pipe_line = DataPipeLine()
@@ -64,13 +70,13 @@ class ChatHandler():
             logger.info(f" Start runing data pipe line process for file {file_path}")
             index_path = self.pipe_line.process(file_path=file_path,save_dir=vector_dir)
             ## Load FAISS  index
-            vt_store = VectorStore.load_vectore_store(
-                save_dir=index_path,
-                embedding_model= self.ebedding_service.model
+            vt_store = self.vector_store.load_vectore_store(
+                save_dir=vector_dir,
+                embedding_model= self.ebedding_model
                 
             )
             #Build retriver, engine
-            self.retriver = RetrivalHandler.build(vt_store)
+            self.retriver = RetrivalHandler.build(vt_store,)
             self.engine = RagEngine(retriver= self.retriver)
             logger.info(f" Chat Handler Ready for Retriver ")
         except Exception as e:
@@ -99,11 +105,51 @@ class ChatHandler():
         try:
             self.memory.chat_memory.add_user_message(question)
             placeholder.markdown("🤔 *Thinking...*")
-            
-    
+            docs = self.retriver_handler.get_relevant_documents(question)
+            context ="\n\n".join([d.page_content for d in docs[:self.TOP_k]])
+            prompt = self.engine.format_prompt(context=context,question=question)
+            respone = ""
+            for chunk in self.engine.llm.stream(prompt):
+                text = getattr(chunk, "content", "")
+                response += text
+                placeholder.markdown(response)
+                yield text
+             # Save memory
+            self.memory.chat_memory.add_ai_message(respone)
+            yield "\n Done "
+        except Exception as e: 
+            logger.error(f' Erro streaming chat{e}')
+            yield "\n Done "
+                
     def clear_history(self):
         self.memory.clear()
         logger.info('Clear chat memory')
+
+def delete_session(self):
+        """Xóa toàn bộ dữ liệu session (file upload, vector DB, memory)."""
+        try:
+            if self.current_file_path and os.path.exists(self.current_file_path):
+                os.remove(self.current_file_path)
+
+            if self.current_file_hash:
+                hash_dir = os.path.join(self.session_dir, self.current_file_hash)
+                shutil.rmtree(hash_dir, ignore_errors=True)
+
+            if os.path.exists(self.session_dir) and not os.listdir(self.session_dir):
+                shutil.rmtree(self.session_dir, ignore_errors=True)
+
+            self.clear_history()
+            self.engine = None
+            self.retriever = None
+            self.current_file_hash = None
+            self.current_file_path = None
+
+            logger.info("🗑️ Session deleted successfully.")
+            return True
+        except Exception as e:
+            logger.error(f"❌ Error deleting session: {e}")
+            return False
+    
         
 
     

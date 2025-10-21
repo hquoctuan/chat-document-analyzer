@@ -30,6 +30,8 @@ class RagEngine:
     def format_prompt(self, context: str, question: str) -> str:
         """Ghép context + question thành prompt hoàn chỉnh."""
         return self.prompt.format(context=context, question=question)
+    
+    
         
     
     def gernerate(self, question: str)-> str:
@@ -81,8 +83,8 @@ if __name__ == '__main__':
 
     rag = RagEngine(retriver=retriver)
     question = "Discuss all information of all laptop in this resource?"
-    #top_relavent = retriver.get_relevant_documents(question)
-    #logger.info(f'Vector sent  {[top_relavent]}')
+    top_relavent = retriver_handler.get_relevant_documents(question)
+    logger.info(f'Vector sent  {[top_relavent]}')
     answer = rag.gernerate(question)
 
     print(question)

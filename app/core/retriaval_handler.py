@@ -20,6 +20,7 @@ class RetrivalHandler:
         self.rerank_enable = config.ENABLE
         self.k_final = config.K_FINAL
         self.rerank_model = config.RERANKER_MODEL
+        self.retriever = None
     
 
         
@@ -39,8 +40,11 @@ class RetrivalHandler:
                 
                 base = EnsembleRetriever(retrievers=[bm25,dense],weights=self.weight)
                 
+                
             else:
                 base = self._dense_only(vector_store)
+            
+            self.retriever = base
             
             if self.rerank_enable:
                 cross_model = HuggingFaceCrossEncoder(model_name=self.rerank_model)
@@ -51,6 +55,7 @@ class RetrivalHandler:
                     
                 )
                 logger.info(f" Rerank enable ({self.rerank_model}) ,(k_final: {self.k_final})")
+                self.retriever = retriever
                 return retriever
             
             logger.info(f"Rerank disable. Using base retriver")
@@ -60,6 +65,18 @@ class RetrivalHandler:
             logger.error(f"Erro building retriever {e}") 
             return self._dense_only(vector_store)
 
+    
+    def get_relevant_documents(self, query: str):
+        if not self.retriever:
+            logger.error("Retriever not built yet")
+            return []
+        try:
+            docs = self.retriever.get_relevant_documents(query)
+            logger.info(f" Retrieved {len(docs)} documents for query")
+            return docs
+        except Exception as e:
+            logger.error(f"Error during document retrieval: {e}")
+            return []
     
     def _dense_only(self,vector_store) -> VectorStoreRetriever:
         dense = vector_store.as_retriever(search_kwargs={"k":self.k_vector})
