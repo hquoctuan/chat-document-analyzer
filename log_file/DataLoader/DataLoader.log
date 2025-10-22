@@ -140,3 +140,91 @@ ImportError: `pypdf` package not found, please install it with `pip install pypd
 [2025-10-22 17:44:52] INFO - DataLoader: Successfully loaded file: data/uploads/laptop.csv
 [2025-10-22 17:45:11] INFO - DataLoader:  Loaded 9 rows from CSV: laptop.csv
 [2025-10-22 17:45:11] INFO - DataLoader: Successfully loaded file: data/uploads/laptop.csv
+[2025-10-22 18:26:13] INFO - DataLoader:  Loaded 61 pages from PDF: dmtuong.pdf
+[2025-10-22 18:26:13] INFO - DataLoader: Successfully loaded file: data/uploads/dmtuong.pdf
+[2025-10-22 18:26:47] INFO - DataLoader:  Loaded 61 pages from PDF: dmtuong.pdf
+[2025-10-22 18:26:47] INFO - DataLoader: Successfully loaded file: data/uploads/dmtuong.pdf
+[2025-10-22 18:27:25] INFO - DataLoader:  Loaded 61 pages from PDF: dmtuong.pdf
+[2025-10-22 18:27:25] INFO - DataLoader: Successfully loaded file: data/uploads/dmtuong.pdf
+[2025-10-22 18:28:04] INFO - DataLoader:  Loaded 61 pages from PDF: dmtuong.pdf
+[2025-10-22 18:28:04] INFO - DataLoader: Successfully loaded file: data/uploads/dmtuong.pdf
+[2025-10-22 18:28:47] INFO - DataLoader:  Loaded 61 pages from PDF: dmtuong.pdf
+[2025-10-22 18:28:47] INFO - DataLoader: Successfully loaded file: data/uploads/dmtuong.pdf
+[2025-10-22 22:35:01] INFO - DataLoader:  Loaded 61 pages from PDF: dmtuong.pdf
+[2025-10-22 22:35:01] INFO - DataLoader: Successfully loaded file: data/uploads/dmtuong.pdf
+[2025-10-22 22:35:28] INFO - DataLoader:  Loaded 61 pages from PDF: dmtuong.pdf
+[2025-10-22 22:35:28] INFO - DataLoader: Successfully loaded file: data/uploads/dmtuong.pdf
+[2025-10-22 22:36:31] INFO - DataLoader:  Loaded 61 pages from PDF: dmtuong.pdf
+[2025-10-22 22:36:31] INFO - DataLoader: Successfully loaded file: data/uploads/dmtuong.pdf
+[2025-10-22 22:37:31] INFO - DataLoader:  Loaded 61 pages from PDF: dmtuong.pdf
+[2025-10-22 22:37:31] INFO - DataLoader: Successfully loaded file: data/uploads/dmtuong.pdf
+[2025-10-22 22:38:31] INFO - DataLoader:  Loaded 61 pages from PDF: dmtuong.pdf
+[2025-10-22 22:38:31] INFO - DataLoader: Successfully loaded file: data/uploads/dmtuong.pdf
+[2025-10-22 22:39:20] INFO - DataLoader:  Loaded 61 pages from PDF: dmtuong.pdf
+[2025-10-22 22:39:20] INFO - DataLoader: Successfully loaded file: data/uploads/dmtuong.pdf
+[2025-10-22 22:40:07] INFO - DataLoader:  Loaded 61 pages from PDF: dmtuong.pdf
+[2025-10-22 22:40:07] INFO - DataLoader: Successfully loaded file: data/uploads/dmtuong.pdf
+[2025-10-22 22:47:37] INFO - DataLoader:  Loaded 7 rows from CSV: job_data.csv
+[2025-10-22 22:47:37] INFO - DataLoader: Successfully loaded file: data/uploads/job_data.csv
+[2025-10-22 22:47:53] INFO - DataLoader:  Loaded 7 rows from CSV: job_data.csv
+[2025-10-22 22:47:53] INFO - DataLoader: Successfully loaded file: data/uploads/job_data.csv
+[2025-10-22 22:48:37] INFO - DataLoader:  Loaded 7 rows from CSV: job_data.csv
+[2025-10-22 22:48:37] INFO - DataLoader: Successfully loaded file: data/uploads/job_data.csv
+[2025-10-22 22:49:09] INFO - DataLoader:  Loaded 7 rows from CSV: job_data.csv
+[2025-10-22 22:49:09] INFO - DataLoader: Successfully loaded file: data/uploads/job_data.csv
+[2025-10-22 22:49:29] INFO - DataLoader:  Loaded 7 rows from CSV: job_data.csv
+[2025-10-22 22:49:29] INFO - DataLoader: Successfully loaded file: data/uploads/job_data.csv
+[2025-10-22 22:50:20] INFO - DataLoader:  Loaded 7 rows from CSV: job_data.csv
+[2025-10-22 22:50:20] INFO - DataLoader: Successfully loaded file: data/uploads/job_data.csv
+[2025-10-22 22:50:23] INFO - DataLoader:  Loaded 7 rows from CSV: job_data.csv
+[2025-10-22 22:50:23] INFO - DataLoader: Successfully loaded file: data/uploads/job_data.csv
+[2025-10-22 22:50:29] INFO - DataLoader:  Loaded 7 rows from CSV: job_data.csv
+[2025-10-22 22:50:29] INFO - DataLoader: Successfully loaded file: data/uploads/job_data.csv
+[2025-10-22 22:50:33] INFO - DataLoader:  Loaded 7 rows from CSV: job_data.csv
+[2025-10-22 22:50:33] INFO - DataLoader: Successfully loaded file: data/uploads/job_data.csv
+[2025-10-22 22:50:53] INFO - DataLoader:  Loaded 7 rows from CSV: job_data.csv
+[2025-10-22 22:50:53] INFO - DataLoader: Successfully loaded file: data/uploads/job_data.csv
+[2025-10-22 22:51:41] INFO - DataLoader:  Loaded 7 rows from CSV: job_data.csv
+[2025-10-22 22:51:41] INFO - DataLoader: Successfully loaded file: data/uploads/job_data.csv
+[2025-10-22 23:10:28] INFO - DataLoader:  Loaded 7 rows from CSV: job_data.csv
+[2025-10-22 23:10:28] INFO - DataLoader: Successfully loaded file: data/uploads/job_data.csv
+[2025-10-22 23:10:50] INFO - DataLoader:  Loaded 7 rows from CSV: job_data.csv
+[2025-10-22 23:10:50] INFO - DataLoader: Successfully loaded file: data/uploads/job_data.csv
+[2025-10-22 23:46:20] INFO - DataLoader:  Loaded 7 rows from CSV: job_data.csv
+[2025-10-22 23:46:20] INFO - DataLoader: Successfully loaded file: data/uploads/job_data.csv
+[2025-10-22 23:46:31] INFO - DataLoader:  Loaded 7 rows from CSV: job_data.csv
+[2025-10-22 23:46:31] INFO - DataLoader: Successfully loaded file: data/uploads/job_data.csv
+[2025-10-22 23:46:57] INFO - DataLoader:  Loaded 7 rows from CSV: job_data.csv
+[2025-10-22 23:46:57] INFO - DataLoader: Successfully loaded file: data/uploads/job_data.csv
+[2025-10-22 23:58:05] INFO - DataLoader:  Loaded 7 rows from CSV: job_data.csv
+[2025-10-22 23:58:05] INFO - DataLoader: Successfully loaded file: data/uploads/job_data.csv
+[2025-10-22 23:58:19] INFO - DataLoader:  Loaded 7 rows from CSV: job_data.csv
+[2025-10-22 23:58:19] INFO - DataLoader: Successfully loaded file: data/uploads/job_data.csv
+[2025-10-22 23:58:32] INFO - DataLoader:  Loaded 7 rows from CSV: job_data.csv
+[2025-10-22 23:58:32] INFO - DataLoader: Successfully loaded file: data/uploads/job_data.csv
+[2025-10-22 23:58:52] INFO - DataLoader:  Loaded 7 rows from CSV: job_data.csv
+[2025-10-22 23:58:52] INFO - DataLoader: Successfully loaded file: data/uploads/job_data.csv
+[2025-10-22 23:58:53] INFO - DataLoader:  Loaded 7 rows from CSV: job_data.csv
+[2025-10-22 23:58:53] INFO - DataLoader: Successfully loaded file: data/uploads/job_data.csv
+[2025-10-23 00:01:34] INFO - DataLoader:  Loaded 10 rows from CSV: Data.csv
+[2025-10-23 00:01:34] INFO - DataLoader: Successfully loaded file: data/uploads/Data.csv
+[2025-10-23 00:07:18] INFO - DataLoader:  Loaded 10 rows from CSV: Data.csv
+[2025-10-23 00:07:18] INFO - DataLoader: Successfully loaded file: data/uploads/Data.csv
+[2025-10-23 00:07:45] INFO - DataLoader:  Loaded 10 rows from CSV: Data.csv
+[2025-10-23 00:07:45] INFO - DataLoader: Successfully loaded file: data/uploads/Data.csv
+[2025-10-23 00:08:03] INFO - DataLoader:  Loaded 10 rows from CSV: Data.csv
+[2025-10-23 00:08:03] INFO - DataLoader: Successfully loaded file: data/uploads/Data.csv
+[2025-10-23 00:08:29] INFO - DataLoader:  Loaded 10 rows from CSV: Data.csv
+[2025-10-23 00:08:29] INFO - DataLoader: Successfully loaded file: data/uploads/Data.csv
+[2025-10-23 00:09:06] INFO - DataLoader:  Loaded 10 rows from CSV: Data.csv
+[2025-10-23 00:09:06] INFO - DataLoader: Successfully loaded file: data/uploads/Data.csv
+[2025-10-23 00:11:59] INFO - DataLoader:  Loaded 10 rows from CSV: Data.csv
+[2025-10-23 00:11:59] INFO - DataLoader: Successfully loaded file: data/uploads/Data.csv
+[2025-10-23 00:12:28] INFO - DataLoader:  Loaded 10 rows from CSV: Data.csv
+[2025-10-23 00:12:28] INFO - DataLoader: Successfully loaded file: data/uploads/Data.csv
+[2025-10-23 00:12:42] INFO - DataLoader:  Loaded 10 rows from CSV: Data.csv
+[2025-10-23 00:12:42] INFO - DataLoader: Successfully loaded file: data/uploads/Data.csv
+[2025-10-23 00:15:32] INFO - DataLoader:  Loaded 10 rows from CSV: Data.csv
+[2025-10-23 00:15:32] INFO - DataLoader: Successfully loaded file: data/uploads/Data.csv
+[2025-10-23 00:15:50] INFO - DataLoader:  Loaded 10 rows from CSV: Data.csv
+[2025-10-23 00:15:50] INFO - DataLoader: Successfully loaded file: data/uploads/Data.csv

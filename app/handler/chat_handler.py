@@ -19,15 +19,6 @@ from app.config import config
 
 logger = get_logger('ChatHandler')
 
-def compute_hash_lib(file_path: str) -> str:
-    """Tạo hash md5 cho file để tái sử dụng vector DB"""
-    h = hashlib.md5()
-    with open(file_path, "rb") as f:
-        for chunk in iter(lambda: f.read(1024 * 1024), b""):
-            h.update(chunk)
-    return h.hexdigest()
-
-
 class ChatHandler():
     def __init__(self, use_id:str='guest',base_dir:str="data"):
         self.user_id = use_id
@@ -63,9 +54,9 @@ class ChatHandler():
                 logger.error('File not found ',(file_path))
                 return False
             self.current_file_path = file_path
-            self.current_file_hash = compute_hash_lib(file_path)
+            
             # Folder vector store with session + hash_file
-            vector_dir = os.path.join(self.session_dir,self.current_file_hash,"vector_store")
+            vector_dir = os.path.join(self.session_dir,"vector_store")
             os.makedirs(vector_dir,exist_ok= True)
             logger.info(f" Start runing data pipe line process for file {file_path}")
             index_path,chunks = self.pipe_line.process(file_path=file_path,save_dir=vector_dir)
@@ -100,9 +91,10 @@ class ChatHandler():
     def stream_chat(self,question: str, placeholder: Any)-> Generator[str, None,None]:
         '''Streaming chat '''
         if not self.engine:
-            yield 'Please uploade docmument first'
+            yield 'No document upload. Please uploade docmument first'
             return
         try:
+            placeholder.markdown("🤔 *Thinking...*")
             self.memory.chat_memory.add_ai_message('I am assitant chat document, please uplaod document first')
             self.memory.chat_memory.add_user_message(question)
             placeholder.markdown("🤔 *Thinking...*")
@@ -125,32 +117,28 @@ class ChatHandler():
     def clear_history(self):
         self.memory.clear()
         logger.info('Clear chat memory')
-
-def delete_session(self):
-        """Xóa toàn bộ dữ liệu session (file upload, vector DB, memory)."""
+    
+    def delete_session(self):
+        ''' Xoa toan bo du lieu session (file upload, vtDBB, memory)'''
         try:
+
+            # Xoa upload file
             if self.current_file_path and os.path.exists(self.current_file_path):
                 os.remove(self.current_file_path)
-
-            if self.current_file_hash:
-                hash_dir = os.path.join(self.session_dir, self.current_file_hash)
-                shutil.rmtree(hash_dir, ignore_errors=True)
-
-            if os.path.exists(self.session_dir) and not os.listdir(self.session_dir):
-                shutil.rmtree(self.session_dir, ignore_errors=True)
-
-            self.clear_history()
-            self.engine = None
-            self.retriever = None
-            self.current_file_hash = None
-            self.current_file_path = None
-
-            logger.info("🗑️ Session deleted successfully.")
+                logger.info(f" Delete upload file { self.current_file_path}")
+            
+            # Xoa toan bo thu muc sesssion
+            if os.path.exists(self.session_dir):
+                shutil.rmtree(self.session_dir,ignore_errors=True)
+                logger.info(f"Deleted session dir {self.session_dir}")
             return True
+        
         except Exception as e:
-            logger.error(f"❌ Error deleting session: {e}")
+            logger.error(f" Error deleting session {e}")
             return False
-    
+            
+
+
         
 
     

@@ -420,3 +420,311 @@
 [2025-10-22 17:45:11] INFO - PipelineRAG: FAISS vector store built successfully
 [2025-10-22 17:45:11] INFO - PipelineRAG: Vector Store saved at: data\session_demo_1761129664\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
 [2025-10-22 17:45:11] INFO - PipelineRAG: Pipeline completed successfully
+[2025-10-22 18:26:09] INFO - PipelineRAG: Starting data pipe line for file: data/uploads/dmtuong.pdf
+[2025-10-22 18:26:13] INFO - PipelineRAG: Loaded 61 documents of type: pdf
+[2025-10-22 18:26:13] INFO - PipelineRAG: Split into 200 chunks
+[2025-10-22 18:26:13] INFO - PipelineRAG: Using embedding model: sentence-transformers/all-MiniLM-L6-v2
+[2025-10-22 18:26:21] INFO - PipelineRAG: FAISS vector store built successfully
+[2025-10-22 18:26:21] INFO - PipelineRAG: Vector Store saved at: data\session_demo_1761132358\fe8f08e68ad05da9258f7db4264d35d9\vector_store\faiss_index
+[2025-10-22 18:26:21] INFO - PipelineRAG: Pipeline completed successfully
+[2025-10-22 18:26:44] INFO - PipelineRAG: Starting data pipe line for file: data/uploads/dmtuong.pdf
+[2025-10-22 18:26:47] INFO - PipelineRAG: Loaded 61 documents of type: pdf
+[2025-10-22 18:26:47] INFO - PipelineRAG: Split into 200 chunks
+[2025-10-22 18:26:47] INFO - PipelineRAG: Using embedding model: sentence-transformers/all-MiniLM-L6-v2
+[2025-10-22 18:26:55] INFO - PipelineRAG: FAISS vector store built successfully
+[2025-10-22 18:26:55] INFO - PipelineRAG: Vector Store saved at: data\session_demo_1761132358\fe8f08e68ad05da9258f7db4264d35d9\vector_store\faiss_index
+[2025-10-22 18:26:55] INFO - PipelineRAG: Pipeline completed successfully
+[2025-10-22 18:27:21] INFO - PipelineRAG: Starting data pipe line for file: data/uploads/dmtuong.pdf
+[2025-10-22 18:27:25] INFO - PipelineRAG: Loaded 61 documents of type: pdf
+[2025-10-22 18:27:25] INFO - PipelineRAG: Split into 200 chunks
+[2025-10-22 18:27:25] INFO - PipelineRAG: Using embedding model: sentence-transformers/all-MiniLM-L6-v2
+[2025-10-22 18:27:32] INFO - PipelineRAG: FAISS vector store built successfully
+[2025-10-22 18:27:32] INFO - PipelineRAG: Vector Store saved at: data\session_demo_1761132358\fe8f08e68ad05da9258f7db4264d35d9\vector_store\faiss_index
+[2025-10-22 18:27:32] INFO - PipelineRAG: Pipeline completed successfully
+[2025-10-22 18:28:00] INFO - PipelineRAG: Starting data pipe line for file: data/uploads/dmtuong.pdf
+[2025-10-22 18:28:04] INFO - PipelineRAG: Loaded 61 documents of type: pdf
+[2025-10-22 18:28:04] INFO - PipelineRAG: Split into 200 chunks
+[2025-10-22 18:28:04] INFO - PipelineRAG: Using embedding model: sentence-transformers/all-MiniLM-L6-v2
+[2025-10-22 18:28:11] INFO - PipelineRAG: FAISS vector store built successfully
+[2025-10-22 18:28:11] INFO - PipelineRAG: Vector Store saved at: data\session_demo_1761132358\fe8f08e68ad05da9258f7db4264d35d9\vector_store\faiss_index
+[2025-10-22 18:28:11] INFO - PipelineRAG: Pipeline completed successfully
+[2025-10-22 18:28:43] INFO - PipelineRAG: Starting data pipe line for file: data/uploads/dmtuong.pdf
+[2025-10-22 18:28:47] INFO - PipelineRAG: Loaded 61 documents of type: pdf
+[2025-10-22 18:28:47] INFO - PipelineRAG: Split into 200 chunks
+[2025-10-22 18:28:47] INFO - PipelineRAG: Using embedding model: sentence-transformers/all-MiniLM-L6-v2
+[2025-10-22 18:28:54] INFO - PipelineRAG: FAISS vector store built successfully
+[2025-10-22 18:28:54] INFO - PipelineRAG: Vector Store saved at: data\session_demo_1761132358\fe8f08e68ad05da9258f7db4264d35d9\vector_store\faiss_index
+[2025-10-22 18:28:54] INFO - PipelineRAG: Pipeline completed successfully
+[2025-10-22 22:34:57] INFO - PipelineRAG: Starting data pipe line for file: data/uploads/dmtuong.pdf
+[2025-10-22 22:35:01] INFO - PipelineRAG: Loaded 61 documents of type: pdf
+[2025-10-22 22:35:01] INFO - PipelineRAG: Split into 200 chunks
+[2025-10-22 22:35:01] INFO - PipelineRAG: Using embedding model: sentence-transformers/all-MiniLM-L6-v2
+[2025-10-22 22:35:10] INFO - PipelineRAG: FAISS vector store built successfully
+[2025-10-22 22:35:10] INFO - PipelineRAG: Vector Store saved at: data\session_demo_1761147285\fe8f08e68ad05da9258f7db4264d35d9\vector_store\faiss_index
+[2025-10-22 22:35:10] INFO - PipelineRAG: Pipeline completed successfully
+[2025-10-22 22:35:25] INFO - PipelineRAG: Starting data pipe line for file: data/uploads/dmtuong.pdf
+[2025-10-22 22:35:28] INFO - PipelineRAG: Loaded 61 documents of type: pdf
+[2025-10-22 22:35:28] INFO - PipelineRAG: Split into 200 chunks
+[2025-10-22 22:35:28] INFO - PipelineRAG: Using embedding model: sentence-transformers/all-MiniLM-L6-v2
+[2025-10-22 22:35:36] INFO - PipelineRAG: FAISS vector store built successfully
+[2025-10-22 22:35:36] INFO - PipelineRAG: Vector Store saved at: data\session_demo_1761147285\fe8f08e68ad05da9258f7db4264d35d9\vector_store\faiss_index
+[2025-10-22 22:35:36] INFO - PipelineRAG: Pipeline completed successfully
+[2025-10-22 22:36:27] INFO - PipelineRAG: Starting data pipe line for file: data/uploads/dmtuong.pdf
+[2025-10-22 22:36:31] INFO - PipelineRAG: Loaded 61 documents of type: pdf
+[2025-10-22 22:36:31] INFO - PipelineRAG: Split into 200 chunks
+[2025-10-22 22:36:31] INFO - PipelineRAG: Using embedding model: sentence-transformers/all-MiniLM-L6-v2
+[2025-10-22 22:36:39] INFO - PipelineRAG: FAISS vector store built successfully
+[2025-10-22 22:36:39] INFO - PipelineRAG: Vector Store saved at: data\session_demo_1761147285\fe8f08e68ad05da9258f7db4264d35d9\vector_store\faiss_index
+[2025-10-22 22:36:39] INFO - PipelineRAG: Pipeline completed successfully
+[2025-10-22 22:37:27] INFO - PipelineRAG: Starting data pipe line for file: data/uploads/dmtuong.pdf
+[2025-10-22 22:37:31] INFO - PipelineRAG: Loaded 61 documents of type: pdf
+[2025-10-22 22:37:31] INFO - PipelineRAG: Split into 200 chunks
+[2025-10-22 22:37:31] INFO - PipelineRAG: Using embedding model: sentence-transformers/all-MiniLM-L6-v2
+[2025-10-22 22:37:39] INFO - PipelineRAG: FAISS vector store built successfully
+[2025-10-22 22:37:39] INFO - PipelineRAG: Vector Store saved at: data\session_demo_1761147285\fe8f08e68ad05da9258f7db4264d35d9\vector_store\faiss_index
+[2025-10-22 22:37:39] INFO - PipelineRAG: Pipeline completed successfully
+[2025-10-22 22:38:27] INFO - PipelineRAG: Starting data pipe line for file: data/uploads/dmtuong.pdf
+[2025-10-22 22:38:31] INFO - PipelineRAG: Loaded 61 documents of type: pdf
+[2025-10-22 22:38:31] INFO - PipelineRAG: Split into 200 chunks
+[2025-10-22 22:38:31] INFO - PipelineRAG: Using embedding model: sentence-transformers/all-MiniLM-L6-v2
+[2025-10-22 22:38:39] INFO - PipelineRAG: FAISS vector store built successfully
+[2025-10-22 22:38:39] INFO - PipelineRAG: Vector Store saved at: data\session_demo_1761147285\fe8f08e68ad05da9258f7db4264d35d9\vector_store\faiss_index
+[2025-10-22 22:38:39] INFO - PipelineRAG: Pipeline completed successfully
+[2025-10-22 22:39:17] INFO - PipelineRAG: Starting data pipe line for file: data/uploads/dmtuong.pdf
+[2025-10-22 22:39:20] INFO - PipelineRAG: Loaded 61 documents of type: pdf
+[2025-10-22 22:39:20] INFO - PipelineRAG: Split into 200 chunks
+[2025-10-22 22:39:20] INFO - PipelineRAG: Using embedding model: sentence-transformers/all-MiniLM-L6-v2
+[2025-10-22 22:39:28] INFO - PipelineRAG: FAISS vector store built successfully
+[2025-10-22 22:39:28] INFO - PipelineRAG: Vector Store saved at: data\session_demo_1761147285\fe8f08e68ad05da9258f7db4264d35d9\vector_store\faiss_index
+[2025-10-22 22:39:28] INFO - PipelineRAG: Pipeline completed successfully
+[2025-10-22 22:40:03] INFO - PipelineRAG: Starting data pipe line for file: data/uploads/dmtuong.pdf
+[2025-10-22 22:40:07] INFO - PipelineRAG: Loaded 61 documents of type: pdf
+[2025-10-22 22:40:07] INFO - PipelineRAG: Split into 200 chunks
+[2025-10-22 22:40:07] INFO - PipelineRAG: Using embedding model: sentence-transformers/all-MiniLM-L6-v2
+[2025-10-22 22:40:14] INFO - PipelineRAG: FAISS vector store built successfully
+[2025-10-22 22:40:14] INFO - PipelineRAG: Vector Store saved at: data\session_demo_1761147285\fe8f08e68ad05da9258f7db4264d35d9\vector_store\faiss_index
+[2025-10-22 22:40:14] INFO - PipelineRAG: Pipeline completed successfully
+[2025-10-22 22:47:37] INFO - PipelineRAG: Starting data pipe line for file: data/uploads/job_data.csv
+[2025-10-22 22:47:37] INFO - PipelineRAG: Loaded 7 documents of type: csv
+[2025-10-22 22:47:37] INFO - PipelineRAG: Split into 4 chunks
+[2025-10-22 22:47:37] INFO - PipelineRAG: Using embedding model: sentence-transformers/all-MiniLM-L6-v2
+[2025-10-22 22:47:38] INFO - PipelineRAG: FAISS vector store built successfully
+[2025-10-22 22:47:38] INFO - PipelineRAG: Vector Store saved at: data\session_demo_1761147944\600912b24177aca522d5e07f7119c1fc\vector_store\faiss_index
+[2025-10-22 22:47:38] INFO - PipelineRAG: Pipeline completed successfully
+[2025-10-22 22:47:53] INFO - PipelineRAG: Starting data pipe line for file: data/uploads/job_data.csv
+[2025-10-22 22:47:53] INFO - PipelineRAG: Loaded 7 documents of type: csv
+[2025-10-22 22:47:53] INFO - PipelineRAG: Split into 4 chunks
+[2025-10-22 22:47:53] INFO - PipelineRAG: Using embedding model: sentence-transformers/all-MiniLM-L6-v2
+[2025-10-22 22:47:53] INFO - PipelineRAG: FAISS vector store built successfully
+[2025-10-22 22:47:53] INFO - PipelineRAG: Vector Store saved at: data\session_demo_1761147944\600912b24177aca522d5e07f7119c1fc\vector_store\faiss_index
+[2025-10-22 22:47:53] INFO - PipelineRAG: Pipeline completed successfully
+[2025-10-22 22:48:37] INFO - PipelineRAG: Starting data pipe line for file: data/uploads/job_data.csv
+[2025-10-22 22:48:37] INFO - PipelineRAG: Loaded 7 documents of type: csv
+[2025-10-22 22:48:37] INFO - PipelineRAG: Split into 4 chunks
+[2025-10-22 22:48:37] INFO - PipelineRAG: Using embedding model: sentence-transformers/all-MiniLM-L6-v2
+[2025-10-22 22:48:38] INFO - PipelineRAG: FAISS vector store built successfully
+[2025-10-22 22:48:38] INFO - PipelineRAG: Vector Store saved at: data\session_demo_1761147944\600912b24177aca522d5e07f7119c1fc\vector_store\faiss_index
+[2025-10-22 22:48:38] INFO - PipelineRAG: Pipeline completed successfully
+[2025-10-22 22:49:09] INFO - PipelineRAG: Starting data pipe line for file: data/uploads/job_data.csv
+[2025-10-22 22:49:09] INFO - PipelineRAG: Loaded 7 documents of type: csv
+[2025-10-22 22:49:09] INFO - PipelineRAG: Split into 4 chunks
+[2025-10-22 22:49:09] INFO - PipelineRAG: Using embedding model: sentence-transformers/all-MiniLM-L6-v2
+[2025-10-22 22:49:09] INFO - PipelineRAG: FAISS vector store built successfully
+[2025-10-22 22:49:09] INFO - PipelineRAG: Vector Store saved at: data\session_demo_1761147944\600912b24177aca522d5e07f7119c1fc\vector_store\faiss_index
+[2025-10-22 22:49:09] INFO - PipelineRAG: Pipeline completed successfully
+[2025-10-22 22:49:29] INFO - PipelineRAG: Starting data pipe line for file: data/uploads/job_data.csv
+[2025-10-22 22:49:29] INFO - PipelineRAG: Loaded 7 documents of type: csv
+[2025-10-22 22:49:29] INFO - PipelineRAG: Split into 4 chunks
+[2025-10-22 22:49:29] INFO - PipelineRAG: Using embedding model: sentence-transformers/all-MiniLM-L6-v2
+[2025-10-22 22:49:29] INFO - PipelineRAG: FAISS vector store built successfully
+[2025-10-22 22:49:29] INFO - PipelineRAG: Vector Store saved at: data\session_demo_1761147944\600912b24177aca522d5e07f7119c1fc\vector_store\faiss_index
+[2025-10-22 22:49:29] INFO - PipelineRAG: Pipeline completed successfully
+[2025-10-22 22:50:20] INFO - PipelineRAG: Starting data pipe line for file: data/uploads/job_data.csv
+[2025-10-22 22:50:20] INFO - PipelineRAG: Loaded 7 documents of type: csv
+[2025-10-22 22:50:20] INFO - PipelineRAG: Split into 4 chunks
+[2025-10-22 22:50:20] INFO - PipelineRAG: Using embedding model: sentence-transformers/all-MiniLM-L6-v2
+[2025-10-22 22:50:20] INFO - PipelineRAG: FAISS vector store built successfully
+[2025-10-22 22:50:20] INFO - PipelineRAG: Vector Store saved at: data\session_demo_1761147944\600912b24177aca522d5e07f7119c1fc\vector_store\faiss_index
+[2025-10-22 22:50:20] INFO - PipelineRAG: Pipeline completed successfully
+[2025-10-22 22:50:23] INFO - PipelineRAG: Starting data pipe line for file: data/uploads/job_data.csv
+[2025-10-22 22:50:23] INFO - PipelineRAG: Loaded 7 documents of type: csv
+[2025-10-22 22:50:23] INFO - PipelineRAG: Split into 4 chunks
+[2025-10-22 22:50:23] INFO - PipelineRAG: Using embedding model: sentence-transformers/all-MiniLM-L6-v2
+[2025-10-22 22:50:23] INFO - PipelineRAG: FAISS vector store built successfully
+[2025-10-22 22:50:23] INFO - PipelineRAG: Vector Store saved at: data\session_demo_1761147944\600912b24177aca522d5e07f7119c1fc\vector_store\faiss_index
+[2025-10-22 22:50:23] INFO - PipelineRAG: Pipeline completed successfully
+[2025-10-22 22:50:29] INFO - PipelineRAG: Starting data pipe line for file: data/uploads/job_data.csv
+[2025-10-22 22:50:29] INFO - PipelineRAG: Loaded 7 documents of type: csv
+[2025-10-22 22:50:29] INFO - PipelineRAG: Split into 4 chunks
+[2025-10-22 22:50:29] INFO - PipelineRAG: Using embedding model: sentence-transformers/all-MiniLM-L6-v2
+[2025-10-22 22:50:30] INFO - PipelineRAG: FAISS vector store built successfully
+[2025-10-22 22:50:30] INFO - PipelineRAG: Vector Store saved at: data\session_demo_1761147944\600912b24177aca522d5e07f7119c1fc\vector_store\faiss_index
+[2025-10-22 22:50:30] INFO - PipelineRAG: Pipeline completed successfully
+[2025-10-22 22:50:33] INFO - PipelineRAG: Starting data pipe line for file: data/uploads/job_data.csv
+[2025-10-22 22:50:33] INFO - PipelineRAG: Loaded 7 documents of type: csv
+[2025-10-22 22:50:33] INFO - PipelineRAG: Split into 4 chunks
+[2025-10-22 22:50:33] INFO - PipelineRAG: Using embedding model: sentence-transformers/all-MiniLM-L6-v2
+[2025-10-22 22:50:33] INFO - PipelineRAG: FAISS vector store built successfully
+[2025-10-22 22:50:33] INFO - PipelineRAG: Vector Store saved at: data\session_demo_1761147944\600912b24177aca522d5e07f7119c1fc\vector_store\faiss_index
+[2025-10-22 22:50:33] INFO - PipelineRAG: Pipeline completed successfully
+[2025-10-22 22:50:53] INFO - PipelineRAG: Starting data pipe line for file: data/uploads/job_data.csv
+[2025-10-22 22:50:53] INFO - PipelineRAG: Loaded 7 documents of type: csv
+[2025-10-22 22:50:53] INFO - PipelineRAG: Split into 4 chunks
+[2025-10-22 22:50:53] INFO - PipelineRAG: Using embedding model: sentence-transformers/all-MiniLM-L6-v2
+[2025-10-22 22:50:53] INFO - PipelineRAG: FAISS vector store built successfully
+[2025-10-22 22:50:53] INFO - PipelineRAG: Vector Store saved at: data\session_demo_1761147944\600912b24177aca522d5e07f7119c1fc\vector_store\faiss_index
+[2025-10-22 22:50:53] INFO - PipelineRAG: Pipeline completed successfully
+[2025-10-22 22:51:41] INFO - PipelineRAG: Starting data pipe line for file: data/uploads/job_data.csv
+[2025-10-22 22:51:41] INFO - PipelineRAG: Loaded 7 documents of type: csv
+[2025-10-22 22:51:41] INFO - PipelineRAG: Split into 4 chunks
+[2025-10-22 22:51:41] INFO - PipelineRAG: Using embedding model: sentence-transformers/all-MiniLM-L6-v2
+[2025-10-22 22:51:41] INFO - PipelineRAG: FAISS vector store built successfully
+[2025-10-22 22:51:41] INFO - PipelineRAG: Vector Store saved at: data\session_demo_1761147944\600912b24177aca522d5e07f7119c1fc\vector_store\faiss_index
+[2025-10-22 22:51:41] INFO - PipelineRAG: Pipeline completed successfully
+[2025-10-22 23:10:28] INFO - PipelineRAG: Starting data pipe line for file: data/uploads/job_data.csv
+[2025-10-22 23:10:28] INFO - PipelineRAG: Loaded 7 documents of type: csv
+[2025-10-22 23:10:28] INFO - PipelineRAG: Split into 4 chunks
+[2025-10-22 23:10:28] INFO - PipelineRAG: Using embedding model: sentence-transformers/all-MiniLM-L6-v2
+[2025-10-22 23:10:28] INFO - PipelineRAG: FAISS vector store built successfully
+[2025-10-22 23:10:28] INFO - PipelineRAG: Vector Store saved at: data\session_demo_1761149246\600912b24177aca522d5e07f7119c1fc\vector_store\faiss_index
+[2025-10-22 23:10:28] INFO - PipelineRAG: Pipeline completed successfully
+[2025-10-22 23:10:50] INFO - PipelineRAG: Starting data pipe line for file: data/uploads/job_data.csv
+[2025-10-22 23:10:50] INFO - PipelineRAG: Loaded 7 documents of type: csv
+[2025-10-22 23:10:50] INFO - PipelineRAG: Split into 4 chunks
+[2025-10-22 23:10:50] INFO - PipelineRAG: Using embedding model: sentence-transformers/all-MiniLM-L6-v2
+[2025-10-22 23:10:50] INFO - PipelineRAG: FAISS vector store built successfully
+[2025-10-22 23:10:50] INFO - PipelineRAG: Vector Store saved at: data\session_demo_1761149246\600912b24177aca522d5e07f7119c1fc\vector_store\faiss_index
+[2025-10-22 23:10:50] INFO - PipelineRAG: Pipeline completed successfully
+[2025-10-22 23:46:20] INFO - PipelineRAG: Starting data pipe line for file: data/uploads/job_data.csv
+[2025-10-22 23:46:20] INFO - PipelineRAG: Loaded 7 documents of type: csv
+[2025-10-22 23:46:20] INFO - PipelineRAG: Split into 4 chunks
+[2025-10-22 23:46:20] INFO - PipelineRAG: Using embedding model: sentence-transformers/all-MiniLM-L6-v2
+[2025-10-22 23:46:21] INFO - PipelineRAG: FAISS vector store built successfully
+[2025-10-22 23:46:21] INFO - PipelineRAG: Vector Store saved at: data\session_demo_1761151547\vector_store\faiss_index
+[2025-10-22 23:46:21] INFO - PipelineRAG: Pipeline completed successfully
+[2025-10-22 23:46:31] INFO - PipelineRAG: Starting data pipe line for file: data/uploads/job_data.csv
+[2025-10-22 23:46:31] INFO - PipelineRAG: Loaded 7 documents of type: csv
+[2025-10-22 23:46:31] INFO - PipelineRAG: Split into 4 chunks
+[2025-10-22 23:46:31] INFO - PipelineRAG: Using embedding model: sentence-transformers/all-MiniLM-L6-v2
+[2025-10-22 23:46:31] INFO - PipelineRAG: FAISS vector store built successfully
+[2025-10-22 23:46:31] INFO - PipelineRAG: Vector Store saved at: data\session_demo_1761151547\vector_store\faiss_index
+[2025-10-22 23:46:31] INFO - PipelineRAG: Pipeline completed successfully
+[2025-10-22 23:46:57] INFO - PipelineRAG: Starting data pipe line for file: data/uploads/job_data.csv
+[2025-10-22 23:46:57] INFO - PipelineRAG: Loaded 7 documents of type: csv
+[2025-10-22 23:46:57] INFO - PipelineRAG: Split into 4 chunks
+[2025-10-22 23:46:57] INFO - PipelineRAG: Using embedding model: sentence-transformers/all-MiniLM-L6-v2
+[2025-10-22 23:46:57] INFO - PipelineRAG: FAISS vector store built successfully
+[2025-10-22 23:46:57] INFO - PipelineRAG: Vector Store saved at: data\session_demo_1761151547\vector_store\faiss_index
+[2025-10-22 23:46:57] INFO - PipelineRAG: Pipeline completed successfully
+[2025-10-22 23:58:05] INFO - PipelineRAG: Starting data pipe line for file: data/uploads/job_data.csv
+[2025-10-22 23:58:05] INFO - PipelineRAG: Loaded 7 documents of type: csv
+[2025-10-22 23:58:05] INFO - PipelineRAG: Split into 4 chunks
+[2025-10-22 23:58:05] INFO - PipelineRAG: Using embedding model: sentence-transformers/all-MiniLM-L6-v2
+[2025-10-22 23:58:05] INFO - PipelineRAG: FAISS vector store built successfully
+[2025-10-22 23:58:05] INFO - PipelineRAG: Vector Store saved at: data\session_demo_1761152238\vector_store\faiss_index
+[2025-10-22 23:58:05] INFO - PipelineRAG: Pipeline completed successfully
+[2025-10-22 23:58:19] INFO - PipelineRAG: Starting data pipe line for file: data/uploads/job_data.csv
+[2025-10-22 23:58:19] INFO - PipelineRAG: Loaded 7 documents of type: csv
+[2025-10-22 23:58:19] INFO - PipelineRAG: Split into 4 chunks
+[2025-10-22 23:58:19] INFO - PipelineRAG: Using embedding model: sentence-transformers/all-MiniLM-L6-v2
+[2025-10-22 23:58:19] INFO - PipelineRAG: FAISS vector store built successfully
+[2025-10-22 23:58:19] INFO - PipelineRAG: Vector Store saved at: data\session_demo_1761152238\vector_store\faiss_index
+[2025-10-22 23:58:19] INFO - PipelineRAG: Pipeline completed successfully
+[2025-10-22 23:58:32] INFO - PipelineRAG: Starting data pipe line for file: data/uploads/job_data.csv
+[2025-10-22 23:58:32] INFO - PipelineRAG: Loaded 7 documents of type: csv
+[2025-10-22 23:58:32] INFO - PipelineRAG: Split into 4 chunks
+[2025-10-22 23:58:32] INFO - PipelineRAG: Using embedding model: sentence-transformers/all-MiniLM-L6-v2
+[2025-10-22 23:58:32] INFO - PipelineRAG: FAISS vector store built successfully
+[2025-10-22 23:58:32] INFO - PipelineRAG: Vector Store saved at: data\session_demo_1761152238\vector_store\faiss_index
+[2025-10-22 23:58:32] INFO - PipelineRAG: Pipeline completed successfully
+[2025-10-22 23:58:52] INFO - PipelineRAG: Starting data pipe line for file: data/uploads/job_data.csv
+[2025-10-22 23:58:52] INFO - PipelineRAG: Loaded 7 documents of type: csv
+[2025-10-22 23:58:52] INFO - PipelineRAG: Split into 4 chunks
+[2025-10-22 23:58:52] INFO - PipelineRAG: Using embedding model: sentence-transformers/all-MiniLM-L6-v2
+[2025-10-22 23:58:53] INFO - PipelineRAG: FAISS vector store built successfully
+[2025-10-22 23:58:53] INFO - PipelineRAG: Vector Store saved at: data\session_demo_1761152238\vector_store\faiss_index
+[2025-10-22 23:58:53] INFO - PipelineRAG: Pipeline completed successfully
+[2025-10-22 23:58:53] INFO - PipelineRAG: Starting data pipe line for file: data/uploads/job_data.csv
+[2025-10-22 23:58:53] INFO - PipelineRAG: Loaded 7 documents of type: csv
+[2025-10-22 23:58:53] INFO - PipelineRAG: Split into 4 chunks
+[2025-10-22 23:58:53] INFO - PipelineRAG: Using embedding model: sentence-transformers/all-MiniLM-L6-v2
+[2025-10-22 23:58:53] INFO - PipelineRAG: FAISS vector store built successfully
+[2025-10-22 23:58:53] INFO - PipelineRAG: Vector Store saved at: data\session_demo_1761152238\vector_store\faiss_index
+[2025-10-22 23:58:53] INFO - PipelineRAG: Pipeline completed successfully
+[2025-10-23 00:01:34] INFO - PipelineRAG: Starting data pipe line for file: data/uploads/Data.csv
+[2025-10-23 00:01:34] INFO - PipelineRAG: Loaded 10 documents of type: csv
+[2025-10-23 00:01:34] INFO - PipelineRAG: Split into 5 chunks
+[2025-10-23 00:01:34] INFO - PipelineRAG: Using embedding model: sentence-transformers/all-MiniLM-L6-v2
+[2025-10-23 00:01:34] INFO - PipelineRAG: FAISS vector store built successfully
+[2025-10-23 00:01:34] INFO - PipelineRAG: Vector Store saved at: data\session_demo_1761152238\vector_store\faiss_index
+[2025-10-23 00:01:34] INFO - PipelineRAG: Pipeline completed successfully
+[2025-10-23 00:07:18] INFO - PipelineRAG: Starting data pipe line for file: data/uploads/Data.csv
+[2025-10-23 00:07:18] INFO - PipelineRAG: Loaded 10 documents of type: csv
+[2025-10-23 00:07:18] INFO - PipelineRAG: Split into 5 chunks
+[2025-10-23 00:07:18] INFO - PipelineRAG: Using embedding model: sentence-transformers/all-MiniLM-L6-v2
+[2025-10-23 00:07:18] INFO - PipelineRAG: FAISS vector store built successfully
+[2025-10-23 00:07:18] INFO - PipelineRAG: Vector Store saved at: data\session_demo_1761152830\vector_store\faiss_index
+[2025-10-23 00:07:18] INFO - PipelineRAG: Pipeline completed successfully
+[2025-10-23 00:07:45] INFO - PipelineRAG: Starting data pipe line for file: data/uploads/Data.csv
+[2025-10-23 00:07:45] INFO - PipelineRAG: Loaded 10 documents of type: csv
+[2025-10-23 00:07:45] INFO - PipelineRAG: Split into 5 chunks
+[2025-10-23 00:07:45] INFO - PipelineRAG: Using embedding model: sentence-transformers/all-MiniLM-L6-v2
+[2025-10-23 00:07:45] INFO - PipelineRAG: FAISS vector store built successfully
+[2025-10-23 00:07:45] INFO - PipelineRAG: Vector Store saved at: data\session_demo_1761152830\vector_store\faiss_index
+[2025-10-23 00:07:45] INFO - PipelineRAG: Pipeline completed successfully
+[2025-10-23 00:08:03] INFO - PipelineRAG: Starting data pipe line for file: data/uploads/Data.csv
+[2025-10-23 00:08:03] INFO - PipelineRAG: Loaded 10 documents of type: csv
+[2025-10-23 00:08:03] INFO - PipelineRAG: Split into 5 chunks
+[2025-10-23 00:08:03] INFO - PipelineRAG: Using embedding model: sentence-transformers/all-MiniLM-L6-v2
+[2025-10-23 00:08:03] INFO - PipelineRAG: FAISS vector store built successfully
+[2025-10-23 00:08:03] INFO - PipelineRAG: Vector Store saved at: data\session_demo_1761152830\vector_store\faiss_index
+[2025-10-23 00:08:03] INFO - PipelineRAG: Pipeline completed successfully
+[2025-10-23 00:08:29] INFO - PipelineRAG: Starting data pipe line for file: data/uploads/Data.csv
+[2025-10-23 00:08:30] INFO - PipelineRAG: Loaded 10 documents of type: csv
+[2025-10-23 00:08:30] INFO - PipelineRAG: Split into 5 chunks
+[2025-10-23 00:08:30] INFO - PipelineRAG: Using embedding model: sentence-transformers/all-MiniLM-L6-v2
+[2025-10-23 00:08:30] INFO - PipelineRAG: FAISS vector store built successfully
+[2025-10-23 00:08:30] INFO - PipelineRAG: Vector Store saved at: data\session_demo_1761152830\vector_store\faiss_index
+[2025-10-23 00:08:30] INFO - PipelineRAG: Pipeline completed successfully
+[2025-10-23 00:09:06] INFO - PipelineRAG: Starting data pipe line for file: data/uploads/Data.csv
+[2025-10-23 00:09:06] INFO - PipelineRAG: Loaded 10 documents of type: csv
+[2025-10-23 00:09:06] INFO - PipelineRAG: Split into 5 chunks
+[2025-10-23 00:09:06] INFO - PipelineRAG: Using embedding model: sentence-transformers/all-MiniLM-L6-v2
+[2025-10-23 00:09:06] INFO - PipelineRAG: FAISS vector store built successfully
+[2025-10-23 00:09:06] INFO - PipelineRAG: Vector Store saved at: data\session_demo_1761152830\vector_store\faiss_index
+[2025-10-23 00:09:06] INFO - PipelineRAG: Pipeline completed successfully
+[2025-10-23 00:11:59] INFO - PipelineRAG: Starting data pipe line for file: data/uploads/Data.csv
+[2025-10-23 00:11:59] INFO - PipelineRAG: Loaded 10 documents of type: csv
+[2025-10-23 00:11:59] INFO - PipelineRAG: Split into 5 chunks
+[2025-10-23 00:11:59] INFO - PipelineRAG: Using embedding model: sentence-transformers/all-MiniLM-L6-v2
+[2025-10-23 00:11:59] INFO - PipelineRAG: FAISS vector store built successfully
+[2025-10-23 00:11:59] INFO - PipelineRAG: Vector Store saved at: data\session_demo_1761153112\vector_store\faiss_index
+[2025-10-23 00:11:59] INFO - PipelineRAG: Pipeline completed successfully
+[2025-10-23 00:12:28] INFO - PipelineRAG: Starting data pipe line for file: data/uploads/Data.csv
+[2025-10-23 00:12:28] INFO - PipelineRAG: Loaded 10 documents of type: csv
+[2025-10-23 00:12:28] INFO - PipelineRAG: Split into 5 chunks
+[2025-10-23 00:12:28] INFO - PipelineRAG: Using embedding model: sentence-transformers/all-MiniLM-L6-v2
+[2025-10-23 00:12:28] INFO - PipelineRAG: FAISS vector store built successfully
+[2025-10-23 00:12:28] INFO - PipelineRAG: Vector Store saved at: data\session_demo_1761153112\vector_store\faiss_index
+[2025-10-23 00:12:28] INFO - PipelineRAG: Pipeline completed successfully
+[2025-10-23 00:12:42] INFO - PipelineRAG: Starting data pipe line for file: data/uploads/Data.csv
+[2025-10-23 00:12:42] INFO - PipelineRAG: Loaded 10 documents of type: csv
+[2025-10-23 00:12:42] INFO - PipelineRAG: Split into 5 chunks
+[2025-10-23 00:12:42] INFO - PipelineRAG: Using embedding model: sentence-transformers/all-MiniLM-L6-v2
+[2025-10-23 00:12:42] INFO - PipelineRAG: FAISS vector store built successfully
+[2025-10-23 00:12:42] INFO - PipelineRAG: Vector Store saved at: data\session_demo_1761153112\vector_store\faiss_index
+[2025-10-23 00:12:42] INFO - PipelineRAG: Pipeline completed successfully
+[2025-10-23 00:15:32] INFO - PipelineRAG: Starting data pipe line for file: data/uploads/Data.csv
+[2025-10-23 00:15:32] INFO - PipelineRAG: Loaded 10 documents of type: csv
+[2025-10-23 00:15:32] INFO - PipelineRAG: Split into 5 chunks
+[2025-10-23 00:15:32] INFO - PipelineRAG: Using embedding model: sentence-transformers/all-MiniLM-L6-v2
+[2025-10-23 00:15:32] INFO - PipelineRAG: FAISS vector store built successfully
+[2025-10-23 00:15:32] INFO - PipelineRAG: Vector Store saved at: data\session_demo_1761153320\vector_store\faiss_index
+[2025-10-23 00:15:32] INFO - PipelineRAG: Pipeline completed successfully
+[2025-10-23 00:15:50] INFO - PipelineRAG: Starting data pipe line for file: data/uploads/Data.csv
+[2025-10-23 00:15:50] INFO - PipelineRAG: Loaded 10 documents of type: csv
+[2025-10-23 00:15:50] INFO - PipelineRAG: Split into 5 chunks
+[2025-10-23 00:15:50] INFO - PipelineRAG: Using embedding model: sentence-transformers/all-MiniLM-L6-v2
+[2025-10-23 00:15:50] INFO - PipelineRAG: FAISS vector store built successfully
+[2025-10-23 00:15:50] INFO - PipelineRAG: Vector Store saved at: data\session_demo_1761153320\vector_store\faiss_index
+[2025-10-23 00:15:50] INFO - PipelineRAG: Pipeline completed successfully
