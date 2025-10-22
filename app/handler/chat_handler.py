@@ -68,7 +68,7 @@ class ChatHandler():
             vector_dir = os.path.join(self.session_dir,self.current_file_hash,"vector_store")
             os.makedirs(vector_dir,exist_ok= True)
             logger.info(f" Start runing data pipe line process for file {file_path}")
-            index_path = self.pipe_line.process(file_path=file_path,save_dir=vector_dir)
+            index_path,chunks = self.pipe_line.process(file_path=file_path,save_dir=vector_dir)
             ## Load FAISS  index
             vt_store = self.vector_store.load_vectore_store(
                 save_dir=vector_dir,
@@ -76,7 +76,7 @@ class ChatHandler():
                 
             )
             #Build retriver, engine
-            self.retriver = RetrivalHandler.build(vt_store,)
+            self.retriver = self.retriver_handler.build(vector_store= vt_store,all_docs= chunks)
             self.engine = RagEngine(retriver= self.retriver)
             logger.info(f" Chat Handler Ready for Retriver ")
         except Exception as e:
@@ -103,23 +103,24 @@ class ChatHandler():
             yield 'Please uploade docmument first'
             return
         try:
+            self.memory.chat_memory.add_ai_message('I am assitant chat document, please uplaod document first')
             self.memory.chat_memory.add_user_message(question)
             placeholder.markdown("🤔 *Thinking...*")
             docs = self.retriver_handler.get_relevant_documents(question)
             context ="\n\n".join([d.page_content for d in docs[:self.TOP_k]])
             prompt = self.engine.format_prompt(context=context,question=question)
-            respone = ""
+            response = ""
             for chunk in self.engine.llm.stream(prompt):
                 text = getattr(chunk, "content", "")
                 response += text
                 placeholder.markdown(response)
                 yield text
              # Save memory
-            self.memory.chat_memory.add_ai_message(respone)
-            yield "\n Done "
+            self.memory.chat_memory.add_ai_message(response)
+            yield "\n.  "
         except Exception as e: 
             logger.error(f' Erro streaming chat{e}')
-            yield "\n Done "
+            yield "\n. "
                 
     def clear_history(self):
         self.memory.clear()

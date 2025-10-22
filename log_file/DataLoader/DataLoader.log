@@ -2,3 +2,141 @@
 [2025-10-22 15:44:58] INFO - DataLoader: Successfully loaded file: data/laptop.csv
 [2025-10-22 15:48:03] INFO - DataLoader:  Loaded 9 rows from CSV: laptop.csv
 [2025-10-22 15:48:03] INFO - DataLoader: Successfully loaded file: data/laptop.csv
+[2025-10-22 15:50:46] INFO - DataLoader:  Loaded 9 rows from CSV: laptop.csv
+[2025-10-22 15:50:46] INFO - DataLoader: Successfully loaded file: data/uploads/laptop.csv
+[2025-10-22 16:04:38] INFO - DataLoader:  Loaded 9 rows from CSV: laptop.csv
+[2025-10-22 16:04:38] INFO - DataLoader: Successfully loaded file: data/uploads/laptop.csv
+[2025-10-22 16:05:37] INFO - DataLoader:  Loaded 9 rows from CSV: laptop.csv
+[2025-10-22 16:05:37] INFO - DataLoader: Successfully loaded file: data/uploads/laptop.csv
+[2025-10-22 16:06:20] INFO - DataLoader:  Loaded 9 rows from CSV: laptop.csv
+[2025-10-22 16:06:20] INFO - DataLoader: Successfully loaded file: data/uploads/laptop.csv
+[2025-10-22 16:16:35] INFO - DataLoader:  Loaded 9 rows from CSV: laptop.csv
+[2025-10-22 16:16:35] INFO - DataLoader: Successfully loaded file: data/uploads/laptop.csv
+[2025-10-22 16:16:45] INFO - DataLoader:  Loaded 9 rows from CSV: laptop.csv
+[2025-10-22 16:16:45] INFO - DataLoader: Successfully loaded file: data/uploads/laptop.csv
+[2025-10-22 16:17:12] INFO - DataLoader:  Loaded 9 rows from CSV: laptop.csv
+[2025-10-22 16:17:12] INFO - DataLoader: Successfully loaded file: data/uploads/laptop.csv
+[2025-10-22 16:17:12] INFO - DataLoader:  Loaded 9 rows from CSV: laptop.csv
+[2025-10-22 16:17:12] INFO - DataLoader: Successfully loaded file: data/uploads/laptop.csv
+[2025-10-22 16:19:55] INFO - DataLoader:  Loaded 9 rows from CSV: laptop.csv
+[2025-10-22 16:19:55] INFO - DataLoader: Successfully loaded file: data/uploads/laptop.csv
+[2025-10-22 16:20:16] INFO - DataLoader:  Loaded 9 rows from CSV: laptop.csv
+[2025-10-22 16:20:16] INFO - DataLoader: Successfully loaded file: data/uploads/laptop.csv
+[2025-10-22 16:20:21] INFO - DataLoader:  Loaded 9 rows from CSV: laptop.csv
+[2025-10-22 16:20:21] INFO - DataLoader: Successfully loaded file: data/uploads/laptop.csv
+[2025-10-22 16:20:34] INFO - DataLoader:  Loaded 9 rows from CSV: laptop.csv
+[2025-10-22 16:20:34] INFO - DataLoader: Successfully loaded file: data/uploads/laptop.csv
+[2025-10-22 16:21:23] INFO - DataLoader:  Loaded 9 rows from CSV: laptop.csv
+[2025-10-22 16:21:23] INFO - DataLoader: Successfully loaded file: data/uploads/laptop.csv
+[2025-10-22 16:21:30] INFO - DataLoader:  Loaded 9 rows from CSV: laptop.csv
+[2025-10-22 16:21:30] INFO - DataLoader: Successfully loaded file: data/uploads/laptop.csv
+[2025-10-22 16:21:43] INFO - DataLoader:  Loaded 9 rows from CSV: laptop.csv
+[2025-10-22 16:21:43] INFO - DataLoader: Successfully loaded file: data/uploads/laptop.csv
+[2025-10-22 16:21:50] INFO - DataLoader:  Loaded 9 rows from CSV: laptop.csv
+[2025-10-22 16:21:50] INFO - DataLoader: Successfully loaded file: data/uploads/laptop.csv
+[2025-10-22 16:22:14] INFO - DataLoader:  Loaded 9 rows from CSV: laptop.csv
+[2025-10-22 16:22:14] INFO - DataLoader: Successfully loaded file: data/uploads/laptop.csv
+[2025-10-22 16:22:20] INFO - DataLoader:  Loaded 9 rows from CSV: laptop.csv
+[2025-10-22 16:22:20] INFO - DataLoader: Successfully loaded file: data/uploads/laptop.csv
+[2025-10-22 16:23:01] INFO - DataLoader:  Loaded 9 rows from CSV: laptop.csv
+[2025-10-22 16:23:01] INFO - DataLoader: Successfully loaded file: data/uploads/laptop.csv
+[2025-10-22 16:23:06] INFO - DataLoader:  Loaded 9 rows from CSV: laptop.csv
+[2025-10-22 16:23:06] INFO - DataLoader: Successfully loaded file: data/uploads/laptop.csv
+[2025-10-22 16:23:55] INFO - DataLoader:  Loaded 9 rows from CSV: laptop.csv
+[2025-10-22 16:23:55] INFO - DataLoader: Successfully loaded file: data/uploads/laptop.csv
+[2025-10-22 16:23:55] INFO - DataLoader:  Loaded 9 rows from CSV: laptop.csv
+[2025-10-22 16:23:55] INFO - DataLoader: Successfully loaded file: data/uploads/laptop.csv
+[2025-10-22 16:24:22] INFO - DataLoader:  Loaded 9 rows from CSV: laptop.csv
+[2025-10-22 16:24:22] INFO - DataLoader: Successfully loaded file: data/uploads/laptop.csv
+[2025-10-22 16:24:22] INFO - DataLoader:  Loaded 9 rows from CSV: laptop.csv
+[2025-10-22 16:24:22] INFO - DataLoader: Successfully loaded file: data/uploads/laptop.csv
+[2025-10-22 16:24:39] INFO - DataLoader:  Loaded 9 rows from CSV: laptop.csv
+[2025-10-22 16:24:39] INFO - DataLoader: Successfully loaded file: data/uploads/laptop.csv
+[2025-10-22 16:24:39] INFO - DataLoader:  Loaded 9 rows from CSV: laptop.csv
+[2025-10-22 16:24:39] INFO - DataLoader: Successfully loaded file: data/uploads/laptop.csv
+[2025-10-22 16:24:59] INFO - DataLoader:  Loaded 9 rows from CSV: laptop.csv
+[2025-10-22 16:24:59] INFO - DataLoader: Successfully loaded file: data/uploads/laptop.csv
+[2025-10-22 16:24:59] INFO - DataLoader:  Loaded 9 rows from CSV: laptop.csv
+[2025-10-22 16:24:59] INFO - DataLoader: Successfully loaded file: data/uploads/laptop.csv
+[2025-10-22 16:25:16] INFO - DataLoader:  Loaded 9 rows from CSV: laptop.csv
+[2025-10-22 16:25:16] INFO - DataLoader: Successfully loaded file: data/uploads/laptop.csv
+[2025-10-22 16:32:09] INFO - DataLoader:  Loaded 9 rows from CSV: laptop.csv
+[2025-10-22 16:32:09] INFO - DataLoader: Successfully loaded file: data/uploads/laptop.csv
+[2025-10-22 16:32:58] INFO - DataLoader:  Loaded 9 rows from CSV: laptop.csv
+[2025-10-22 16:32:58] INFO - DataLoader: Successfully loaded file: data/uploads/laptop.csv
+[2025-10-22 16:33:19] INFO - DataLoader:  Loaded 9 rows from CSV: laptop.csv
+[2025-10-22 16:33:19] INFO - DataLoader: Successfully loaded file: data/uploads/laptop.csv
+[2025-10-22 16:33:32] INFO - DataLoader:  Loaded 9 rows from CSV: laptop.csv
+[2025-10-22 16:33:32] INFO - DataLoader: Successfully loaded file: data/uploads/laptop.csv
+[2025-10-22 16:37:28] INFO - DataLoader:  Loaded 9 rows from CSV: laptop.csv
+[2025-10-22 16:37:28] INFO - DataLoader: Successfully loaded file: data/uploads/laptop.csv
+[2025-10-22 16:46:27] INFO - DataLoader:  Loaded 18207 rows from CSV: fifa_eda_stats.csv
+[2025-10-22 16:46:27] INFO - DataLoader: Successfully loaded file: data/uploads/fifa_eda_stats.csv
+[2025-10-22 17:11:48] INFO - DataLoader:  Loaded 23 rows from CSV: california_cities.csv
+[2025-10-22 17:11:48] INFO - DataLoader: Successfully loaded file: data/uploads/california_cities.csv
+[2025-10-22 17:12:42] INFO - DataLoader:  Loaded 23 rows from CSV: california_cities.csv
+[2025-10-22 17:12:42] INFO - DataLoader: Successfully loaded file: data/uploads/california_cities.csv
+[2025-10-22 17:13:04] INFO - DataLoader:  Loaded 23 rows from CSV: california_cities.csv
+[2025-10-22 17:13:04] INFO - DataLoader: Successfully loaded file: data/uploads/california_cities.csv
+[2025-10-22 17:16:21] INFO - DataLoader:  Loaded 23 rows from CSV: california_cities.csv
+[2025-10-22 17:16:21] INFO - DataLoader: Successfully loaded file: data/uploads/california_cities.csv
+[2025-10-22 17:16:43] INFO - DataLoader:  Loaded 23 rows from CSV: california_cities.csv
+[2025-10-22 17:16:43] INFO - DataLoader: Successfully loaded file: data/uploads/california_cities.csv
+[2025-10-22 17:17:06] INFO - DataLoader:  Loaded 23 rows from CSV: california_cities.csv
+[2025-10-22 17:17:06] INFO - DataLoader: Successfully loaded file: data/uploads/california_cities.csv
+[2025-10-22 17:17:42] INFO - DataLoader:  Loaded 23 rows from CSV: california_cities.csv
+[2025-10-22 17:17:42] INFO - DataLoader: Successfully loaded file: data/uploads/california_cities.csv
+[2025-10-22 17:18:22] INFO - DataLoader:  Loaded 23 rows from CSV: california_cities.csv
+[2025-10-22 17:18:22] INFO - DataLoader: Successfully loaded file: data/uploads/california_cities.csv
+[2025-10-22 17:19:19] INFO - DataLoader:  Loaded 23 rows from CSV: california_cities.csv
+[2025-10-22 17:19:19] INFO - DataLoader: Successfully loaded file: data/uploads/california_cities.csv
+[2025-10-22 17:21:39] INFO - DataLoader:  Loaded 23 rows from CSV: california_cities.csv
+[2025-10-22 17:21:39] INFO - DataLoader: Successfully loaded file: data/uploads/california_cities.csv
+[2025-10-22 17:22:34] INFO - DataLoader:  Loaded 23 rows from CSV: california_cities.csv
+[2025-10-22 17:22:34] INFO - DataLoader: Successfully loaded file: data/uploads/california_cities.csv
+[2025-10-22 17:24:10] INFO - DataLoader:  Loaded 23 rows from CSV: california_cities.csv
+[2025-10-22 17:24:10] INFO - DataLoader: Successfully loaded file: data/uploads/california_cities.csv
+[2025-10-22 17:25:09] INFO - DataLoader:  Loaded 23 rows from CSV: california_cities.csv
+[2025-10-22 17:25:09] INFO - DataLoader: Successfully loaded file: data/uploads/california_cities.csv
+[2025-10-22 17:26:14] INFO - DataLoader:  Loaded 23 rows from CSV: california_cities.csv
+[2025-10-22 17:26:14] INFO - DataLoader: Successfully loaded file: data/uploads/california_cities.csv
+[2025-10-22 17:27:03] INFO - DataLoader:  Loaded 23 rows from CSV: california_cities.csv
+[2025-10-22 17:27:03] INFO - DataLoader: Successfully loaded file: data/uploads/california_cities.csv
+[2025-10-22 17:39:56] ERROR - DataLoader:  Error loading PDF file data/uploads/Thuat_Toan_va_Giai_Thuat-3-5.pdf: `pypdf` package not found, please install it with `pip install pypdf`
+Traceback (most recent call last):
+  File "D:\LangChain\Git_chat_document\chat-document-analyzer\.venv\Lib\site-packages\langchain_community\document_loaders\parsers\pdf.py", line 359, in lazy_parse
+    import pypdf
+ModuleNotFoundError: No module named 'pypdf'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\LangChain\Git_chat_document\chat-document-analyzer\app\core\data_loader.py", line 36, in _load_pdf
+    docs = loader.load()
+           ^^^^^^^^^^^^^
+  File "D:\LangChain\Git_chat_document\chat-document-analyzer\.venv\Lib\site-packages\langchain_core\document_loaders\base.py", line 43, in load
+    return list(self.lazy_load())
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LangChain\Git_chat_document\chat-document-analyzer\.venv\Lib\site-packages\langchain_community\document_loaders\pdf.py", line 305, in lazy_load
+    yield from self.parser.lazy_parse(blob)
+  File "D:\LangChain\Git_chat_document\chat-document-analyzer\.venv\Lib\site-packages\langchain_community\document_loaders\parsers\pdf.py", line 361, in lazy_parse
+    raise ImportError(
+ImportError: `pypdf` package not found, please install it with `pip install pypdf`
+[2025-10-22 17:41:17] INFO - DataLoader:  Loaded 3 pages from PDF: Thuat_Toan_va_Giai_Thuat-3-5.pdf
+[2025-10-22 17:41:17] INFO - DataLoader: Successfully loaded file: data/uploads/Thuat_Toan_va_Giai_Thuat-3-5.pdf
+[2025-10-22 17:41:47] INFO - DataLoader:  Loaded 3 pages from PDF: Thuat_Toan_va_Giai_Thuat-3-5.pdf
+[2025-10-22 17:41:47] INFO - DataLoader: Successfully loaded file: data/uploads/Thuat_Toan_va_Giai_Thuat-3-5.pdf
+[2025-10-22 17:42:14] INFO - DataLoader:  Loaded 3 pages from PDF: Thuat_Toan_va_Giai_Thuat-3-5.pdf
+[2025-10-22 17:42:14] INFO - DataLoader: Successfully loaded file: data/uploads/Thuat_Toan_va_Giai_Thuat-3-5.pdf
+[2025-10-22 17:42:48] INFO - DataLoader:  Loaded 3 pages from PDF: Thuat_Toan_va_Giai_Thuat-3-5.pdf
+[2025-10-22 17:42:48] INFO - DataLoader: Successfully loaded file: data/uploads/Thuat_Toan_va_Giai_Thuat-3-5.pdf
+[2025-10-22 17:43:19] INFO - DataLoader:  Loaded 9 rows from CSV: laptop.csv
+[2025-10-22 17:43:19] INFO - DataLoader: Successfully loaded file: data/uploads/laptop.csv
+[2025-10-22 17:43:52] INFO - DataLoader:  Loaded 9 rows from CSV: laptop.csv
+[2025-10-22 17:43:52] INFO - DataLoader: Successfully loaded file: data/uploads/laptop.csv
+[2025-10-22 17:44:09] INFO - DataLoader:  Loaded 9 rows from CSV: laptop.csv
+[2025-10-22 17:44:09] INFO - DataLoader: Successfully loaded file: data/uploads/laptop.csv
+[2025-10-22 17:44:52] INFO - DataLoader:  Loaded 9 rows from CSV: laptop.csv
+[2025-10-22 17:44:52] INFO - DataLoader: Successfully loaded file: data/uploads/laptop.csv
+[2025-10-22 17:45:11] INFO - DataLoader:  Loaded 9 rows from CSV: laptop.csv
+[2025-10-22 17:45:11] INFO - DataLoader: Successfully loaded file: data/uploads/laptop.csv

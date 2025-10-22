@@ -18,7 +18,7 @@ class RagEngine:
         self.embedding = EmbeddingService()
         self.retriver = retriver
         
-        self.promt = PromptTemplate(
+        self.prompt = PromptTemplate(
             template = (
             "You are an intelligent assistant. "
             "Answer the question clearly and accurately based only on the context below.\n\n"

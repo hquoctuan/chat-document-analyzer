@@ -56,7 +56,7 @@ class DataPipeLine:
             logger.info(f'Vector Store saved at: {index_path}') # Đã sửa logger info thành index_path
 
             logger.info('Pipeline completed successfully')
-            return index_path
+            return index_path, chunks
         
         except Exception as e:
             logger.error(f'Failed to build pipeline: {e}')

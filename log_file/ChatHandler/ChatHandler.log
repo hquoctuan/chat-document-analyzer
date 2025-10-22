@@ -1,0 +1,137 @@
+[2025-10-22 15:50:25] INFO - ChatHandler:  Chat Handler intialized for user demo
+[2025-10-22 15:50:46] INFO - ChatHandler:  Start runing data pipe line process for file data/uploads/laptop.csv
+[2025-10-22 15:50:46] ERROR - ChatHandler: Chat Handler process Fail RetrivalHandler.build() missing 1 required positional argument: 'vector_store'
+[2025-10-22 16:04:26] INFO - ChatHandler:  Chat Handler intialized for user demo
+[2025-10-22 16:04:38] INFO - ChatHandler:  Start runing data pipe line process for file data/uploads/laptop.csv
+[2025-10-22 16:04:38] INFO - ChatHandler:  Chat Handler Ready for Retriver 
+[2025-10-22 16:05:37] INFO - ChatHandler:  Start runing data pipe line process for file data/uploads/laptop.csv
+[2025-10-22 16:05:37] INFO - ChatHandler:  Chat Handler Ready for Retriver 
+[2025-10-22 16:06:20] INFO - ChatHandler:  Start runing data pipe line process for file data/uploads/laptop.csv
+[2025-10-22 16:06:20] INFO - ChatHandler:  Chat Handler Ready for Retriver 
+[2025-10-22 16:06:20] ERROR - ChatHandler:  Erro streaming chat'RagEngine' object has no attribute 'prompt'
+[2025-10-22 16:16:28] INFO - ChatHandler:  Chat Handler intialized for user demo
+[2025-10-22 16:16:35] INFO - ChatHandler:  Start runing data pipe line process for file data/uploads/laptop.csv
+[2025-10-22 16:16:39] INFO - ChatHandler:  Chat Handler Ready for Retriver 
+[2025-10-22 16:16:45] INFO - ChatHandler:  Start runing data pipe line process for file data/uploads/laptop.csv
+[2025-10-22 16:16:48] INFO - ChatHandler:  Chat Handler Ready for Retriver 
+[2025-10-22 16:17:12] INFO - ChatHandler:  Start runing data pipe line process for file data/uploads/laptop.csv
+[2025-10-22 16:17:12] INFO - ChatHandler:  Start runing data pipe line process for file data/uploads/laptop.csv
+[2025-10-22 16:17:15] INFO - ChatHandler:  Chat Handler Ready for Retriver 
+[2025-10-22 16:17:15] INFO - ChatHandler:  Chat Handler Ready for Retriver 
+[2025-10-22 16:17:16] ERROR - ChatHandler:  Erro streaming chatcannot access local variable 'response' where it is not associated with a value
+[2025-10-22 16:19:51] INFO - ChatHandler:  Chat Handler intialized for user demo
+[2025-10-22 16:19:55] INFO - ChatHandler:  Start runing data pipe line process for file data/uploads/laptop.csv
+[2025-10-22 16:19:58] INFO - ChatHandler:  Chat Handler Ready for Retriver 
+[2025-10-22 16:20:16] INFO - ChatHandler:  Start runing data pipe line process for file data/uploads/laptop.csv
+[2025-10-22 16:20:19] INFO - ChatHandler:  Chat Handler Ready for Retriver 
+[2025-10-22 16:20:21] INFO - ChatHandler:  Start runing data pipe line process for file data/uploads/laptop.csv
+[2025-10-22 16:20:24] INFO - ChatHandler:  Chat Handler Ready for Retriver 
+[2025-10-22 16:20:34] INFO - ChatHandler:  Start runing data pipe line process for file data/uploads/laptop.csv
+[2025-10-22 16:20:37] INFO - ChatHandler:  Chat Handler Ready for Retriver 
+[2025-10-22 16:21:23] INFO - ChatHandler:  Start runing data pipe line process for file data/uploads/laptop.csv
+[2025-10-22 16:21:27] INFO - ChatHandler:  Chat Handler Ready for Retriver 
+[2025-10-22 16:21:30] INFO - ChatHandler:  Start runing data pipe line process for file data/uploads/laptop.csv
+[2025-10-22 16:21:33] INFO - ChatHandler:  Chat Handler Ready for Retriver 
+[2025-10-22 16:21:43] INFO - ChatHandler:  Start runing data pipe line process for file data/uploads/laptop.csv
+[2025-10-22 16:21:47] INFO - ChatHandler:  Chat Handler Ready for Retriver 
+[2025-10-22 16:21:50] INFO - ChatHandler:  Start runing data pipe line process for file data/uploads/laptop.csv
+[2025-10-22 16:21:54] INFO - ChatHandler:  Chat Handler Ready for Retriver 
+[2025-10-22 16:22:14] INFO - ChatHandler:  Start runing data pipe line process for file data/uploads/laptop.csv
+[2025-10-22 16:22:17] INFO - ChatHandler:  Chat Handler Ready for Retriver 
+[2025-10-22 16:22:20] INFO - ChatHandler:  Start runing data pipe line process for file data/uploads/laptop.csv
+[2025-10-22 16:22:24] INFO - ChatHandler:  Chat Handler Ready for Retriver 
+[2025-10-22 16:23:01] INFO - ChatHandler:  Start runing data pipe line process for file data/uploads/laptop.csv
+[2025-10-22 16:23:05] INFO - ChatHandler:  Chat Handler Ready for Retriver 
+[2025-10-22 16:23:06] INFO - ChatHandler:  Start runing data pipe line process for file data/uploads/laptop.csv
+[2025-10-22 16:23:09] INFO - ChatHandler:  Chat Handler Ready for Retriver 
+[2025-10-22 16:23:55] INFO - ChatHandler:  Start runing data pipe line process for file data/uploads/laptop.csv
+[2025-10-22 16:23:55] INFO - ChatHandler:  Start runing data pipe line process for file data/uploads/laptop.csv
+[2025-10-22 16:23:58] INFO - ChatHandler:  Chat Handler Ready for Retriver 
+[2025-10-22 16:23:58] INFO - ChatHandler:  Chat Handler Ready for Retriver 
+[2025-10-22 16:24:22] INFO - ChatHandler:  Start runing data pipe line process for file data/uploads/laptop.csv
+[2025-10-22 16:24:22] INFO - ChatHandler:  Start runing data pipe line process for file data/uploads/laptop.csv
+[2025-10-22 16:24:24] INFO - ChatHandler:  Chat Handler Ready for Retriver 
+[2025-10-22 16:24:25] INFO - ChatHandler:  Chat Handler Ready for Retriver 
+[2025-10-22 16:24:39] INFO - ChatHandler:  Start runing data pipe line process for file data/uploads/laptop.csv
+[2025-10-22 16:24:39] INFO - ChatHandler:  Start runing data pipe line process for file data/uploads/laptop.csv
+[2025-10-22 16:24:42] INFO - ChatHandler:  Chat Handler Ready for Retriver 
+[2025-10-22 16:24:42] INFO - ChatHandler:  Chat Handler Ready for Retriver 
+[2025-10-22 16:24:59] INFO - ChatHandler:  Start runing data pipe line process for file data/uploads/laptop.csv
+[2025-10-22 16:24:59] INFO - ChatHandler:  Start runing data pipe line process for file data/uploads/laptop.csv
+[2025-10-22 16:25:02] INFO - ChatHandler:  Chat Handler Ready for Retriver 
+[2025-10-22 16:25:02] INFO - ChatHandler:  Chat Handler Ready for Retriver 
+[2025-10-22 16:25:16] INFO - ChatHandler:  Start runing data pipe line process for file data/uploads/laptop.csv
+[2025-10-22 16:25:19] INFO - ChatHandler:  Chat Handler Ready for Retriver 
+[2025-10-22 16:31:54] INFO - ChatHandler:  Chat Handler intialized for user demo
+[2025-10-22 16:32:09] INFO - ChatHandler:  Start runing data pipe line process for file data/uploads/laptop.csv
+[2025-10-22 16:32:12] INFO - ChatHandler:  Chat Handler Ready for Retriver 
+[2025-10-22 16:32:58] INFO - ChatHandler:  Start runing data pipe line process for file data/uploads/laptop.csv
+[2025-10-22 16:33:01] INFO - ChatHandler:  Chat Handler Ready for Retriver 
+[2025-10-22 16:33:19] INFO - ChatHandler:  Start runing data pipe line process for file data/uploads/laptop.csv
+[2025-10-22 16:33:23] INFO - ChatHandler:  Chat Handler Ready for Retriver 
+[2025-10-22 16:33:32] INFO - ChatHandler:  Start runing data pipe line process for file data/uploads/laptop.csv
+[2025-10-22 16:33:35] INFO - ChatHandler:  Chat Handler Ready for Retriver 
+[2025-10-22 16:37:11] INFO - ChatHandler:  Chat Handler intialized for user demo
+[2025-10-22 16:37:28] INFO - ChatHandler:  Start runing data pipe line process for file data/uploads/laptop.csv
+[2025-10-22 16:37:32] INFO - ChatHandler:  Chat Handler Ready for Retriver 
+[2025-10-22 16:39:47] INFO - ChatHandler:  Chat Handler intialized for user demo
+[2025-10-22 16:45:28] INFO - ChatHandler:  Chat Handler intialized for user demo
+[2025-10-22 16:46:26] INFO - ChatHandler:  Start runing data pipe line process for file data/uploads/fifa_eda_stats.csv
+[2025-10-22 16:49:31] INFO - ChatHandler: Clear chat memory
+[2025-10-22 16:49:33] INFO - ChatHandler: Clear chat memory
+[2025-10-22 16:52:55] INFO - ChatHandler:  Chat Handler Ready for Retriver 
+[2025-10-22 16:53:44] INFO - ChatHandler:  Chat Handler intialized for user demo
+[2025-10-22 17:09:47] INFO - ChatHandler:  Chat Handler intialized for user demo
+[2025-10-22 17:11:48] INFO - ChatHandler:  Start runing data pipe line process for file data/uploads/california_cities.csv
+[2025-10-22 17:11:53] INFO - ChatHandler:  Chat Handler Ready for Retriver 
+[2025-10-22 17:12:42] INFO - ChatHandler:  Start runing data pipe line process for file data/uploads/california_cities.csv
+[2025-10-22 17:12:46] INFO - ChatHandler:  Chat Handler Ready for Retriver 
+[2025-10-22 17:13:04] INFO - ChatHandler:  Start runing data pipe line process for file data/uploads/california_cities.csv
+[2025-10-22 17:13:08] INFO - ChatHandler:  Chat Handler Ready for Retriver 
+[2025-10-22 17:15:15] INFO - ChatHandler:  Chat Handler intialized for user demo
+[2025-10-22 17:16:21] INFO - ChatHandler:  Start runing data pipe line process for file data/uploads/california_cities.csv
+[2025-10-22 17:16:26] INFO - ChatHandler:  Chat Handler Ready for Retriver 
+[2025-10-22 17:16:43] INFO - ChatHandler:  Start runing data pipe line process for file data/uploads/california_cities.csv
+[2025-10-22 17:16:47] INFO - ChatHandler:  Chat Handler Ready for Retriver 
+[2025-10-22 17:17:06] INFO - ChatHandler:  Start runing data pipe line process for file data/uploads/california_cities.csv
+[2025-10-22 17:17:14] INFO - ChatHandler:  Chat Handler Ready for Retriver 
+[2025-10-22 17:17:42] INFO - ChatHandler:  Start runing data pipe line process for file data/uploads/california_cities.csv
+[2025-10-22 17:17:46] INFO - ChatHandler:  Chat Handler Ready for Retriver 
+[2025-10-22 17:18:22] INFO - ChatHandler:  Start runing data pipe line process for file data/uploads/california_cities.csv
+[2025-10-22 17:18:26] INFO - ChatHandler:  Chat Handler Ready for Retriver 
+[2025-10-22 17:19:19] INFO - ChatHandler:  Start runing data pipe line process for file data/uploads/california_cities.csv
+[2025-10-22 17:19:23] INFO - ChatHandler:  Chat Handler Ready for Retriver 
+[2025-10-22 17:21:39] INFO - ChatHandler:  Start runing data pipe line process for file data/uploads/california_cities.csv
+[2025-10-22 17:21:46] INFO - ChatHandler:  Chat Handler Ready for Retriver 
+[2025-10-22 17:22:34] INFO - ChatHandler:  Start runing data pipe line process for file data/uploads/california_cities.csv
+[2025-10-22 17:22:38] INFO - ChatHandler:  Chat Handler Ready for Retriver 
+[2025-10-22 17:24:10] INFO - ChatHandler:  Start runing data pipe line process for file data/uploads/california_cities.csv
+[2025-10-22 17:24:14] INFO - ChatHandler:  Chat Handler Ready for Retriver 
+[2025-10-22 17:25:09] INFO - ChatHandler:  Start runing data pipe line process for file data/uploads/california_cities.csv
+[2025-10-22 17:25:12] INFO - ChatHandler:  Chat Handler Ready for Retriver 
+[2025-10-22 17:26:14] INFO - ChatHandler:  Start runing data pipe line process for file data/uploads/california_cities.csv
+[2025-10-22 17:26:18] INFO - ChatHandler:  Chat Handler Ready for Retriver 
+[2025-10-22 17:27:03] INFO - ChatHandler:  Start runing data pipe line process for file data/uploads/california_cities.csv
+[2025-10-22 17:27:07] INFO - ChatHandler:  Chat Handler Ready for Retriver 
+[2025-10-22 17:39:48] INFO - ChatHandler:  Chat Handler intialized for user demo
+[2025-10-22 17:39:56] INFO - ChatHandler:  Start runing data pipe line process for file data/uploads/Thuat_Toan_va_Giai_Thuat-3-5.pdf
+[2025-10-22 17:39:56] ERROR - ChatHandler: Chat Handler process Fail `pypdf` package not found, please install it with `pip install pypdf`
+[2025-10-22 17:41:04] INFO - ChatHandler:  Chat Handler intialized for user demo
+[2025-10-22 17:41:17] INFO - ChatHandler:  Start runing data pipe line process for file data/uploads/Thuat_Toan_va_Giai_Thuat-3-5.pdf
+[2025-10-22 17:41:21] INFO - ChatHandler:  Chat Handler Ready for Retriver 
+[2025-10-22 17:41:47] INFO - ChatHandler:  Start runing data pipe line process for file data/uploads/Thuat_Toan_va_Giai_Thuat-3-5.pdf
+[2025-10-22 17:41:51] INFO - ChatHandler:  Chat Handler Ready for Retriver 
+[2025-10-22 17:42:14] INFO - ChatHandler:  Start runing data pipe line process for file data/uploads/Thuat_Toan_va_Giai_Thuat-3-5.pdf
+[2025-10-22 17:42:21] INFO - ChatHandler:  Chat Handler Ready for Retriver 
+[2025-10-22 17:42:48] INFO - ChatHandler:  Start runing data pipe line process for file data/uploads/Thuat_Toan_va_Giai_Thuat-3-5.pdf
+[2025-10-22 17:42:52] INFO - ChatHandler:  Chat Handler Ready for Retriver 
+[2025-10-22 17:43:19] INFO - ChatHandler:  Start runing data pipe line process for file data/uploads/laptop.csv
+[2025-10-22 17:43:23] INFO - ChatHandler:  Chat Handler Ready for Retriver 
+[2025-10-22 17:43:52] INFO - ChatHandler:  Start runing data pipe line process for file data/uploads/laptop.csv
+[2025-10-22 17:43:56] INFO - ChatHandler:  Chat Handler Ready for Retriver 
+[2025-10-22 17:44:09] INFO - ChatHandler:  Start runing data pipe line process for file data/uploads/laptop.csv
+[2025-10-22 17:44:13] INFO - ChatHandler:  Chat Handler Ready for Retriver 
+[2025-10-22 17:44:52] INFO - ChatHandler:  Start runing data pipe line process for file data/uploads/laptop.csv
+[2025-10-22 17:44:55] INFO - ChatHandler:  Chat Handler Ready for Retriver 
+[2025-10-22 17:45:11] INFO - ChatHandler:  Start runing data pipe line process for file data/uploads/laptop.csv
+[2025-10-22 17:45:14] INFO - ChatHandler:  Chat Handler Ready for Retriver 

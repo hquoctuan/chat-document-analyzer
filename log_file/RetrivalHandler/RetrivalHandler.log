@@ -1,2 +1,103 @@
 [2025-10-22 15:45:01] INFO - RetrivalHandler:  Rerank enable (cross-encoder/ms-marco-MiniLM-L-6-v2) ,(k_final: 5)
 [2025-10-22 15:45:02] INFO - RetrivalHandler:  Retrieved 5 documents for query
+[2025-10-22 16:04:38] WARNING - RetrivalHandler: Hybrid mode: all docs is None  -> BM25 not action. Fall back dense only  
+[2025-10-22 16:04:38] INFO - RetrivalHandler:  Dense only  retriever (k_vector 5)
+[2025-10-22 16:05:37] WARNING - RetrivalHandler: Hybrid mode: all docs is None  -> BM25 not action. Fall back dense only  
+[2025-10-22 16:05:37] INFO - RetrivalHandler:  Dense only  retriever (k_vector 5)
+[2025-10-22 16:06:20] WARNING - RetrivalHandler: Hybrid mode: all docs is None  -> BM25 not action. Fall back dense only  
+[2025-10-22 16:06:20] INFO - RetrivalHandler:  Dense only  retriever (k_vector 5)
+[2025-10-22 16:06:20] ERROR - RetrivalHandler: Retriever not built yet
+[2025-10-22 16:16:39] INFO - RetrivalHandler:  Rerank enable (cross-encoder/ms-marco-MiniLM-L-6-v2) ,(k_final: 5)
+[2025-10-22 16:16:48] INFO - RetrivalHandler:  Rerank enable (cross-encoder/ms-marco-MiniLM-L-6-v2) ,(k_final: 5)
+[2025-10-22 16:17:15] INFO - RetrivalHandler:  Rerank enable (cross-encoder/ms-marco-MiniLM-L-6-v2) ,(k_final: 5)
+[2025-10-22 16:17:15] INFO - RetrivalHandler:  Rerank enable (cross-encoder/ms-marco-MiniLM-L-6-v2) ,(k_final: 5)
+[2025-10-22 16:17:15] INFO - RetrivalHandler:  Retrieved 5 documents for query
+[2025-10-22 16:19:58] INFO - RetrivalHandler:  Rerank enable (cross-encoder/ms-marco-MiniLM-L-6-v2) ,(k_final: 5)
+[2025-10-22 16:20:19] INFO - RetrivalHandler:  Rerank enable (cross-encoder/ms-marco-MiniLM-L-6-v2) ,(k_final: 5)
+[2025-10-22 16:20:24] INFO - RetrivalHandler:  Rerank enable (cross-encoder/ms-marco-MiniLM-L-6-v2) ,(k_final: 5)
+[2025-10-22 16:20:24] INFO - RetrivalHandler:  Retrieved 5 documents for query
+[2025-10-22 16:20:37] INFO - RetrivalHandler:  Rerank enable (cross-encoder/ms-marco-MiniLM-L-6-v2) ,(k_final: 5)
+[2025-10-22 16:20:38] INFO - RetrivalHandler:  Retrieved 5 documents for query
+[2025-10-22 16:21:27] INFO - RetrivalHandler:  Rerank enable (cross-encoder/ms-marco-MiniLM-L-6-v2) ,(k_final: 5)
+[2025-10-22 16:21:33] INFO - RetrivalHandler:  Rerank enable (cross-encoder/ms-marco-MiniLM-L-6-v2) ,(k_final: 5)
+[2025-10-22 16:21:33] INFO - RetrivalHandler:  Retrieved 5 documents for query
+[2025-10-22 16:21:47] INFO - RetrivalHandler:  Rerank enable (cross-encoder/ms-marco-MiniLM-L-6-v2) ,(k_final: 5)
+[2025-10-22 16:21:54] INFO - RetrivalHandler:  Rerank enable (cross-encoder/ms-marco-MiniLM-L-6-v2) ,(k_final: 5)
+[2025-10-22 16:21:54] INFO - RetrivalHandler:  Retrieved 5 documents for query
+[2025-10-22 16:22:17] INFO - RetrivalHandler:  Rerank enable (cross-encoder/ms-marco-MiniLM-L-6-v2) ,(k_final: 5)
+[2025-10-22 16:22:24] INFO - RetrivalHandler:  Rerank enable (cross-encoder/ms-marco-MiniLM-L-6-v2) ,(k_final: 5)
+[2025-10-22 16:22:24] INFO - RetrivalHandler:  Retrieved 5 documents for query
+[2025-10-22 16:23:05] INFO - RetrivalHandler:  Rerank enable (cross-encoder/ms-marco-MiniLM-L-6-v2) ,(k_final: 5)
+[2025-10-22 16:23:09] INFO - RetrivalHandler:  Rerank enable (cross-encoder/ms-marco-MiniLM-L-6-v2) ,(k_final: 5)
+[2025-10-22 16:23:10] INFO - RetrivalHandler:  Retrieved 5 documents for query
+[2025-10-22 16:23:58] INFO - RetrivalHandler:  Rerank enable (cross-encoder/ms-marco-MiniLM-L-6-v2) ,(k_final: 5)
+[2025-10-22 16:23:58] INFO - RetrivalHandler:  Rerank enable (cross-encoder/ms-marco-MiniLM-L-6-v2) ,(k_final: 5)
+[2025-10-22 16:23:59] INFO - RetrivalHandler:  Retrieved 5 documents for query
+[2025-10-22 16:24:24] ERROR - RetrivalHandler: Erro building retriever Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device.
+[2025-10-22 16:24:24] INFO - RetrivalHandler:  Dense only  retriever (k_vector 5)
+[2025-10-22 16:24:25] INFO - RetrivalHandler:  Rerank enable (cross-encoder/ms-marco-MiniLM-L-6-v2) ,(k_final: 5)
+[2025-10-22 16:24:25] INFO - RetrivalHandler:  Retrieved 5 documents for query
+[2025-10-22 16:24:42] ERROR - RetrivalHandler: Erro building retriever Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device.
+[2025-10-22 16:24:42] INFO - RetrivalHandler:  Dense only  retriever (k_vector 5)
+[2025-10-22 16:24:42] INFO - RetrivalHandler:  Retrieved 5 documents for query
+[2025-10-22 16:24:42] ERROR - RetrivalHandler: Erro building retriever Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device.
+[2025-10-22 16:24:42] INFO - RetrivalHandler:  Dense only  retriever (k_vector 5)
+[2025-10-22 16:25:02] ERROR - RetrivalHandler: Erro building retriever Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device.
+[2025-10-22 16:25:02] INFO - RetrivalHandler:  Dense only  retriever (k_vector 5)
+[2025-10-22 16:25:02] ERROR - RetrivalHandler: Erro building retriever Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device.
+[2025-10-22 16:25:02] INFO - RetrivalHandler:  Dense only  retriever (k_vector 5)
+[2025-10-22 16:25:02] INFO - RetrivalHandler:  Retrieved 5 documents for query
+[2025-10-22 16:25:19] ERROR - RetrivalHandler: Erro building retriever Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device.
+[2025-10-22 16:25:19] INFO - RetrivalHandler:  Dense only  retriever (k_vector 5)
+[2025-10-22 16:32:12] INFO - RetrivalHandler:  Rerank enable (cross-encoder/ms-marco-MiniLM-L-6-v2) ,(k_final: 5)
+[2025-10-22 16:33:01] INFO - RetrivalHandler:  Rerank enable (cross-encoder/ms-marco-MiniLM-L-6-v2) ,(k_final: 5)
+[2025-10-22 16:33:01] INFO - RetrivalHandler:  Retrieved 5 documents for query
+[2025-10-22 16:33:23] INFO - RetrivalHandler:  Rerank enable (cross-encoder/ms-marco-MiniLM-L-6-v2) ,(k_final: 5)
+[2025-10-22 16:33:23] INFO - RetrivalHandler:  Retrieved 5 documents for query
+[2025-10-22 16:33:35] INFO - RetrivalHandler:  Rerank enable (cross-encoder/ms-marco-MiniLM-L-6-v2) ,(k_final: 5)
+[2025-10-22 16:37:32] INFO - RetrivalHandler:  Rerank enable (cross-encoder/ms-marco-MiniLM-L-6-v2) ,(k_final: 5)
+[2025-10-22 16:52:55] INFO - RetrivalHandler:  Rerank enable (cross-encoder/ms-marco-MiniLM-L-6-v2) ,(k_final: 5)
+[2025-10-22 17:11:53] INFO - RetrivalHandler:  Rerank enable (cross-encoder/ms-marco-MiniLM-L-6-v2) ,(k_final: 5)
+[2025-10-22 17:12:46] INFO - RetrivalHandler:  Rerank enable (cross-encoder/ms-marco-MiniLM-L-6-v2) ,(k_final: 5)
+[2025-10-22 17:12:46] INFO - RetrivalHandler:  Retrieved 5 documents for query
+[2025-10-22 17:13:08] INFO - RetrivalHandler:  Rerank enable (cross-encoder/ms-marco-MiniLM-L-6-v2) ,(k_final: 5)
+[2025-10-22 17:13:08] INFO - RetrivalHandler:  Retrieved 5 documents for query
+[2025-10-22 17:16:26] INFO - RetrivalHandler:  Rerank enable (cross-encoder/ms-marco-MiniLM-L-6-v2) ,(k_final: 5)
+[2025-10-22 17:16:47] INFO - RetrivalHandler:  Rerank enable (cross-encoder/ms-marco-MiniLM-L-6-v2) ,(k_final: 5)
+[2025-10-22 17:16:48] INFO - RetrivalHandler:  Retrieved 5 documents for query
+[2025-10-22 17:17:14] INFO - RetrivalHandler:  Rerank enable (cross-encoder/ms-marco-MiniLM-L-6-v2) ,(k_final: 5)
+[2025-10-22 17:17:14] INFO - RetrivalHandler:  Retrieved 5 documents for query
+[2025-10-22 17:17:46] INFO - RetrivalHandler:  Rerank enable (cross-encoder/ms-marco-MiniLM-L-6-v2) ,(k_final: 5)
+[2025-10-22 17:17:46] INFO - RetrivalHandler:  Retrieved 5 documents for query
+[2025-10-22 17:18:26] INFO - RetrivalHandler:  Rerank enable (cross-encoder/ms-marco-MiniLM-L-6-v2) ,(k_final: 5)
+[2025-10-22 17:18:26] INFO - RetrivalHandler:  Retrieved 5 documents for query
+[2025-10-22 17:19:23] INFO - RetrivalHandler:  Rerank enable (cross-encoder/ms-marco-MiniLM-L-6-v2) ,(k_final: 5)
+[2025-10-22 17:19:23] INFO - RetrivalHandler:  Retrieved 5 documents for query
+[2025-10-22 17:21:46] INFO - RetrivalHandler:  Rerank enable (cross-encoder/ms-marco-MiniLM-L-6-v2) ,(k_final: 5)
+[2025-10-22 17:21:46] INFO - RetrivalHandler:  Retrieved 5 documents for query
+[2025-10-22 17:22:38] INFO - RetrivalHandler:  Rerank enable (cross-encoder/ms-marco-MiniLM-L-6-v2) ,(k_final: 5)
+[2025-10-22 17:22:38] INFO - RetrivalHandler:  Retrieved 5 documents for query
+[2025-10-22 17:24:14] INFO - RetrivalHandler:  Rerank enable (cross-encoder/ms-marco-MiniLM-L-6-v2) ,(k_final: 5)
+[2025-10-22 17:24:14] INFO - RetrivalHandler:  Retrieved 5 documents for query
+[2025-10-22 17:25:12] INFO - RetrivalHandler:  Rerank enable (cross-encoder/ms-marco-MiniLM-L-6-v2) ,(k_final: 5)
+[2025-10-22 17:25:13] INFO - RetrivalHandler:  Retrieved 5 documents for query
+[2025-10-22 17:26:18] INFO - RetrivalHandler:  Rerank enable (cross-encoder/ms-marco-MiniLM-L-6-v2) ,(k_final: 5)
+[2025-10-22 17:26:18] INFO - RetrivalHandler:  Retrieved 5 documents for query
+[2025-10-22 17:27:07] INFO - RetrivalHandler:  Rerank enable (cross-encoder/ms-marco-MiniLM-L-6-v2) ,(k_final: 5)
+[2025-10-22 17:27:07] INFO - RetrivalHandler:  Retrieved 5 documents for query
+[2025-10-22 17:41:20] INFO - RetrivalHandler:  Rerank enable (cross-encoder/ms-marco-MiniLM-L-6-v2) ,(k_final: 5)
+[2025-10-22 17:41:51] INFO - RetrivalHandler:  Rerank enable (cross-encoder/ms-marco-MiniLM-L-6-v2) ,(k_final: 5)
+[2025-10-22 17:41:52] INFO - RetrivalHandler:  Retrieved 5 documents for query
+[2025-10-22 17:42:21] INFO - RetrivalHandler:  Rerank enable (cross-encoder/ms-marco-MiniLM-L-6-v2) ,(k_final: 5)
+[2025-10-22 17:42:21] INFO - RetrivalHandler:  Retrieved 5 documents for query
+[2025-10-22 17:42:52] INFO - RetrivalHandler:  Rerank enable (cross-encoder/ms-marco-MiniLM-L-6-v2) ,(k_final: 5)
+[2025-10-22 17:42:53] INFO - RetrivalHandler:  Retrieved 5 documents for query
+[2025-10-22 17:43:23] INFO - RetrivalHandler:  Rerank enable (cross-encoder/ms-marco-MiniLM-L-6-v2) ,(k_final: 5)
+[2025-10-22 17:43:56] INFO - RetrivalHandler:  Rerank enable (cross-encoder/ms-marco-MiniLM-L-6-v2) ,(k_final: 5)
+[2025-10-22 17:43:56] INFO - RetrivalHandler:  Retrieved 5 documents for query
+[2025-10-22 17:44:13] INFO - RetrivalHandler:  Rerank enable (cross-encoder/ms-marco-MiniLM-L-6-v2) ,(k_final: 5)
+[2025-10-22 17:44:13] INFO - RetrivalHandler:  Retrieved 5 documents for query
+[2025-10-22 17:44:55] INFO - RetrivalHandler:  Rerank enable (cross-encoder/ms-marco-MiniLM-L-6-v2) ,(k_final: 5)
+[2025-10-22 17:44:55] INFO - RetrivalHandler:  Retrieved 5 documents for query
+[2025-10-22 17:45:14] INFO - RetrivalHandler:  Rerank enable (cross-encoder/ms-marco-MiniLM-L-6-v2) ,(k_final: 5)
+[2025-10-22 17:45:14] INFO - RetrivalHandler:  Retrieved 5 documents for query
