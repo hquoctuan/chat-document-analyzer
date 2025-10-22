@@ -1,0 +1,2 @@
+[2025-10-22 15:44:58] INFO - VectorStore:  Loaded FAISS index from data/vector_store\faiss_index
+[2025-10-22 15:48:03] INFO - VectorStore: FAISS saved in data/vector_store\faiss_index

@@ -1,0 +1,6 @@
+[2025-10-22 15:44:58] INFO - ChunkHandler: Selected CSV splitter.
+[2025-10-22 15:44:58] INFO - ChunkHandler: 🧩 Using CSV chunking strategy.
+[2025-10-22 15:44:58] INFO - ChunkHandler: 📊 CSV grouped into 5 chunks (each ~2 rows).
+[2025-10-22 15:48:03] INFO - ChunkHandler: Selected CSV splitter.
+[2025-10-22 15:48:03] INFO - ChunkHandler: 🧩 Using CSV chunking strategy.
+[2025-10-22 15:48:03] INFO - ChunkHandler: 📊 CSV grouped into 5 chunks (each ~2 rows).
