@@ -160,3 +160,63 @@
 [2025-10-25 16:55:54] INFO - ChunkHandler: Selected PDF splitter.
 [2025-10-25 16:55:54] INFO - ChunkHandler: Initializing RecursiveCharacterTextSplitter for PDF.
 [2025-10-25 16:55:54] INFO - ChunkHandler: 📘 Using text splitter for PDF or text-like content.
+[2025-10-25 17:22:24] INFO - ChunkHandler: Selected PDF splitter.
+[2025-10-25 17:22:24] INFO - ChunkHandler: Initializing RecursiveCharacterTextSplitter for PDF.
+[2025-10-25 17:22:24] INFO - ChunkHandler: 📘 Using text splitter for PDF or text-like content.
+[2025-10-25 17:24:03] INFO - ChunkHandler: Selected PDF splitter.
+[2025-10-25 17:24:03] INFO - ChunkHandler: Initializing RecursiveCharacterTextSplitter for PDF.
+[2025-10-25 17:24:03] INFO - ChunkHandler: 📘 Using text splitter for PDF or text-like content.
+[2025-10-25 17:26:09] INFO - ChunkHandler: Selected PDF splitter.
+[2025-10-25 17:26:09] INFO - ChunkHandler: Initializing RecursiveCharacterTextSplitter for PDF.
+[2025-10-25 17:26:09] INFO - ChunkHandler: 📘 Using text splitter for PDF or text-like content.
+[2025-10-25 17:33:31] INFO - ChunkHandler: Selected PDF splitter.
+[2025-10-25 17:33:31] INFO - ChunkHandler: Initializing RecursiveCharacterTextSplitter for PDF.
+[2025-10-25 17:33:31] INFO - ChunkHandler: 📘 Using text splitter for PDF or text-like content.
+[2025-10-25 17:34:05] INFO - ChunkHandler: Selected PDF splitter.
+[2025-10-25 17:34:05] INFO - ChunkHandler: Initializing RecursiveCharacterTextSplitter for PDF.
+[2025-10-25 17:34:05] INFO - ChunkHandler: 📘 Using text splitter for PDF or text-like content.
+[2025-10-25 17:34:30] INFO - ChunkHandler: Selected PDF splitter.
+[2025-10-25 17:34:30] INFO - ChunkHandler: Initializing RecursiveCharacterTextSplitter for PDF.
+[2025-10-25 17:34:30] INFO - ChunkHandler: 📘 Using text splitter for PDF or text-like content.
+[2025-10-25 21:24:16] INFO - ChunkHandler: Selected PDF splitter.
+[2025-10-25 21:24:16] INFO - ChunkHandler: Initializing RecursiveCharacterTextSplitter for PDF.
+[2025-10-25 21:24:16] INFO - ChunkHandler: 📘 Using text splitter for PDF or text-like content.
+[2025-10-25 21:26:08] INFO - ChunkHandler: Selected PDF splitter.
+[2025-10-25 21:26:08] INFO - ChunkHandler: Initializing RecursiveCharacterTextSplitter for PDF.
+[2025-10-25 21:26:08] INFO - ChunkHandler: 📘 Using text splitter for PDF or text-like content.
+[2025-10-25 21:27:09] INFO - ChunkHandler: Selected PDF splitter.
+[2025-10-25 21:27:09] INFO - ChunkHandler: Initializing RecursiveCharacterTextSplitter for PDF.
+[2025-10-25 21:27:09] INFO - ChunkHandler: 📘 Using text splitter for PDF or text-like content.
+[2025-10-25 21:30:09] INFO - ChunkHandler: Selected PDF splitter.
+[2025-10-25 21:30:09] INFO - ChunkHandler: Initializing RecursiveCharacterTextSplitter for PDF.
+[2025-10-25 21:30:09] INFO - ChunkHandler: 📘 Using text splitter for PDF or text-like content.
+[2025-10-25 21:33:47] INFO - ChunkHandler: Selected PDF splitter.
+[2025-10-25 21:33:47] INFO - ChunkHandler: Initializing RecursiveCharacterTextSplitter for PDF.
+[2025-10-25 21:33:47] INFO - ChunkHandler: 📘 Using text splitter for PDF or text-like content.
+[2025-10-25 21:52:33] INFO - ChunkHandler: Selected PDF splitter.
+[2025-10-25 21:52:33] INFO - ChunkHandler: Initializing RecursiveCharacterTextSplitter for PDF.
+[2025-10-25 21:52:33] INFO - ChunkHandler: 📘 Using text splitter for PDF or text-like content.
+[2025-10-25 21:53:05] INFO - ChunkHandler: Selected PDF splitter.
+[2025-10-25 21:53:05] INFO - ChunkHandler: Initializing RecursiveCharacterTextSplitter for PDF.
+[2025-10-25 21:53:05] INFO - ChunkHandler: 📘 Using text splitter for PDF or text-like content.
+[2025-10-25 21:53:18] INFO - ChunkHandler: Selected PDF splitter.
+[2025-10-25 21:53:18] INFO - ChunkHandler: Initializing RecursiveCharacterTextSplitter for PDF.
+[2025-10-25 21:53:18] INFO - ChunkHandler: 📘 Using text splitter for PDF or text-like content.
+[2025-10-25 21:56:44] INFO - ChunkHandler: Selected PDF splitter.
+[2025-10-25 21:56:44] INFO - ChunkHandler: Initializing RecursiveCharacterTextSplitter for PDF.
+[2025-10-25 21:56:44] INFO - ChunkHandler: 📘 Using text splitter for PDF or text-like content.
+[2025-10-25 22:16:13] INFO - ChunkHandler: Selected PDF splitter.
+[2025-10-25 22:16:13] INFO - ChunkHandler: Initializing RecursiveCharacterTextSplitter for PDF.
+[2025-10-25 22:16:13] INFO - ChunkHandler: 📘 Using text splitter for PDF or text-like content.
+[2025-10-25 22:17:37] INFO - ChunkHandler: Selected PDF splitter.
+[2025-10-25 22:17:37] INFO - ChunkHandler: Initializing RecursiveCharacterTextSplitter for PDF.
+[2025-10-25 22:17:37] INFO - ChunkHandler: 📘 Using text splitter for PDF or text-like content.
+[2025-10-25 22:21:59] INFO - ChunkHandler: Selected PDF splitter.
+[2025-10-25 22:21:59] INFO - ChunkHandler: Initializing RecursiveCharacterTextSplitter for PDF.
+[2025-10-25 22:21:59] INFO - ChunkHandler: 📘 Using text splitter for PDF or text-like content.
+[2025-10-25 22:27:13] INFO - ChunkHandler: Selected PDF splitter.
+[2025-10-25 22:27:13] INFO - ChunkHandler: Initializing RecursiveCharacterTextSplitter for PDF.
+[2025-10-25 22:27:13] INFO - ChunkHandler: 📘 Using text splitter for PDF or text-like content.
+[2025-10-25 22:31:20] INFO - ChunkHandler: Selected PDF splitter.
+[2025-10-25 22:31:20] INFO - ChunkHandler: Initializing RecursiveCharacterTextSplitter for PDF.
+[2025-10-25 22:31:20] INFO - ChunkHandler: 📘 Using text splitter for PDF or text-like content.

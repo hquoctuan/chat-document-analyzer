@@ -1,0 +1,72 @@
+/* ======== General Layout ======== */
+.main-header {
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+    color: rgb(236, 210, 189);
+    padding: 1.2rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+/* ======== Sidebar ======== */
+.css-1d391kg, .css-163ttbj {
+    background-color: #f8f9fa;
+}
+.stButton button {
+    width: 100%;
+    background: #f0f0f0;
+    color: #000;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 10px;
+    margin: 4px 0;
+    text-align: left;
+    cursor: pointer;
+}
+.stButton button:hover {
+    background: #e9e8ce;
+}
+
+/* Dropdown in sidebar */
+.stSelectbox {
+    margin-top: 7px;
+}
+.stSelectbox > div > div {
+    padding: 2px;
+    border: none;
+    background: transparent;
+}
+.stSelectbox > div > div > div:last-child {
+    display: none;
+}
+[data-testid="column"] {
+    padding: 0 !important;
+}
+
+/* ======== Chat Message Styling ======== */
+.user-message {
+    background-color: #6c92d4;
+    border-left: 4px solid #4b6cb7;
+    padding: 10px 14px;
+    border-radius: 8px;
+    margin-bottom: 0.8rem;
+}
+.assistant-message {
+    background-color: #d1e58e;
+    border-left: 4px solid #28a745;
+    padding: 10px 14px;
+    border-radius: 8px;
+    margin-bottom: 0.8rem;
+}
+
+/* ======== Input Field ======== */
+.stTextInput > div > div > input {
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    border: 2px solid #e0e0e0;
+    transition: border 0.3s;
+}
+.stTextInput > div > div > input:focus {
+    border: 2px solid #4b6cb7;
+    box-shadow: 0 0 0 2px rgba(75, 108, 183, 0.2);
+}

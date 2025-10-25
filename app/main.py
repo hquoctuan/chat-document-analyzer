@@ -1,128 +1,167 @@
-import os, sys, time
+import sys
 import streamlit as st
+import time
+import os
 
-# Cấu hình đường dẫn dự án
+# Path run
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from app.handler.chat_session_manager import ChatSessionManager
+from app.handler.chat_session_handler import ChatSessionHandler
 
-# ==============================
-# ⚙️ 1. Cấu hình ban đầu
-# ==============================
-st.set_page_config(
-    page_title="📚 Chat Document Analyzer",
-    layout="wide",
-    page_icon="💬"
-)
 
-# ==============================
-# 🧭 2. Khởi tạo ChatSessionManager
-# ==============================
-USER_ID = "demo_user"
-manager = ChatSessionManager(user_id=USER_ID)
+#Congifg
 
-# ==============================
-# 🎨 3. Sidebar: Quản lý các đoạn chat
-# ==============================
-st.sidebar.title("💬 Chat Sessions")
+st.set_page_config(page_title="Document Analyzer Chatbot", page_icon="🤖", layout="wide")
+# CSS load
+css_path = os.path.join(os.path.dirname(__file__), "static", "style.css")
 
-# Nút tạo đoạn chat mới
-if st.sidebar.button("➕ New Chat", use_container_width=True):
-    session_id = manager.create_session()
-    st.session_state["current_session"] = session_id
-    st.rerun()
-
-# Lấy danh sách các session
-sessions = manager.list_sessions()
-
-# Nếu có session
-if sessions:
-    options =  [s['title'] for s in sessions]
-    selected = st.sidebar.radio("Select a conversation:", options)
-    idx = options.index(selected)
-    session_id = sessions[idx].get("id") or sessions[idx].get("session_id")
+if os.path.exists(css_path):
+    with open(css_path) as f:
+        st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 else:
-    session_id = st.session_state.get("current_session")
+    st.warning("⚠️ CSS file not found: static/style.css")
 
-# ==============================
-# 📂 4. Load hoặc tạo mới session
-# ==============================
-if not session_id:
-    st.markdown(
-        """
-        <div style='text-align: center; padding-top: 100px;'>
-            <h1>🤖 <b>Chat Document Analyzer</b></h1>
-            <p>Start a new chat or select one from the sidebar</p>
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
-    st.stop()
+USER_ID = "demo"
+BASE_DIR = "data/sessions"
 
-# Nạp ChatHandler cho session hiện tại
-handler = manager.load_session(session_id)
+# ==========================================
+# Intinilize session state
+# ==========================================
+if "chat_sessions" not in st.session_state:
+    st.session_state.chat_sessions = ChatSessionHandler.list_user_sessions(USER_ID)
 
-# ==============================
-# 📎 5. Upload tài liệu vào session
-# ==============================
-st.sidebar.markdown("---")
-st.sidebar.subheader("📎 Add Document")
+# ChatSessionHandler mặc định để tránh tạo session thừa
+if "chat_obj" not in st.session_state:
+    st.session_state.chat_obj = None  # chỉ tạo khi user upload hoặc nhập prompt
 
-uploaded_file = st.sidebar.file_uploader("Upload CSV or PDF", type=["csv", "pdf"])
-if uploaded_file:
-    file_path = os.path.join(handler.session_dir, uploaded_file.name)
-    with open(file_path, "wb") as f:
-        f.write(uploaded_file.getbuffer())
-    st.sidebar.success(f"✅ Uploaded: {uploaded_file.name}")
+# ==========================================
+# 🧩 Sidebar – Danh sách chat
+# ==========================================
+with st.sidebar:
+    st.title("💬 Chat Sessions")
 
-    with st.spinner("Building Vector Database..."):
-        handler.file_process(file_path)
-        st.sidebar.success("🧠 Vector Store ready!")
+    if st.button("New Chat", use_container_width=True):
+        # Chỉ reset context, KHÔNG tạo session mới ngay lập tức
+        st.session_state.chat_obj = None
+        # Cập nhật danh sách sessions (không thêm session mới)
+        st.session_state.chat_sessions = ChatSessionHandler.list_user_sessions(USER_ID)
+        st.rerun()
 
-# ==============================
-# 💬 6. Giao diện chính Chatbot
-# ==============================
-st.markdown(
-    """
-    <div style='text-align:center; padding: 10px 0;'>
-        <h2>🤖 <b>DocuMind Assistant</b></h2>
-        <p style='color: gray;'>Your intelligent assistant for document-based Q&A</p>
-    </div>
-    """,
-    unsafe_allow_html=True
-)
+    st.markdown("---")
+    sessions = st.session_state.chat_sessions
 
-# Hiển thị lịch sử chat
-if handler.memory.chat_memory.messages:
-    for msg in handler.memory.chat_memory.messages:
-        if msg.type == "human":
-            st.chat_message("user").write(msg.content)
+    if not sessions:
+        st.info("No chat session.")
+    else:
+        for s in sessions:
+            session_id = s.get("session_id")
+            title = s.get("title", "Untitled")
+
+            col1, col2 = st.columns([0.8, 0.2])
+            if col1.button(title, key=f"open_{session_id}", use_container_width=True):
+                # Load lại session cũ
+                chat = ChatSessionHandler(user_id=USER_ID, session_id=session_id)
+                chat.load_chat_history()
+
+                # Khôi phục lại engine từ vector_store cũ
+                restored = chat.load_engine_from_disk()
+                if not restored:
+                    st.warning(" Không thể khôi phục engine, cần upload lại file.")
+                st.session_state.chat_obj = chat
+                st.rerun()
+
+            if col2.button("🗑️", key=f"delete_{session_id}", help="Delete this chat session"):
+                # Xóa session được chọn
+                ChatSessionHandler(user_id=USER_ID, session_id=session_id).detete_session()
+
+                # Nếu session hiện tại bị xóa → loại bỏ nó, KHÔNG tạo new chat tự động
+                if (
+                    "chat_obj" in st.session_state
+                    and st.session_state.chat_obj
+                    and st.session_state.chat_obj.session_id == session_id
+                ):
+                    del st.session_state.chat_obj  
+                # Cập nhật danh sách sessions hiển thị
+                st.session_state.chat_sessions = ChatSessionHandler.list_user_sessions(USER_ID)
+                st.rerun()
+
+# ==========================================
+# Main UI
+# ==========================================
+chat_obj: ChatSessionHandler = st.session_state.chat_obj
+
+# Nếu chưa có chat_obj (chưa tạo session), hiển thị tiêu đề mặc định
+if chat_obj is not None:
+    meta = chat_obj.get_metadata()
+else:
+    meta = {"title": "New Chat", "file_uploaded": False}
+
+st.markdown("<h2 style='text-align:center;'>🤖 Chat Document Analyzer </h2>", unsafe_allow_html=True)
+st.markdown(f"<p style='text-align:center;'> In chat session: <b>{meta.get('title', 'New Chat')}</b></p>", unsafe_allow_html=True)
+st.markdown("---")
+
+
+# 📎 Upload file (chỉ khi chưa có)
+
+if not meta.get("file_uploaded", False):
+    uploaded_file = st.file_uploader("📂 Upload file to chat", type=["pdf", "csv"])
+    if uploaded_file:
+        # 🔸 Chỉ khi user upload mới tạo session
+        if chat_obj is None:
+            st.session_state.chat_obj = ChatSessionHandler(user_id=USER_ID)
+            chat_obj = st.session_state.chat_obj
+
+        temp_dir = os.path.join(BASE_DIR, "temp")
+        os.makedirs(temp_dir, exist_ok=True)
+        temp_path = os.path.join(temp_dir, uploaded_file.name)
+        with open(temp_path, "wb") as f:
+            f.write(uploaded_file.getbuffer())
+
+        with st.spinner("⚙️ Process data..."):
+            success = chat_obj.file_process(temp_path)
+
+        os.remove(temp_path)
+        if success:
+            st.success("✅ Successful procesing data!")
+            # Sau khi xử lý xong, cập nhật meta và danh sách sessions
+            st.session_state.chat_sessions = ChatSessionHandler.list_user_sessions(USER_ID)
+            st.rerun()
         else:
-            st.chat_message("assistant").write(msg.content)
-else:
-    st.info("No chat yet — upload a document and start asking questions!")
+            st.error("❌Fail, please try again.")
 
-# ==============================
-# 🧠 7. Chat input
-# ==============================
-query = st.chat_input("Ask something about your document...")
 
-if query:
-    st.chat_message("user").write(query)
+#Streaming
+
+# Hiển thị lại lịch sử chat nếu đã có session
+if chat_obj is not None:
+    for msg in chat_obj.memory.chat_memory.messages:
+        with st.chat_message(msg.type):
+            st.markdown(msg.content)
+
+prompt = st.chat_input(" Enter your message...")
+
+if prompt:
+    # 🔸 Chỉ khi user nhập prompt mới tạo session (nếu chưa có)
+    if chat_obj is None:
+        st.session_state.chat_obj = ChatSessionHandler(user_id=USER_ID)
+        chat_obj = st.session_state.chat_obj
+        meta = chat_obj.get_metadata()
+
+    if not meta.get("file_uploaded", False):
+        st.warning("⚠️ Please upload document.")
+        st.stop()
+
+    is_first = not chat_obj.memory.chat_memory.messages
+
+    with st.chat_message("user"):
+        st.markdown(prompt)
 
     with st.chat_message("assistant"):
-        with st.spinner("Thinking..."):
-            answer = handler.ask(query)
-            st.write(answer)
+        placeholder = st.empty()
+        st.write_stream(chat_obj.stream_chat(prompt, placeholder))
 
-    # Nếu là câu hỏi đầu tiên → sinh tiêu đề
-    if len(handler.memory.chat_memory.messages) <= 2:
-        manager.summarize_title(session_id, query)
-
-# ==============================
-# 🗑️ 8. Delete chat
-# ==============================
-st.sidebar.markdown("---")
-if st.sidebar.button("🗑️ Delete this chat", use_container_width=True):
-    manager.delete_session(session_id)
-    st.success("Chat deleted successfully.")
-    st.rerun()
+    if is_first:
+        chat_obj.summarize_title(prompt)
+        st.session_state.chat_sessions = ChatSessionHandler.list_user_sessions(USER_ID)
+        st.rerun()
+    else:
+        st.rerun()

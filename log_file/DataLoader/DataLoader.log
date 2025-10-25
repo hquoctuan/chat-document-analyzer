@@ -134,3 +134,147 @@ RuntimeError: Error loading data/sessions\user_demo\session_1761320801.8150108\u
 [2025-10-25 16:55:07] INFO - DataLoader: Successfully loaded file: data/sessions\user_demo\session_1761386067.850313\uploads\CV_AI_Intern_HoQuocTuan.pdf
 [2025-10-25 16:55:54] INFO - DataLoader:  Loaded 31 pages from PDF: Nhom14_Final_Test.pdf
 [2025-10-25 16:55:54] INFO - DataLoader: Successfully loaded file: data/sessions\user_demo\session_1761386143.4333668\uploads\Nhom14_Final_Test.pdf
+[2025-10-25 17:10:45] ERROR - DataLoader: ❌ Error loading CSV file data/sessions\user_demo\session_1761387013.027782\uploads\billboard.csv: Error loading data/sessions\user_demo\session_1761387013.027782\uploads\billboard.csv
+Traceback (most recent call last):
+  File "D:\LangChain\Git_chat_document\chat-document-analyzer\.venv\Lib\site-packages\langchain_community\document_loaders\csv_loader.py", line 135, in lazy_load
+    yield from self.__read_file(csvfile)
+  File "D:\LangChain\Git_chat_document\chat-document-analyzer\.venv\Lib\site-packages\langchain_community\document_loaders\csv_loader.py", line 155, in __read_file
+    for i, row in enumerate(csv_reader):
+  File "C:\Users\Quoc Tuan\AppData\Local\Programs\Python\Python311\Lib\csv.py", line 110, in __next__
+    self.fieldnames
+  File "C:\Users\Quoc Tuan\AppData\Local\Programs\Python\Python311\Lib\csv.py", line 97, in fieldnames
+    self._fieldnames = next(self.reader)
+                       ^^^^^^^^^^^^^^^^^
+  File "<frozen codecs>", line 322, in decode
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa1 in position 7614: invalid start byte
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\LangChain\Git_chat_document\chat-document-analyzer\app\core\data_loader.py", line 52, in _load_csv
+    docs = loader.load()
+           ^^^^^^^^^^^^^
+  File "D:\LangChain\Git_chat_document\chat-document-analyzer\.venv\Lib\site-packages\langchain_core\document_loaders\base.py", line 43, in load
+    return list(self.lazy_load())
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LangChain\Git_chat_document\chat-document-analyzer\.venv\Lib\site-packages\langchain_community\document_loaders\csv_loader.py", line 149, in lazy_load
+    raise RuntimeError(f"Error loading {self.file_path}") from e
+RuntimeError: Error loading data/sessions\user_demo\session_1761387013.027782\uploads\billboard.csv
+[2025-10-25 17:13:29] ERROR - DataLoader: ❌ Error loading CSV file data/sessions\user_demo\session_1761387172.2740664\uploads\billboard.csv: Error loading data/sessions\user_demo\session_1761387172.2740664\uploads\billboard.csv
+Traceback (most recent call last):
+  File "D:\LangChain\Git_chat_document\chat-document-analyzer\.venv\Lib\site-packages\langchain_community\document_loaders\csv_loader.py", line 135, in lazy_load
+    yield from self.__read_file(csvfile)
+  File "D:\LangChain\Git_chat_document\chat-document-analyzer\.venv\Lib\site-packages\langchain_community\document_loaders\csv_loader.py", line 155, in __read_file
+    for i, row in enumerate(csv_reader):
+  File "C:\Users\Quoc Tuan\AppData\Local\Programs\Python\Python311\Lib\csv.py", line 110, in __next__
+    self.fieldnames
+  File "C:\Users\Quoc Tuan\AppData\Local\Programs\Python\Python311\Lib\csv.py", line 97, in fieldnames
+    self._fieldnames = next(self.reader)
+                       ^^^^^^^^^^^^^^^^^
+  File "<frozen codecs>", line 322, in decode
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa1 in position 7614: invalid start byte
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\LangChain\Git_chat_document\chat-document-analyzer\app\core\data_loader.py", line 52, in _load_csv
+    docs = loader.load()
+           ^^^^^^^^^^^^^
+  File "D:\LangChain\Git_chat_document\chat-document-analyzer\.venv\Lib\site-packages\langchain_core\document_loaders\base.py", line 43, in load
+    return list(self.lazy_load())
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LangChain\Git_chat_document\chat-document-analyzer\.venv\Lib\site-packages\langchain_community\document_loaders\csv_loader.py", line 149, in lazy_load
+    raise RuntimeError(f"Error loading {self.file_path}") from e
+RuntimeError: Error loading data/sessions\user_demo\session_1761387172.2740664\uploads\billboard.csv
+[2025-10-25 17:15:42] ERROR - DataLoader: ❌ Error loading CSV file data/sessions\user_demo\session_1761387305.1770453\uploads\billboard.csv: Error loading data/sessions\user_demo\session_1761387305.1770453\uploads\billboard.csv
+Traceback (most recent call last):
+  File "D:\LangChain\Git_chat_document\chat-document-analyzer\.venv\Lib\site-packages\langchain_community\document_loaders\csv_loader.py", line 135, in lazy_load
+    yield from self.__read_file(csvfile)
+  File "D:\LangChain\Git_chat_document\chat-document-analyzer\.venv\Lib\site-packages\langchain_community\document_loaders\csv_loader.py", line 155, in __read_file
+    for i, row in enumerate(csv_reader):
+  File "C:\Users\Quoc Tuan\AppData\Local\Programs\Python\Python311\Lib\csv.py", line 110, in __next__
+    self.fieldnames
+  File "C:\Users\Quoc Tuan\AppData\Local\Programs\Python\Python311\Lib\csv.py", line 97, in fieldnames
+    self._fieldnames = next(self.reader)
+                       ^^^^^^^^^^^^^^^^^
+  File "<frozen codecs>", line 322, in decode
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa1 in position 7614: invalid start byte
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\LangChain\Git_chat_document\chat-document-analyzer\app\core\data_loader.py", line 52, in _load_csv
+    docs = loader.load()
+           ^^^^^^^^^^^^^
+  File "D:\LangChain\Git_chat_document\chat-document-analyzer\.venv\Lib\site-packages\langchain_core\document_loaders\base.py", line 43, in load
+    return list(self.lazy_load())
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LangChain\Git_chat_document\chat-document-analyzer\.venv\Lib\site-packages\langchain_community\document_loaders\csv_loader.py", line 149, in lazy_load
+    raise RuntimeError(f"Error loading {self.file_path}") from e
+RuntimeError: Error loading data/sessions\user_demo\session_1761387305.1770453\uploads\billboard.csv
+[2025-10-25 17:22:00] ERROR - DataLoader: ❌ Error loading CSV file data/sessions\user_demo\session_1761387708.2495747\uploads\billboard.csv: Error loading data/sessions\user_demo\session_1761387708.2495747\uploads\billboard.csv
+Traceback (most recent call last):
+  File "D:\LangChain\Git_chat_document\chat-document-analyzer\.venv\Lib\site-packages\langchain_community\document_loaders\csv_loader.py", line 135, in lazy_load
+    yield from self.__read_file(csvfile)
+  File "D:\LangChain\Git_chat_document\chat-document-analyzer\.venv\Lib\site-packages\langchain_community\document_loaders\csv_loader.py", line 155, in __read_file
+    for i, row in enumerate(csv_reader):
+  File "C:\Users\Quoc Tuan\AppData\Local\Programs\Python\Python311\Lib\csv.py", line 110, in __next__
+    self.fieldnames
+  File "C:\Users\Quoc Tuan\AppData\Local\Programs\Python\Python311\Lib\csv.py", line 97, in fieldnames
+    self._fieldnames = next(self.reader)
+                       ^^^^^^^^^^^^^^^^^
+  File "<frozen codecs>", line 322, in decode
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa1 in position 7614: invalid start byte
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\LangChain\Git_chat_document\chat-document-analyzer\app\core\data_loader.py", line 52, in _load_csv
+    docs = loader.load()
+           ^^^^^^^^^^^^^
+  File "D:\LangChain\Git_chat_document\chat-document-analyzer\.venv\Lib\site-packages\langchain_core\document_loaders\base.py", line 43, in load
+    return list(self.lazy_load())
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LangChain\Git_chat_document\chat-document-analyzer\.venv\Lib\site-packages\langchain_community\document_loaders\csv_loader.py", line 149, in lazy_load
+    raise RuntimeError(f"Error loading {self.file_path}") from e
+RuntimeError: Error loading data/sessions\user_demo\session_1761387708.2495747\uploads\billboard.csv
+[2025-10-25 17:22:24] INFO - DataLoader:  Loaded 2 pages from PDF: CV_AI_Intern_HoQuocTuan.pdf
+[2025-10-25 17:22:24] INFO - DataLoader: Successfully loaded file: data/sessions\user_demo\session_1761387708.2495747\uploads\CV_AI_Intern_HoQuocTuan.pdf
+[2025-10-25 17:24:03] INFO - DataLoader:  Loaded 2 pages from PDF: CV_HoQocTuan_AIintern.pdf
+[2025-10-25 17:24:03] INFO - DataLoader: Successfully loaded file: data/sessions\user_demo\session_1761387836.5087395\uploads\CV_HoQocTuan_AIintern.pdf
+[2025-10-25 17:26:09] INFO - DataLoader:  Loaded 2 pages from PDF: CV_HoQocTuan_AIintern.pdf
+[2025-10-25 17:26:09] INFO - DataLoader: Successfully loaded file: data/sessions\user_demo\session_1761387836.5087395\uploads\CV_HoQocTuan_AIintern.pdf
+[2025-10-25 17:33:31] INFO - DataLoader:  Loaded 2 pages from PDF: CV_AI_Intern_HoQuocTuan.pdf
+[2025-10-25 17:33:31] INFO - DataLoader: Successfully loaded file: data/sessions\user_demo\session_1761388410.59934\uploads\CV_AI_Intern_HoQuocTuan.pdf
+[2025-10-25 17:34:05] INFO - DataLoader:  Loaded 16 pages from PDF: HBVUOTKHO_21110435.pdf
+[2025-10-25 17:34:05] INFO - DataLoader: Successfully loaded file: data/sessions\user_demo\session_1761388444.8444772\uploads\HBVUOTKHO_21110435.pdf
+[2025-10-25 17:34:30] INFO - DataLoader:  Loaded 2 pages from PDF: CV_AI_Intern_HoQuocTuan.pdf
+[2025-10-25 17:34:30] INFO - DataLoader: Successfully loaded file: data/sessions\user_demo\session_1761388410.59934\uploads\CV_AI_Intern_HoQuocTuan.pdf
+[2025-10-25 21:24:16] INFO - DataLoader:  Loaded 90 pages from PDF: chuyen-de-xac-suat-co-dieu-kien-toan-12 (1).pdf
+[2025-10-25 21:24:16] INFO - DataLoader: Successfully loaded file: data/sessions\user_demo\session_1761402252.7114263\uploads\chuyen-de-xac-suat-co-dieu-kien-toan-12 (1).pdf
+[2025-10-25 21:26:08] INFO - DataLoader:  Loaded 81 pages from PDF: Lec_05_Backprop.pdf
+[2025-10-25 21:26:08] INFO - DataLoader: Successfully loaded file: data/sessions\user_demo\session_1761402366.7996178\uploads\Lec_05_Backprop.pdf
+[2025-10-25 21:27:09] INFO - DataLoader:  Loaded 90 pages from PDF: chuyen-de-xac-suat-co-dieu-kien-toan-12 (1).pdf
+[2025-10-25 21:27:09] INFO - DataLoader: Successfully loaded file: data/sessions\user_demo\session_1761402252.7114263\uploads\chuyen-de-xac-suat-co-dieu-kien-toan-12 (1).pdf
+[2025-10-25 21:30:09] INFO - DataLoader:  Loaded 1 pages from PDF: KHTNVTP202102977981230.pdf
+[2025-10-25 21:30:09] INFO - DataLoader: Successfully loaded file: data/sessions\user_demo\session_1761402609.026433\uploads\KHTNVTP202102977981230.pdf
+[2025-10-25 21:33:47] INFO - DataLoader:  Loaded 1 pages from PDF: KHTNVTP202102977981230.pdf
+[2025-10-25 21:33:47] INFO - DataLoader: Successfully loaded file: data/sessions\user_demo\session_1761402609.026433\uploads\KHTNVTP202102977981230.pdf
+[2025-10-25 21:52:33] INFO - DataLoader:  Loaded 1 pages from PDF: KHTNVTP202102977981230.pdf
+[2025-10-25 21:52:33] INFO - DataLoader: Successfully loaded file: data/sessions\user_demo\session_1761402609.026433\uploads\KHTNVTP202102977981230.pdf
+[2025-10-25 21:53:05] INFO - DataLoader:  Loaded 81 pages from PDF: Lec_05_Backprop.pdf
+[2025-10-25 21:53:05] INFO - DataLoader: Successfully loaded file: data/sessions\user_demo\session_1761402366.7996178\uploads\Lec_05_Backprop.pdf
+[2025-10-25 21:53:18] INFO - DataLoader:  Loaded 90 pages from PDF: chuyen-de-xac-suat-co-dieu-kien-toan-12 (1).pdf
+[2025-10-25 21:53:18] INFO - DataLoader: Successfully loaded file: data/sessions\user_demo\session_1761402252.7114263\uploads\chuyen-de-xac-suat-co-dieu-kien-toan-12 (1).pdf
+[2025-10-25 21:56:44] INFO - DataLoader:  Loaded 3 pages from PDF: exam_power_BI_1 (1).pdf
+[2025-10-25 21:56:44] INFO - DataLoader: Successfully loaded file: data/sessions\user_demo\session_1761404204.3057997\uploads\exam_power_BI_1 (1).pdf
+[2025-10-25 22:16:13] INFO - DataLoader:  Loaded 38 pages from PDF: Seminar_Report.pdf
+[2025-10-25 22:16:13] INFO - DataLoader: Successfully loaded file: data/sessions\user_demo\session_1761405354.1466055\uploads\Seminar_Report.pdf
+[2025-10-25 22:17:37] INFO - DataLoader:  Loaded 16 pages from PDF: HBVUOTKHO_21110435.pdf
+[2025-10-25 22:17:37] INFO - DataLoader: Successfully loaded file: data/sessions\user_demo\session_1761405457.176976\uploads\HBVUOTKHO_21110435.pdf
+[2025-10-25 22:21:59] INFO - DataLoader:  Loaded 2 pages from PDF: USEFUL LANGUAGE FOR WRITING AN OPINION PARAGRAPH.pdf
+[2025-10-25 22:21:59] INFO - DataLoader: Successfully loaded file: data/sessions\user_demo\session_1761405718.5045736\uploads\USEFUL LANGUAGE FOR WRITING AN OPINION PARAGRAPH.pdf
+[2025-10-25 22:27:13] INFO - DataLoader:  Loaded 2 pages from PDF: CV_AI_Intern_HoQuocTuan.pdf
+[2025-10-25 22:27:13] INFO - DataLoader: Successfully loaded file: data/sessions\user_demo\session_1761406033.302943\uploads\CV_AI_Intern_HoQuocTuan.pdf
+[2025-10-25 22:31:20] INFO - DataLoader:  Loaded 13 pages from PDF: 21110435_HoQuocTuan_LTNet Lab04.pdf
+[2025-10-25 22:31:20] INFO - DataLoader: Successfully loaded file: data/sessions\user_demo\session_1761406279.6388128\uploads\21110435_HoQuocTuan_LTNet Lab04.pdf
