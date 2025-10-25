@@ -1,205 +1,103 @@
-[2025-10-22 15:44:58] INFO - VectorStore:  Loaded FAISS index from data/vector_store\faiss_index
-[2025-10-22 15:48:03] INFO - VectorStore: FAISS saved in data/vector_store\faiss_index
-[2025-10-22 15:50:46] INFO - VectorStore: FAISS saved in data\session_demo_1761123025\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 15:50:46] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761123025\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:04:38] INFO - VectorStore: FAISS saved in data\session_demo_1761123865\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:04:38] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761123865\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:05:37] INFO - VectorStore: FAISS saved in data\session_demo_1761123865\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:05:37] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761123865\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:06:20] INFO - VectorStore: FAISS saved in data\session_demo_1761123865\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:06:20] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761123865\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:16:36] INFO - VectorStore: FAISS saved in data\session_demo_1761124588\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:16:36] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761124588\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:16:45] INFO - VectorStore: FAISS saved in data\session_demo_1761124588\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:16:45] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761124588\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:17:12] INFO - VectorStore: FAISS saved in data\session_demo_1761124588\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:17:12] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761124588\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:17:12] INFO - VectorStore: FAISS saved in data\session_demo_1761124588\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:17:12] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761124588\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:19:55] INFO - VectorStore: FAISS saved in data\session_demo_1761124790\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:19:55] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761124790\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:20:16] INFO - VectorStore: FAISS saved in data\session_demo_1761124790\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:20:16] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761124790\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:20:21] INFO - VectorStore: FAISS saved in data\session_demo_1761124790\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:20:21] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761124790\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:20:34] INFO - VectorStore: FAISS saved in data\session_demo_1761124790\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:20:34] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761124790\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:21:24] INFO - VectorStore: FAISS saved in data\session_demo_1761124790\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:21:24] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761124790\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:21:30] INFO - VectorStore: FAISS saved in data\session_demo_1761124790\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:21:30] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761124790\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:21:43] INFO - VectorStore: FAISS saved in data\session_demo_1761124790\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:21:43] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761124790\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:21:50] INFO - VectorStore: FAISS saved in data\session_demo_1761124790\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:21:50] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761124790\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:22:14] INFO - VectorStore: FAISS saved in data\session_demo_1761124790\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:22:14] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761124790\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:22:20] INFO - VectorStore: FAISS saved in data\session_demo_1761124790\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:22:20] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761124790\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:23:01] INFO - VectorStore: FAISS saved in data\session_demo_1761124790\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:23:01] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761124790\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:23:06] INFO - VectorStore: FAISS saved in data\session_demo_1761124790\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:23:06] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761124790\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:23:55] INFO - VectorStore: FAISS saved in data\session_demo_1761124790\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:23:55] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761124790\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:23:55] INFO - VectorStore: FAISS saved in data\session_demo_1761124790\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:23:55] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761124790\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:24:22] INFO - VectorStore: FAISS saved in data\session_demo_1761124790\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:24:22] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761124790\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:24:22] INFO - VectorStore: FAISS saved in data\session_demo_1761124790\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:24:22] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761124790\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:24:39] INFO - VectorStore: FAISS saved in data\session_demo_1761124790\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:24:39] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761124790\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:24:39] INFO - VectorStore: FAISS saved in data\session_demo_1761124790\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:24:39] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761124790\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:24:59] INFO - VectorStore: FAISS saved in data\session_demo_1761124790\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:24:59] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761124790\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:24:59] INFO - VectorStore: FAISS saved in data\session_demo_1761124790\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:24:59] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761124790\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:25:16] INFO - VectorStore: FAISS saved in data\session_demo_1761124790\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:25:16] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761124790\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:32:09] INFO - VectorStore: FAISS saved in data\session_demo_1761125513\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:32:09] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761125513\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:32:58] INFO - VectorStore: FAISS saved in data\session_demo_1761125513\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:32:58] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761125513\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:33:19] INFO - VectorStore: FAISS saved in data\session_demo_1761125513\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:33:19] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761125513\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:33:32] INFO - VectorStore: FAISS saved in data\session_demo_1761125513\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:33:32] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761125513\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:37:29] INFO - VectorStore: FAISS saved in data\session_demo_1761125831\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:37:29] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761125831\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 16:52:49] INFO - VectorStore: FAISS saved in data\session_demo_1761126328\258b04fa82729c4eb607e988c66f669d\vector_store\faiss_index
-[2025-10-22 16:52:50] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761126328\258b04fa82729c4eb607e988c66f669d\vector_store\faiss_index
-[2025-10-22 17:11:49] INFO - VectorStore: FAISS saved in data\session_demo_1761127787\ad12adef468f906ddcb6380b25d61bde\vector_store\faiss_index
-[2025-10-22 17:11:49] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761127787\ad12adef468f906ddcb6380b25d61bde\vector_store\faiss_index
-[2025-10-22 17:12:42] INFO - VectorStore: FAISS saved in data\session_demo_1761127787\ad12adef468f906ddcb6380b25d61bde\vector_store\faiss_index
-[2025-10-22 17:12:42] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761127787\ad12adef468f906ddcb6380b25d61bde\vector_store\faiss_index
-[2025-10-22 17:13:05] INFO - VectorStore: FAISS saved in data\session_demo_1761127787\ad12adef468f906ddcb6380b25d61bde\vector_store\faiss_index
-[2025-10-22 17:13:05] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761127787\ad12adef468f906ddcb6380b25d61bde\vector_store\faiss_index
-[2025-10-22 17:16:21] INFO - VectorStore: FAISS saved in data\session_demo_1761128115\ad12adef468f906ddcb6380b25d61bde\vector_store\faiss_index
-[2025-10-22 17:16:22] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761128115\ad12adef468f906ddcb6380b25d61bde\vector_store\faiss_index
-[2025-10-22 17:16:44] INFO - VectorStore: FAISS saved in data\session_demo_1761128115\ad12adef468f906ddcb6380b25d61bde\vector_store\faiss_index
-[2025-10-22 17:16:44] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761128115\ad12adef468f906ddcb6380b25d61bde\vector_store\faiss_index
-[2025-10-22 17:17:06] INFO - VectorStore: FAISS saved in data\session_demo_1761128115\ad12adef468f906ddcb6380b25d61bde\vector_store\faiss_index
-[2025-10-22 17:17:06] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761128115\ad12adef468f906ddcb6380b25d61bde\vector_store\faiss_index
-[2025-10-22 17:17:43] INFO - VectorStore: FAISS saved in data\session_demo_1761128115\ad12adef468f906ddcb6380b25d61bde\vector_store\faiss_index
-[2025-10-22 17:17:43] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761128115\ad12adef468f906ddcb6380b25d61bde\vector_store\faiss_index
-[2025-10-22 17:18:22] INFO - VectorStore: FAISS saved in data\session_demo_1761128115\ad12adef468f906ddcb6380b25d61bde\vector_store\faiss_index
-[2025-10-22 17:18:22] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761128115\ad12adef468f906ddcb6380b25d61bde\vector_store\faiss_index
-[2025-10-22 17:19:20] INFO - VectorStore: FAISS saved in data\session_demo_1761128115\ad12adef468f906ddcb6380b25d61bde\vector_store\faiss_index
-[2025-10-22 17:19:20] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761128115\ad12adef468f906ddcb6380b25d61bde\vector_store\faiss_index
-[2025-10-22 17:21:40] INFO - VectorStore: FAISS saved in data\session_demo_1761128115\ad12adef468f906ddcb6380b25d61bde\vector_store\faiss_index
-[2025-10-22 17:21:40] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761128115\ad12adef468f906ddcb6380b25d61bde\vector_store\faiss_index
-[2025-10-22 17:22:34] INFO - VectorStore: FAISS saved in data\session_demo_1761128115\ad12adef468f906ddcb6380b25d61bde\vector_store\faiss_index
-[2025-10-22 17:22:34] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761128115\ad12adef468f906ddcb6380b25d61bde\vector_store\faiss_index
-[2025-10-22 17:24:10] INFO - VectorStore: FAISS saved in data\session_demo_1761128115\ad12adef468f906ddcb6380b25d61bde\vector_store\faiss_index
-[2025-10-22 17:24:10] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761128115\ad12adef468f906ddcb6380b25d61bde\vector_store\faiss_index
-[2025-10-22 17:25:09] INFO - VectorStore: FAISS saved in data\session_demo_1761128115\ad12adef468f906ddcb6380b25d61bde\vector_store\faiss_index
-[2025-10-22 17:25:09] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761128115\ad12adef468f906ddcb6380b25d61bde\vector_store\faiss_index
-[2025-10-22 17:26:14] INFO - VectorStore: FAISS saved in data\session_demo_1761128115\ad12adef468f906ddcb6380b25d61bde\vector_store\faiss_index
-[2025-10-22 17:26:14] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761128115\ad12adef468f906ddcb6380b25d61bde\vector_store\faiss_index
-[2025-10-22 17:27:04] INFO - VectorStore: FAISS saved in data\session_demo_1761128115\ad12adef468f906ddcb6380b25d61bde\vector_store\faiss_index
-[2025-10-22 17:27:04] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761128115\ad12adef468f906ddcb6380b25d61bde\vector_store\faiss_index
-[2025-10-22 17:41:17] INFO - VectorStore: FAISS saved in data\session_demo_1761129664\76a41c644c069c01f686bd7e64095577\vector_store\faiss_index
-[2025-10-22 17:41:17] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761129664\76a41c644c069c01f686bd7e64095577\vector_store\faiss_index
-[2025-10-22 17:41:47] INFO - VectorStore: FAISS saved in data\session_demo_1761129664\76a41c644c069c01f686bd7e64095577\vector_store\faiss_index
-[2025-10-22 17:41:47] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761129664\76a41c644c069c01f686bd7e64095577\vector_store\faiss_index
-[2025-10-22 17:42:14] INFO - VectorStore: FAISS saved in data\session_demo_1761129664\76a41c644c069c01f686bd7e64095577\vector_store\faiss_index
-[2025-10-22 17:42:14] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761129664\76a41c644c069c01f686bd7e64095577\vector_store\faiss_index
-[2025-10-22 17:42:49] INFO - VectorStore: FAISS saved in data\session_demo_1761129664\76a41c644c069c01f686bd7e64095577\vector_store\faiss_index
-[2025-10-22 17:42:49] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761129664\76a41c644c069c01f686bd7e64095577\vector_store\faiss_index
-[2025-10-22 17:43:19] INFO - VectorStore: FAISS saved in data\session_demo_1761129664\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 17:43:19] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761129664\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 17:43:52] INFO - VectorStore: FAISS saved in data\session_demo_1761129664\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 17:43:52] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761129664\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 17:44:09] INFO - VectorStore: FAISS saved in data\session_demo_1761129664\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 17:44:09] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761129664\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 17:44:52] INFO - VectorStore: FAISS saved in data\session_demo_1761129664\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 17:44:52] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761129664\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 17:45:11] INFO - VectorStore: FAISS saved in data\session_demo_1761129664\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 17:45:11] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761129664\e98373cb2b3ba343bcee0cffaa391194\vector_store\faiss_index
-[2025-10-22 18:26:21] INFO - VectorStore: FAISS saved in data\session_demo_1761132358\fe8f08e68ad05da9258f7db4264d35d9\vector_store\faiss_index
-[2025-10-22 18:26:21] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761132358\fe8f08e68ad05da9258f7db4264d35d9\vector_store\faiss_index
-[2025-10-22 18:26:55] INFO - VectorStore: FAISS saved in data\session_demo_1761132358\fe8f08e68ad05da9258f7db4264d35d9\vector_store\faiss_index
-[2025-10-22 18:26:55] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761132358\fe8f08e68ad05da9258f7db4264d35d9\vector_store\faiss_index
-[2025-10-22 18:27:32] INFO - VectorStore: FAISS saved in data\session_demo_1761132358\fe8f08e68ad05da9258f7db4264d35d9\vector_store\faiss_index
-[2025-10-22 18:27:32] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761132358\fe8f08e68ad05da9258f7db4264d35d9\vector_store\faiss_index
-[2025-10-22 18:28:11] INFO - VectorStore: FAISS saved in data\session_demo_1761132358\fe8f08e68ad05da9258f7db4264d35d9\vector_store\faiss_index
-[2025-10-22 18:28:11] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761132358\fe8f08e68ad05da9258f7db4264d35d9\vector_store\faiss_index
-[2025-10-22 18:28:54] INFO - VectorStore: FAISS saved in data\session_demo_1761132358\fe8f08e68ad05da9258f7db4264d35d9\vector_store\faiss_index
-[2025-10-22 18:28:54] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761132358\fe8f08e68ad05da9258f7db4264d35d9\vector_store\faiss_index
-[2025-10-22 22:35:10] INFO - VectorStore: FAISS saved in data\session_demo_1761147285\fe8f08e68ad05da9258f7db4264d35d9\vector_store\faiss_index
-[2025-10-22 22:35:10] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761147285\fe8f08e68ad05da9258f7db4264d35d9\vector_store\faiss_index
-[2025-10-22 22:35:36] INFO - VectorStore: FAISS saved in data\session_demo_1761147285\fe8f08e68ad05da9258f7db4264d35d9\vector_store\faiss_index
-[2025-10-22 22:35:36] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761147285\fe8f08e68ad05da9258f7db4264d35d9\vector_store\faiss_index
-[2025-10-22 22:36:39] INFO - VectorStore: FAISS saved in data\session_demo_1761147285\fe8f08e68ad05da9258f7db4264d35d9\vector_store\faiss_index
-[2025-10-22 22:36:39] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761147285\fe8f08e68ad05da9258f7db4264d35d9\vector_store\faiss_index
-[2025-10-22 22:37:39] INFO - VectorStore: FAISS saved in data\session_demo_1761147285\fe8f08e68ad05da9258f7db4264d35d9\vector_store\faiss_index
-[2025-10-22 22:37:39] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761147285\fe8f08e68ad05da9258f7db4264d35d9\vector_store\faiss_index
-[2025-10-22 22:38:39] INFO - VectorStore: FAISS saved in data\session_demo_1761147285\fe8f08e68ad05da9258f7db4264d35d9\vector_store\faiss_index
-[2025-10-22 22:38:39] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761147285\fe8f08e68ad05da9258f7db4264d35d9\vector_store\faiss_index
-[2025-10-22 22:39:28] INFO - VectorStore: FAISS saved in data\session_demo_1761147285\fe8f08e68ad05da9258f7db4264d35d9\vector_store\faiss_index
-[2025-10-22 22:39:28] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761147285\fe8f08e68ad05da9258f7db4264d35d9\vector_store\faiss_index
-[2025-10-22 22:40:14] INFO - VectorStore: FAISS saved in data\session_demo_1761147285\fe8f08e68ad05da9258f7db4264d35d9\vector_store\faiss_index
-[2025-10-22 22:40:14] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761147285\fe8f08e68ad05da9258f7db4264d35d9\vector_store\faiss_index
-[2025-10-22 22:47:38] INFO - VectorStore: FAISS saved in data\session_demo_1761147944\600912b24177aca522d5e07f7119c1fc\vector_store\faiss_index
-[2025-10-22 22:47:38] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761147944\600912b24177aca522d5e07f7119c1fc\vector_store\faiss_index
-[2025-10-22 22:47:53] INFO - VectorStore: FAISS saved in data\session_demo_1761147944\600912b24177aca522d5e07f7119c1fc\vector_store\faiss_index
-[2025-10-22 22:47:53] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761147944\600912b24177aca522d5e07f7119c1fc\vector_store\faiss_index
-[2025-10-22 22:48:38] INFO - VectorStore: FAISS saved in data\session_demo_1761147944\600912b24177aca522d5e07f7119c1fc\vector_store\faiss_index
-[2025-10-22 22:48:38] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761147944\600912b24177aca522d5e07f7119c1fc\vector_store\faiss_index
-[2025-10-22 22:49:09] INFO - VectorStore: FAISS saved in data\session_demo_1761147944\600912b24177aca522d5e07f7119c1fc\vector_store\faiss_index
-[2025-10-22 22:49:09] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761147944\600912b24177aca522d5e07f7119c1fc\vector_store\faiss_index
-[2025-10-22 22:49:29] INFO - VectorStore: FAISS saved in data\session_demo_1761147944\600912b24177aca522d5e07f7119c1fc\vector_store\faiss_index
-[2025-10-22 22:49:29] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761147944\600912b24177aca522d5e07f7119c1fc\vector_store\faiss_index
-[2025-10-22 22:50:20] INFO - VectorStore: FAISS saved in data\session_demo_1761147944\600912b24177aca522d5e07f7119c1fc\vector_store\faiss_index
-[2025-10-22 22:50:20] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761147944\600912b24177aca522d5e07f7119c1fc\vector_store\faiss_index
-[2025-10-22 22:50:23] INFO - VectorStore: FAISS saved in data\session_demo_1761147944\600912b24177aca522d5e07f7119c1fc\vector_store\faiss_index
-[2025-10-22 22:50:23] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761147944\600912b24177aca522d5e07f7119c1fc\vector_store\faiss_index
-[2025-10-22 22:50:30] INFO - VectorStore: FAISS saved in data\session_demo_1761147944\600912b24177aca522d5e07f7119c1fc\vector_store\faiss_index
-[2025-10-22 22:50:30] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761147944\600912b24177aca522d5e07f7119c1fc\vector_store\faiss_index
-[2025-10-22 22:50:33] INFO - VectorStore: FAISS saved in data\session_demo_1761147944\600912b24177aca522d5e07f7119c1fc\vector_store\faiss_index
-[2025-10-22 22:50:33] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761147944\600912b24177aca522d5e07f7119c1fc\vector_store\faiss_index
-[2025-10-22 22:50:53] INFO - VectorStore: FAISS saved in data\session_demo_1761147944\600912b24177aca522d5e07f7119c1fc\vector_store\faiss_index
-[2025-10-22 22:50:53] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761147944\600912b24177aca522d5e07f7119c1fc\vector_store\faiss_index
-[2025-10-22 22:51:41] INFO - VectorStore: FAISS saved in data\session_demo_1761147944\600912b24177aca522d5e07f7119c1fc\vector_store\faiss_index
-[2025-10-22 22:51:41] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761147944\600912b24177aca522d5e07f7119c1fc\vector_store\faiss_index
-[2025-10-22 23:10:28] INFO - VectorStore: FAISS saved in data\session_demo_1761149246\600912b24177aca522d5e07f7119c1fc\vector_store\faiss_index
-[2025-10-22 23:10:28] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761149246\600912b24177aca522d5e07f7119c1fc\vector_store\faiss_index
-[2025-10-22 23:10:50] INFO - VectorStore: FAISS saved in data\session_demo_1761149246\600912b24177aca522d5e07f7119c1fc\vector_store\faiss_index
-[2025-10-22 23:10:50] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761149246\600912b24177aca522d5e07f7119c1fc\vector_store\faiss_index
-[2025-10-22 23:46:21] INFO - VectorStore: FAISS saved in data\session_demo_1761151547\vector_store\faiss_index
-[2025-10-22 23:46:21] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761151547\vector_store\faiss_index
-[2025-10-22 23:46:31] INFO - VectorStore: FAISS saved in data\session_demo_1761151547\vector_store\faiss_index
-[2025-10-22 23:46:31] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761151547\vector_store\faiss_index
-[2025-10-22 23:46:57] INFO - VectorStore: FAISS saved in data\session_demo_1761151547\vector_store\faiss_index
-[2025-10-22 23:46:57] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761151547\vector_store\faiss_index
-[2025-10-22 23:58:05] INFO - VectorStore: FAISS saved in data\session_demo_1761152238\vector_store\faiss_index
-[2025-10-22 23:58:05] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761152238\vector_store\faiss_index
-[2025-10-22 23:58:19] INFO - VectorStore: FAISS saved in data\session_demo_1761152238\vector_store\faiss_index
-[2025-10-22 23:58:19] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761152238\vector_store\faiss_index
-[2025-10-22 23:58:32] INFO - VectorStore: FAISS saved in data\session_demo_1761152238\vector_store\faiss_index
-[2025-10-22 23:58:32] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761152238\vector_store\faiss_index
-[2025-10-22 23:58:53] INFO - VectorStore: FAISS saved in data\session_demo_1761152238\vector_store\faiss_index
-[2025-10-22 23:58:53] INFO - VectorStore: FAISS saved in data\session_demo_1761152238\vector_store\faiss_index
-[2025-10-23 00:01:34] INFO - VectorStore: FAISS saved in data\session_demo_1761152238\vector_store\faiss_index
-[2025-10-23 00:07:18] INFO - VectorStore: FAISS saved in data\session_demo_1761152830\vector_store\faiss_index
-[2025-10-23 00:07:18] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761152830\vector_store\faiss_index
-[2025-10-23 00:07:45] INFO - VectorStore: FAISS saved in data\session_demo_1761152830\vector_store\faiss_index
-[2025-10-23 00:07:45] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761152830\vector_store\faiss_index
-[2025-10-23 00:08:03] INFO - VectorStore: FAISS saved in data\session_demo_1761152830\vector_store\faiss_index
-[2025-10-23 00:08:03] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761152830\vector_store\faiss_index
-[2025-10-23 00:08:30] INFO - VectorStore: FAISS saved in data\session_demo_1761152830\vector_store\faiss_index
-[2025-10-23 00:08:30] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761152830\vector_store\faiss_index
-[2025-10-23 00:09:06] INFO - VectorStore: FAISS saved in data\session_demo_1761152830\vector_store\faiss_index
-[2025-10-23 00:09:06] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761152830\vector_store\faiss_index
-[2025-10-23 00:11:59] INFO - VectorStore: FAISS saved in data\session_demo_1761153112\vector_store\faiss_index
-[2025-10-23 00:11:59] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761153112\vector_store\faiss_index
-[2025-10-23 00:12:28] INFO - VectorStore: FAISS saved in data\session_demo_1761153112\vector_store\faiss_index
-[2025-10-23 00:12:28] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761153112\vector_store\faiss_index
-[2025-10-23 00:12:42] INFO - VectorStore: FAISS saved in data\session_demo_1761153112\vector_store\faiss_index
-[2025-10-23 00:12:42] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761153112\vector_store\faiss_index
-[2025-10-23 00:15:32] INFO - VectorStore: FAISS saved in data\session_demo_1761153320\vector_store\faiss_index
-[2025-10-23 00:15:33] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761153320\vector_store\faiss_index
-[2025-10-23 00:15:50] INFO - VectorStore: FAISS saved in data\session_demo_1761153320\vector_store\faiss_index
-[2025-10-23 00:15:50] INFO - VectorStore:  Loaded FAISS index from data\session_demo_1761153320\vector_store\faiss_index
+[2025-10-24 21:20:54] INFO - VectorStore: FAISS saved in data/sessions\user_demo\vector_store\faiss_index
+[2025-10-24 21:23:56] INFO - VectorStore: FAISS saved in data/sessions\user_demo\vector_store\faiss_index
+[2025-10-24 21:23:56] INFO - VectorStore:  Loaded FAISS index from data/sessions\user_demo\vector_store\faiss_index
+[2025-10-24 21:32:19] INFO - VectorStore: FAISS saved in data/sessions\user_demo\vector_store\faiss_index
+[2025-10-24 21:32:19] INFO - VectorStore:  Loaded FAISS index from data/sessions\user_demo\vector_store\faiss_index
+[2025-10-24 21:33:36] INFO - VectorStore: FAISS saved in data/sessions\user_demo\vector_store\faiss_index
+[2025-10-24 21:33:36] INFO - VectorStore:  Loaded FAISS index from data/sessions\user_demo\vector_store\faiss_index
+[2025-10-24 21:46:22] INFO - VectorStore: FAISS saved in data/sessions\user_demo\vector_store\faiss_index
+[2025-10-24 21:46:22] INFO - VectorStore:  Loaded FAISS index from data/sessions\user_demo\vector_store\faiss_index
+[2025-10-24 21:50:17] INFO - VectorStore: FAISS saved in data/sessions\user_demo\vector_store\faiss_index
+[2025-10-24 21:50:17] INFO - VectorStore:  Loaded FAISS index from data/sessions\user_demo\vector_store\faiss_index
+[2025-10-24 21:50:40] INFO - VectorStore: FAISS saved in data/sessions\user_demo\vector_store\faiss_index
+[2025-10-24 21:50:40] INFO - VectorStore:  Loaded FAISS index from data/sessions\user_demo\vector_store\faiss_index
+[2025-10-24 21:51:07] INFO - VectorStore: FAISS saved in data/sessions\user_demo\vector_store\faiss_index
+[2025-10-24 21:51:07] INFO - VectorStore:  Loaded FAISS index from data/sessions\user_demo\vector_store\faiss_index
+[2025-10-24 21:51:52] INFO - VectorStore: FAISS saved in data/sessions\user_demo\vector_store\faiss_index
+[2025-10-24 21:51:52] INFO - VectorStore:  Loaded FAISS index from data/sessions\user_demo\vector_store\faiss_index
+[2025-10-24 21:52:12] INFO - VectorStore: FAISS saved in data/sessions\user_demo\vector_store\faiss_index
+[2025-10-24 21:52:12] INFO - VectorStore:  Loaded FAISS index from data/sessions\user_demo\vector_store\faiss_index
+[2025-10-24 21:57:00] INFO - VectorStore: FAISS saved in data/sessions\user_demo\vector_store\faiss_index
+[2025-10-24 21:57:00] INFO - VectorStore:  Loaded FAISS index from data/sessions\user_demo\vector_store\faiss_index
+[2025-10-24 21:57:45] INFO - VectorStore: FAISS saved in data/sessions\user_demo\vector_store\faiss_index
+[2025-10-24 21:57:45] INFO - VectorStore:  Loaded FAISS index from data/sessions\user_demo\vector_store\faiss_index
+[2025-10-24 22:06:19] INFO - VectorStore: FAISS saved in data/sessions\user_demo\vector_store\faiss_index
+[2025-10-24 22:06:19] INFO - VectorStore:  Loaded FAISS index from data/sessions\user_demo\vector_store\faiss_index
+[2025-10-24 22:06:40] INFO - VectorStore: FAISS saved in data/sessions\user_demo\vector_store\faiss_index
+[2025-10-24 22:06:40] INFO - VectorStore:  Loaded FAISS index from data/sessions\user_demo\vector_store\faiss_index
+[2025-10-24 22:12:18] INFO - VectorStore: FAISS saved in data/sessions\user_demo\vector_store\faiss_index
+[2025-10-24 22:12:18] INFO - VectorStore:  Loaded FAISS index from data/sessions\user_demo\vector_store\faiss_index
+[2025-10-24 22:12:34] INFO - VectorStore: FAISS saved in data/sessions\user_demo\vector_store\faiss_index
+[2025-10-24 22:12:34] INFO - VectorStore:  Loaded FAISS index from data/sessions\user_demo\vector_store\faiss_index
+[2025-10-24 22:15:38] INFO - VectorStore: FAISS saved in data/sessions\user_demo\vector_store\faiss_index
+[2025-10-24 22:15:38] INFO - VectorStore:  Loaded FAISS index from data/sessions\user_demo\vector_store\faiss_index
+[2025-10-24 22:15:51] INFO - VectorStore: FAISS saved in data/sessions\user_demo\vector_store\faiss_index
+[2025-10-24 22:15:51] INFO - VectorStore:  Loaded FAISS index from data/sessions\user_demo\vector_store\faiss_index
+[2025-10-24 22:26:23] INFO - VectorStore: FAISS saved in data/sessions\user_demo\vector_store\faiss_index
+[2025-10-24 22:26:23] INFO - VectorStore:  Loaded FAISS index from data/sessions\user_demo\vector_store\faiss_index
+[2025-10-24 22:26:59] INFO - VectorStore: FAISS saved in data/sessions\user_demo\vector_store\faiss_index
+[2025-10-24 22:26:59] INFO - VectorStore:  Loaded FAISS index from data/sessions\user_demo\vector_store\faiss_index
+[2025-10-24 22:29:42] INFO - VectorStore: FAISS saved in data/sessions\user_demo\vector_store\faiss_index
+[2025-10-24 22:29:42] INFO - VectorStore:  Loaded FAISS index from data/sessions\user_demo\vector_store\faiss_index
+[2025-10-24 22:30:01] INFO - VectorStore: FAISS saved in data/sessions\user_demo\vector_store\faiss_index
+[2025-10-24 22:30:01] INFO - VectorStore:  Loaded FAISS index from data/sessions\user_demo\vector_store\faiss_index
+[2025-10-24 22:30:09] INFO - VectorStore: FAISS saved in data/sessions\user_demo\vector_store\faiss_index
+[2025-10-24 22:30:09] INFO - VectorStore:  Loaded FAISS index from data/sessions\user_demo\vector_store\faiss_index
+[2025-10-24 22:30:10] INFO - VectorStore: FAISS saved in data/sessions\user_demo\vector_store\faiss_index
+[2025-10-24 22:30:10] INFO - VectorStore:  Loaded FAISS index from data/sessions\user_demo\vector_store\faiss_index
+[2025-10-24 22:30:11] INFO - VectorStore: FAISS saved in data/sessions\user_demo\vector_store\faiss_index
+[2025-10-24 22:30:11] INFO - VectorStore:  Loaded FAISS index from data/sessions\user_demo\vector_store\faiss_index
+[2025-10-24 22:30:13] INFO - VectorStore: FAISS saved in data/sessions\user_demo\vector_store\faiss_index
+[2025-10-24 22:30:13] INFO - VectorStore:  Loaded FAISS index from data/sessions\user_demo\vector_store\faiss_index
+[2025-10-24 22:30:23] INFO - VectorStore: FAISS saved in data/sessions\user_demo\vector_store\faiss_index
+[2025-10-24 22:30:23] INFO - VectorStore:  Loaded FAISS index from data/sessions\user_demo\vector_store\faiss_index
+[2025-10-24 22:30:26] INFO - VectorStore: FAISS saved in data/sessions\user_demo\vector_store\faiss_index
+[2025-10-24 22:30:26] INFO - VectorStore:  Loaded FAISS index from data/sessions\user_demo\vector_store\faiss_index
+[2025-10-24 22:41:55] INFO - VectorStore: FAISS saved in data/sessions\user_demo\session_1761320492.2781215\vector_store\faiss_index
+[2025-10-24 22:41:55] INFO - VectorStore:  Loaded FAISS index from data/sessions\user_demo\session_1761320492.2781215\vector_store\faiss_index
+[2025-10-24 22:42:12] INFO - VectorStore: FAISS saved in data/sessions\user_demo\session_1761320492.2781215\vector_store\faiss_index
+[2025-10-24 22:42:12] INFO - VectorStore:  Loaded FAISS index from data/sessions\user_demo\session_1761320492.2781215\vector_store\faiss_index
+[2025-10-24 22:44:12] INFO - VectorStore: FAISS saved in data/sessions\user_demo\session_1761320648.0051486\vector_store\faiss_index
+[2025-10-24 22:44:12] INFO - VectorStore:  Loaded FAISS index from data/sessions\user_demo\session_1761320648.0051486\vector_store\faiss_index
+[2025-10-24 22:44:28] INFO - VectorStore: FAISS saved in data/sessions\user_demo\session_1761320648.0051486\vector_store\faiss_index
+[2025-10-24 22:44:28] INFO - VectorStore:  Loaded FAISS index from data/sessions\user_demo\session_1761320648.0051486\vector_store\faiss_index
+[2025-10-24 22:44:49] INFO - VectorStore: FAISS saved in data/sessions\user_demo\session_1761320648.0051486\vector_store\faiss_index
+[2025-10-24 22:44:49] INFO - VectorStore:  Loaded FAISS index from data/sessions\user_demo\session_1761320648.0051486\vector_store\faiss_index
+[2025-10-24 22:47:43] INFO - VectorStore: FAISS saved in data/sessions\user_demo\session_1761320801.8150108\vector_store\faiss_index
+[2025-10-24 22:47:43] INFO - VectorStore:  Loaded FAISS index from data/sessions\user_demo\session_1761320801.8150108\vector_store\faiss_index
+[2025-10-24 22:48:23] INFO - VectorStore: FAISS saved in data/sessions\user_demo\session_1761320801.8150108\vector_store\faiss_index
+[2025-10-24 22:48:23] INFO - VectorStore:  Loaded FAISS index from data/sessions\user_demo\session_1761320801.8150108\vector_store\faiss_index
+[2025-10-25 14:25:26] INFO - VectorStore: FAISS saved in data/sessions\user_demo\session_1761377117.4761121\vector_store\faiss_index
+[2025-10-25 14:25:26] INFO - VectorStore:  Loaded FAISS index from data/sessions\user_demo\session_1761377117.4761121\vector_store\faiss_index
+[2025-10-25 14:32:36] INFO - VectorStore: FAISS saved in data/sessions\user_demo\session_1761377534.0084772\vector_store\faiss_index
+[2025-10-25 14:32:36] INFO - VectorStore:  Loaded FAISS index from data/sessions\user_demo\session_1761377534.0084772\vector_store\faiss_index
+[2025-10-25 14:56:43] INFO - VectorStore: FAISS saved in data\session_1761378994\vector_store\faiss_index
+[2025-10-25 14:56:43] INFO - VectorStore:  Loaded FAISS index from data\session_1761378994\vector_store\faiss_index
+[2025-10-25 14:58:34] INFO - VectorStore: FAISS saved in data\session_1761378994\vector_store\faiss_index
+[2025-10-25 14:58:34] INFO - VectorStore:  Loaded FAISS index from data\session_1761378994\vector_store\faiss_index
+[2025-10-25 15:09:48] INFO - VectorStore: FAISS saved in data/sessions\user_demo\session_1761379629.1161463\vector_store\faiss_index
+[2025-10-25 15:09:48] INFO - VectorStore:  Loaded FAISS index from data/sessions\user_demo\session_1761379629.1161463\vector_store\faiss_index
+[2025-10-25 16:17:07] INFO - VectorStore: FAISS saved in data/sessions\user_demo\session_1761383808.8734055\vector_store\faiss_index
+[2025-10-25 16:17:07] INFO - VectorStore:  Loaded FAISS index from data/sessions\user_demo\session_1761383808.8734055\vector_store\faiss_index
+[2025-10-25 16:18:33] INFO - VectorStore: FAISS saved in data/sessions\user_demo\session_1761383876.6393769\vector_store\faiss_index
+[2025-10-25 16:18:33] INFO - VectorStore:  Loaded FAISS index from data/sessions\user_demo\session_1761383876.6393769\vector_store\faiss_index
+[2025-10-25 16:21:03] INFO - VectorStore: FAISS saved in data/sessions\user_demo\session_1761384053.5163918\vector_store\faiss_index
+[2025-10-25 16:21:03] INFO - VectorStore:  Loaded FAISS index from data/sessions\user_demo\session_1761384053.5163918\vector_store\faiss_index
+[2025-10-25 16:21:37] INFO - VectorStore: FAISS saved in data/sessions\user_demo\session_1761384085.366856\vector_store\faiss_index
+[2025-10-25 16:21:37] INFO - VectorStore:  Loaded FAISS index from data/sessions\user_demo\session_1761384085.366856\vector_store\faiss_index
+[2025-10-25 16:27:55] INFO - VectorStore: FAISS saved in data\session_1761384469\vector_store\faiss_index
+[2025-10-25 16:27:55] INFO - VectorStore:  Loaded FAISS index from data\session_1761384469\vector_store\faiss_index
+[2025-10-25 16:28:44] INFO - VectorStore: FAISS saved in data/sessions\user_demo\session_1761384520.1262739\vector_store\faiss_index
+[2025-10-25 16:28:44] INFO - VectorStore:  Loaded FAISS index from data/sessions\user_demo\session_1761384520.1262739\vector_store\faiss_index
+[2025-10-25 16:29:28] INFO - VectorStore: FAISS saved in data/sessions\user_demo\session_1761384556.0097\vector_store\faiss_index
+[2025-10-25 16:29:28] INFO - VectorStore:  Loaded FAISS index from data/sessions\user_demo\session_1761384556.0097\vector_store\faiss_index
+[2025-10-25 16:29:52] INFO - VectorStore:  Loaded FAISS index from data/sessions\user_demo\session_1761384520.1262739\vector_store\faiss_index
+[2025-10-25 16:30:41] INFO - VectorStore:  Loaded FAISS index from data/sessions\user_demo\session_1761384520.1262739\vector_store\faiss_index
+[2025-10-25 16:30:52] INFO - VectorStore:  Loaded FAISS index from data/sessions\user_demo\session_1761384556.0097\vector_store\faiss_index
+[2025-10-25 16:35:28] INFO - VectorStore:  Loaded FAISS index from data/sessions\user_demo\session_1761384520.1262739\vector_store\faiss_index
+[2025-10-25 16:44:13] INFO - VectorStore: FAISS saved in data/sessions\user_demo\session_1761385433.951673\vector_store\faiss_index
+[2025-10-25 16:44:13] INFO - VectorStore:  Loaded FAISS index from data/sessions\user_demo\session_1761385433.951673\vector_store\faiss_index
+[2025-10-25 16:55:07] INFO - VectorStore: FAISS saved in data/sessions\user_demo\session_1761386067.850313\vector_store\faiss_index
+[2025-10-25 16:55:07] INFO - VectorStore:  Loaded FAISS index from data/sessions\user_demo\session_1761386067.850313\vector_store\faiss_index
+[2025-10-25 16:55:57] INFO - VectorStore: FAISS saved in data/sessions\user_demo\session_1761386143.4333668\vector_store\faiss_index
+[2025-10-25 16:55:57] INFO - VectorStore:  Loaded FAISS index from data/sessions\user_demo\session_1761386143.4333668\vector_store\faiss_index

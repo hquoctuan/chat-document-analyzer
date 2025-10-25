@@ -11,12 +11,12 @@ from app.core.chunk_handler import ChunkHandler
 logger = get_logger('Core_Engine')
 
 class RagEngine:
-    def __init__(self,retriver = None):
-        ''' RAG Engine core logic cho truy van retriver  va LLm'''
+    def __init__(self,retriever = None):
+        ''' RAG Engine core logic cho truy van retriever  va LLm'''
         self.llm_service = GroqLlamaService()
         self.llm = self.llm_service.llm
         self.embedding = EmbeddingService()
-        self.retriver = retriver
+        self.retriever = retriever
         
         self.prompt = PromptTemplate(
             template = (
@@ -34,17 +34,17 @@ class RagEngine:
     
         
     
-    def gernerate(self, question: str)-> str:
-        if not self.retriver:
-            logger.warning("Haven't retriver, use only LLM ")
+    def generate(self, question: str)-> str:
+        if not self.retriever:
+            logger.warning("Haven't retriever, use only LLM ")
             return self.llm_service.generate(question)
         try:
             logger.info(f" Generatin answer for quere {question[:100]}")
             qa_chain = RetrievalQA.from_chain_type(
                 llm= self.llm,
-                retriever = self.retriver,
+                retriever = self.retriever,
                 chain_type= 'stuff',
-                chain_type_kwargs={"prompt":self.promt},
+                chain_type_kwargs={"prompt":self.prompt},
                 return_source_documents=True 
                   
             )
@@ -78,10 +78,10 @@ if __name__ == '__main__':
     retriver_handler = RetrivalHandler()
     logger.info(f"Docs passed to retriever: {len(chunks) if chunks else 0}")
 
-    retriver = retriver_handler.build(vt_store, all_docs=chunks)
-    print(f"Retriever built: {type(retriver)}")
+    retriever = retriver_handler.build(vt_store, all_docs=chunks)
+    print(f"Retriever built: {type(retriever)}")
 
-    rag = RagEngine(retriver=retriver)
+    rag = RagEngine(retriever=retriever)
     question = "Discuss all information of all laptop in this resource?"
     top_relavent = retriver_handler.get_relevant_documents(question)
     logger.info(f'Vector sent  {[top_relavent]}')

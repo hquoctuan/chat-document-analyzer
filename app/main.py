@@ -1,91 +1,128 @@
-import os, sys
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
+import os, sys, time
 import streamlit as st
-from app.handler.chat_handler import ChatHandler
-from datetime import datetime
 
+# Cấu hình đường dẫn dự án
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from app.handler.chat_session_manager import ChatSessionManager
+
+# ==============================
+# ⚙️ 1. Cấu hình ban đầu
+# ==============================
 st.set_page_config(
-    page_title="💬 Smart RAG Chatbot",
-    page_icon="🤖",
+    page_title="📚 Chat Document Analyzer",
     layout="wide",
+    page_icon="💬"
 )
 
-# ==== SIDEBAR ====
-with st.sidebar:
-    st.header("⚙️ Controls")
-    if "chat_handler" not in st.session_state:
-        st.session_state.chat_handler = ChatHandler(use_id="demo")
+# ==============================
+# 🧭 2. Khởi tạo ChatSessionManager
+# ==============================
+USER_ID = "demo_user"
+manager = ChatSessionManager(user_id=USER_ID)
 
-    chat_handler = st.session_state.chat_handler
+# ==============================
+# 🎨 3. Sidebar: Quản lý các đoạn chat
+# ==============================
+st.sidebar.title("💬 Chat Sessions")
 
-    # Upload file
-    uploaded_file = st.file_uploader("📎 Upload CSV/PDF", type=["csv", "pdf"])
-    if uploaded_file:
-        file_path = f"data/uploads/{uploaded_file.name}"
-        with open(file_path, "wb") as f:
-            f.write(uploaded_file.getbuffer())
-       
-        chat_handler.file_process(file_path)
-        st.success("✅ File processed successfully!")
+# Nút tạo đoạn chat mới
+if st.sidebar.button("➕ New Chat", use_container_width=True):
+    session_id = manager.create_session()
+    st.session_state["current_session"] = session_id
+    st.rerun()
 
-    # Session tools
-    st.divider()
-    if st.button("🆕 New Chat"):
-        st.session_state.messages = []
-        st.rerun(),
+# Lấy danh sách các session
+sessions = manager.list_sessions()
 
-    if st.button("🧹 Clear Memory"):
-        chat_handler.clear_history()
-        st.session_state.messages = []
-        st.rerun(),
+# Nếu có session
+if sessions:
+    options =  [s['title'] for s in sessions]
+    selected = st.sidebar.radio("Select a conversation:", options)
+    idx = options.index(selected)
+    session_id = sessions[idx].get("id") or sessions[idx].get("session_id")
+else:
+    session_id = st.session_state.get("current_session")
 
-    if st.button("🗑️ Delete Session"):
-        chat_handler.delete_session()
-        st.session_state.messages = []
-        st.success("Session deleted.")
-        st.stop()
+# ==============================
+# 📂 4. Load hoặc tạo mới session
+# ==============================
+if not session_id:
+    st.markdown(
+        """
+        <div style='text-align: center; padding-top: 100px;'>
+            <h1>🤖 <b>Chat Document Analyzer</b></h1>
+            <p>Start a new chat or select one from the sidebar</p>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+    st.stop()
 
-# ==== MAIN CHAT AREA ====
-st.title("💬 Analyzer Document with LLM")
+# Nạp ChatHandler cho session hiện tại
+handler = manager.load_session(session_id)
 
-# Initialize message history
-if "messages" not in st.session_state:
-    st.session_state.messages = []
+# ==============================
+# 📎 5. Upload tài liệu vào session
+# ==============================
+st.sidebar.markdown("---")
+st.sidebar.subheader("📎 Add Document")
 
-# Chat container (scrollable)
-chat_container = st.container()
+uploaded_file = st.sidebar.file_uploader("Upload CSV or PDF", type=["csv", "pdf"])
+if uploaded_file:
+    file_path = os.path.join(handler.session_dir, uploaded_file.name)
+    with open(file_path, "wb") as f:
+        f.write(uploaded_file.getbuffer())
+    st.sidebar.success(f"✅ Uploaded: {uploaded_file.name}")
 
-with chat_container:
-    for msg in st.session_state.messages:
-        if msg["role"] == "user":
-            with st.chat_message("user", avatar="🧑‍💻"):
-                st.markdown(msg["content"])
+    with st.spinner("Building Vector Database..."):
+        handler.file_process(file_path)
+        st.sidebar.success("🧠 Vector Store ready!")
+
+# ==============================
+# 💬 6. Giao diện chính Chatbot
+# ==============================
+st.markdown(
+    """
+    <div style='text-align:center; padding: 10px 0;'>
+        <h2>🤖 <b>DocuMind Assistant</b></h2>
+        <p style='color: gray;'>Your intelligent assistant for document-based Q&A</p>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
+# Hiển thị lịch sử chat
+if handler.memory.chat_memory.messages:
+    for msg in handler.memory.chat_memory.messages:
+        if msg.type == "human":
+            st.chat_message("user").write(msg.content)
         else:
-            with st.chat_message("assistant", avatar="🤖"):
-                st.markdown(msg["content"])
+            st.chat_message("assistant").write(msg.content)
+else:
+    st.info("No chat yet — upload a document and start asking questions!")
 
-# ==== INPUT AREA (fixed at bottom) ====
-user_query = st.chat_input("Type your message here...")
+# ==============================
+# 🧠 7. Chat input
+# ==============================
+query = st.chat_input("Ask something about your document...")
 
-if user_query:
-    # Append user message
-    st.session_state.messages.append({"role": "user", "content": user_query})
+if query:
+    st.chat_message("user").write(query)
 
-    # Display user message immediately
-    with st.chat_message("user", avatar="🧑‍💻"):
-        st.markdown(user_query)
+    with st.chat_message("assistant"):
+        with st.spinner("Thinking..."):
+            answer = handler.ask(query)
+            st.write(answer)
 
-    # Placeholder for assistant response
-    with st.chat_message("assistant", avatar="🤖"):
-        placeholder = st.empty()
-        response_text = ""
-        thinking_msg = "🤔 *I'm Thinking...*"
-        placeholder.markdown(thinking_msg)
-        # Stream chat from handler
-        for chunk in chat_handler.stream_chat(user_query, placeholder):
-            response_text += chunk
-            placeholder.markdown(response_text)
+    # Nếu là câu hỏi đầu tiên → sinh tiêu đề
+    if len(handler.memory.chat_memory.messages) <= 2:
+        manager.summarize_title(session_id, query)
 
-        # Save assistant response
-        st.session_state.messages.append({"role": "assistant", "content": response_text})
+# ==============================
+# 🗑️ 8. Delete chat
+# ==============================
+st.sidebar.markdown("---")
+if st.sidebar.button("🗑️ Delete this chat", use_container_width=True):
+    manager.delete_session(session_id)
+    st.success("Chat deleted successfully.")
+    st.rerun()

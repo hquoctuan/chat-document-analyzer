@@ -2,6 +2,7 @@ import os
 import time
 import hashlib
 import shutil
+import json
 from typing import Any, List, Optional, Generator
 # Langchain lib
 from langchain.memory import ConversationBufferMemory
@@ -20,13 +21,13 @@ from app.config import config
 logger = get_logger('ChatHandler')
 
 class ChatHandler():
-    def __init__(self, use_id:str='guest',base_dir:str="data"):
-        self.user_id = use_id
-        self.session_id = str(int(time.time()))
+    def __init__(self, user_id:str='guest',session_id: Optional[str] = None,base_dir:str="data"):
+        self.user_id = user_id
+        self.session_id = session_id or str(int(time.time()))
         self.base_dir =base_dir
-        self.session_dir = os.path.join(base_dir,f"session_{use_id}_{self.session_id}")
+        self.session_dir = os.path.join(base_dir,f"session_{self.session_id}")
         os.makedirs(self.session_dir,exist_ok=True)
-        
+        logger.info(f"ChatHandler initialized at {self.session_dir}")
         self.TOP_k = config.K_FINAL
         
         # Service
@@ -55,7 +56,7 @@ class ChatHandler():
                 return False
             self.current_file_path = file_path
             
-            # Folder vector store with session + hash_file
+            # Folder vector store with session 
             vector_dir = os.path.join(self.session_dir,"vector_store")
             os.makedirs(vector_dir,exist_ok= True)
             logger.info(f" Start runing data pipe line process for file {file_path}")
@@ -81,7 +82,7 @@ class ChatHandler():
         try:
             self.memory.chat_memory.add_user_message(question)
             logger.info(f' Query received')
-            answer = self.engine.gernerate(question)
+            answer = self.engine.generate(question)
             self.memory.chat_memory.add_ai_message(answer)
             return answer
         except Exception as e:
@@ -91,7 +92,7 @@ class ChatHandler():
     def stream_chat(self,question: str, placeholder: Any)-> Generator[str, None,None]:
         '''Streaming chat '''
         if not self.engine:
-            yield 'No document upload. Please uploade docmument first'
+            yield 'No document upload. Please uploade docmument for chatting'
             return
         try:
             placeholder.markdown("🤔 *Thinking...*")
@@ -131,19 +132,48 @@ class ChatHandler():
             if os.path.exists(self.session_dir):
                 shutil.rmtree(self.session_dir,ignore_errors=True)
                 logger.info(f"Deleted session dir {self.session_dir}")
+            
+            self.engine = None
+            self.retriver =None
+            self.current_file = None
+            self.clear_history()
             return True
         
         except Exception as e:
             logger.error(f" Error deleting session {e}")
             return False
-            
-
-
-        
-
     
-        
-
-        
-        
+    def save_chat_history(self):
+        ''' Save chat  -> JSon'''
+        try:
+            history_path = os.path.join(self.session_dir,'chat_history.json')
+            chat_data =[
+                {'role':m.type,"cotent": m.content}
+                for m in self.memory.chat_memory.messages
+            ]
+            with open(history_path,"w", encoding="utf-8") as f:
+                json.dump(chat_data,f,ensure_ascii=False, indent=2)
+            logger.info(f"Save chat history json at {history_path}")
+        except Exception as e:
+            logger.error(f"Faile chat history {e}")
     
+    def load_chat_history(self) -> bool:
+        ''' Load chat tu josn ->memory'''
+        try:
+            history_path  = os.path.join(self.session_dir,"chat_history.json")
+            if os.path.exists(history_path):
+                with open(history_path,"r",encoding="utf-8") as f:
+                    data = json.load(f) 
+                for msg in data:
+                    if msg["role"] =="human":
+                        self.memory.chat_memory.add_user_message(msg['content'])
+                    else:
+                        self.memory.chat_memory.add_ai_message(msg['content']) 
+                logger.info('Load caht history successfully')
+                return True
+            else:
+                logger.warning("No previous chat history found.")
+                return False
+        except Exception as e:
+            logger.error(f"Erro loading chat history {e}")
+            return False

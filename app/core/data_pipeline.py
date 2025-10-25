@@ -66,5 +66,5 @@ if __name__ =="__main__":
     pipeline =DataPipeLine()
     index_path ='data/laptop.csv'
     pipeline.process(index_path)
-    print(f"✅ Done. Index saved at: {index_path}")
+    print(f"Done. Index saved at: {index_path}")
     
