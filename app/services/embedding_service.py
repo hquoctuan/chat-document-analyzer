@@ -1,7 +1,8 @@
 from langchain_huggingface import HuggingFaceEmbeddings
 from app.helper.logger import get_logger
 import time 
-from app.config import config
+from app.config import get_config
+config =get_config()
 
 logger = get_logger("Calling Embedding Service")
 
