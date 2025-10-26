@@ -91,7 +91,9 @@ class Config:
             #"data_path": self.VECTOR_STORE_PATH,
             # "env": self.ENVIRONMENT,          
         }
-
-config  = Config()
-print(config.summary())
-print(config.TYPE_RETRIEVAL)
+def get_config():
+    """Khởi tạo hoặc trả về instance Config duy nhất."""
+    global _config_instance
+    if _config_instance is None:
+        _config_instance = Config()
+    return _config_instance

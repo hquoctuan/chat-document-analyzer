@@ -1,4 +1,4 @@
-from app.config import config
+from app.config import get_config
 from app.helper.logger import get_logger
 from langchain.schema import HumanMessage
 from langchain.chat_models import init_chat_model
@@ -6,7 +6,7 @@ from langchain.chat_models import init_chat_model
 import os 
 
 import requests
-
+config = get_config()
 logger = get_logger("llama_service")
 
 class GroqLlamaService:
