@@ -137,3 +137,5 @@
 [2025-10-26 14:05:16] ERROR - Calling Embedding Service: Fail call initalize moodel sentence-transformers/all-MiniLM-L6-v2 (time: 0.16)s
 [2025-10-26 14:05:38] INFO - Calling Embedding Service: Embedding model sentence-transformers/all-MiniLM-L6-v2 laoding successfull: (time: 9.61)
 [2025-10-26 14:05:38] INFO - Calling Embedding Service: Generated embedding for text of length 36
+[2025-10-26 14:11:05] INFO - Calling Embedding Service: Embedding model sentence-transformers/all-MiniLM-L6-v2 laoding successfull: (time: 15.60)
+[2025-10-26 14:11:05] INFO - Calling Embedding Service: Generated embedding for text of length 36

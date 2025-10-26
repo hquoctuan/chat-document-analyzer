@@ -153,3 +153,5 @@
 [2025-10-26 14:03:32] INFO - RetrivalHandler:  Retrieved 5 documents for query
 [2025-10-26 14:06:17] INFO - RetrivalHandler:  Rerank enable (cross-encoder/ms-marco-MiniLM-L-6-v2) ,(k_final: 5)
 [2025-10-26 14:06:37] INFO - RetrivalHandler:  Retrieved 5 documents for query
+[2025-10-26 14:11:38] INFO - RetrivalHandler:  Rerank enable (cross-encoder/ms-marco-MiniLM-L-6-v2) ,(k_final: 5)
+[2025-10-26 14:11:47] INFO - RetrivalHandler:  Retrieved 5 documents for query
