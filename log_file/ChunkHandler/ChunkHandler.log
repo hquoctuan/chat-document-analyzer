@@ -238,3 +238,6 @@
 [2025-10-26 14:03:17] INFO - ChunkHandler: Selected PDF splitter.
 [2025-10-26 14:03:17] INFO - ChunkHandler: Initializing RecursiveCharacterTextSplitter for PDF.
 [2025-10-26 14:03:17] INFO - ChunkHandler: 📘 Using text splitter for PDF or text-like content.
+[2025-10-26 14:06:12] INFO - ChunkHandler: Selected PDF splitter.
+[2025-10-26 14:06:12] INFO - ChunkHandler: Initializing RecursiveCharacterTextSplitter for PDF.
+[2025-10-26 14:06:12] INFO - ChunkHandler: 📘 Using text splitter for PDF or text-like content.

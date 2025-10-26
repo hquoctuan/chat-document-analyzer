@@ -290,3 +290,5 @@ RuntimeError: Error loading data/sessions\user_demo\session_1761387708.2495747\u
 [2025-10-26 13:21:53] INFO - DataLoader: Successfully loaded file: data/sessions\user_demo\session_1761459713.4759717\uploads\CV_AI_Intern_HoQuocTuan.pdf
 [2025-10-26 14:03:17] INFO - DataLoader:  Loaded 2 pages from PDF: CV_AI_Intern_HoQuocTuan.pdf
 [2025-10-26 14:03:17] INFO - DataLoader: Successfully loaded file: data/sessions\user_demo\session_1761462196.7815013\uploads\CV_AI_Intern_HoQuocTuan.pdf
+[2025-10-26 14:06:12] INFO - DataLoader:  Loaded 2 pages from PDF: CV_AI_Intern_HoQuocTuan.pdf
+[2025-10-26 14:06:12] INFO - DataLoader: Successfully loaded file: data/sessions\user_demo\session_1761462372.1766655\uploads\CV_AI_Intern_HoQuocTuan.pdf
