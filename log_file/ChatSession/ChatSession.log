@@ -563,3 +563,11 @@
 [2025-10-26 13:22:16] INFO - ChatSession:  update title for display
 [2025-10-26 13:22:19] INFO - ChatSession:  Intialize Chat SEssion for uer demo, session 1761459713.4759717
 [2025-10-26 13:22:19] INFO - ChatSession:  Deleted session folder data/sessions\user_demo\session_1761459713.4759717
+[2025-10-26 14:03:17] INFO - ChatSession:  Intialize Chat SEssion for uer demo, session None
+[2025-10-26 14:03:17] INFO - ChatSession:  Copied file to data/sessions\user_demo\session_1761462196.7815013\uploads\CV_AI_Intern_HoQuocTuan.pdf 
+ Starting pipe line with data/sessions\user_demo\session_1761462196.7815013\uploads\CV_AI_Intern_HoQuocTuan.pdf
+[2025-10-26 14:03:21] INFO - ChatSession:  file process and FAISS index strore at data/sessions\user_demo\session_1761462196.7815013\vector_store\faiss_index
+[2025-10-26 14:03:33] INFO - ChatSession: Save chat history for session 1761462196.7815013
+[2025-10-26 14:03:33] INFO - ChatSession:  update title for display
+[2025-10-26 14:03:45] INFO - ChatSession:  Intialize Chat SEssion for uer demo, session 1761462196.7815013
+[2025-10-26 14:03:45] INFO - ChatSession:  Deleted session folder data/sessions\user_demo\session_1761462196.7815013

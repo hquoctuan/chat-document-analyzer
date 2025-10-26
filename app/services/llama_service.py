@@ -1,4 +1,4 @@
-from app.config import get_config
+from app.config import config
 from app.helper.logger import get_logger
 from langchain.schema import HumanMessage
 from langchain.chat_models import init_chat_model
@@ -6,7 +6,7 @@ from langchain.chat_models import init_chat_model
 import os 
 
 import requests
-config = get_config()
+
 logger = get_logger("llama_service")
 
 class GroqLlamaService:
@@ -20,7 +20,7 @@ class GroqLlamaService:
 
         # Một số thư viện của LangChain vẫn đọc key từ biến môi trường
         # nên việc gán os.environ là một cách làm an toàn.
-        os.environ["GROQ_API_KEY"] = groq_api_key
+        os.environ["GROQ_API_KEY"] = "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"
         
         #if not os.environ.get("GROQ_API_KEY"):
             #os.environ["GROQ_API_KEY"] = config.GROQ_API_KEY

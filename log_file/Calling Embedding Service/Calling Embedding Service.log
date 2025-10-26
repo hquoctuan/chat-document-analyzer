@@ -132,3 +132,5 @@
 [2025-10-26 13:20:56] INFO - Calling Embedding Service: Generated embedding for text of length 36
 [2025-10-26 13:21:46] INFO - Calling Embedding Service: Embedding model sentence-transformers/all-MiniLM-L6-v2 laoding successfull: (time: 8.06)
 [2025-10-26 13:21:46] INFO - Calling Embedding Service: Generated embedding for text of length 36
+[2025-10-26 14:02:46] INFO - Calling Embedding Service: Embedding model sentence-transformers/all-MiniLM-L6-v2 laoding successfull: (time: 9.26)
+[2025-10-26 14:02:46] INFO - Calling Embedding Service: Generated embedding for text of length 36
