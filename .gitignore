@@ -1,3 +1,4 @@
 .env
 .vscode
 .venv/
+.streamlit/secrets.toml
