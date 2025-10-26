@@ -138,3 +138,5 @@
 [2025-10-26 10:31:56] INFO - VectorStore:  Loaded FAISS index from data/sessions\user_demo\session_1761449515.052171\vector_store\faiss_index
 [2025-10-26 10:42:03] INFO - VectorStore: FAISS saved in data/sessions\user_demo\session_1761450122.90321\vector_store\faiss_index
 [2025-10-26 10:42:03] INFO - VectorStore:  Loaded FAISS index from data/sessions\user_demo\session_1761450122.90321\vector_store\faiss_index
+[2025-10-26 11:09:36] INFO - VectorStore: FAISS saved in data/sessions\user_demo\session_1761451775.677191\vector_store\faiss_index
+[2025-10-26 11:09:36] INFO - VectorStore:  Loaded FAISS index from data/sessions\user_demo\session_1761451775.677191\vector_store\faiss_index

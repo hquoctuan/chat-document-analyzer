@@ -12,9 +12,15 @@ logger = get_logger("llama_service")
 class GroqLlamaService:
     ''' Service se goi groq API de truy van Llama model '''
     def __init__(self):
-        if not os.environ.get("GROQ_API_KEY"):
-            os.environ["GROQ_API_KEY"] = config.GROQ_API_KEY
-        self.api_key = config.GROQ_API_KEY
+        groq_api_key = config.GROQ_API_KEY
+        if not groq_api_key:
+            raise ValueError(" GROQ API not found  in secrets.toml")
+        os.environ["GROQ_API_KEY"] = groq_api_key
+        self.api_key = groq_api_key
+        
+        #if not os.environ.get("GROQ_API_KEY"):
+            #os.environ["GROQ_API_KEY"] = config.GROQ_API_KEY
+        #self.api_key = config.GROQ_API_KEY
         self.model_name = config.LLM_MODEL
         self.temperature = config.TEMPERATURE
         self.max_tokens = config.MAX_TOKENS
