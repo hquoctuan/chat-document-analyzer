@@ -547,3 +547,19 @@
 [2025-10-26 11:09:51] INFO - ChatSession:  update title for display
 [2025-10-26 11:09:56] INFO - ChatSession:  Intialize Chat SEssion for uer demo, session 1761451775.677191
 [2025-10-26 11:09:56] INFO - ChatSession:  Deleted session folder data/sessions\user_demo\session_1761451775.677191
+[2025-10-26 13:20:56] INFO - ChatSession:  Intialize Chat SEssion for uer demo, session None
+[2025-10-26 13:20:56] INFO - ChatSession:  Copied file to data/sessions\user_demo\session_1761459656.3459878\uploads\CV_AI_Intern_HoQuocTuan.pdf 
+ Starting pipe line with data/sessions\user_demo\session_1761459656.3459878\uploads\CV_AI_Intern_HoQuocTuan.pdf
+[2025-10-26 13:21:00] INFO - ChatSession:  file process and FAISS index strore at data/sessions\user_demo\session_1761459656.3459878\vector_store\faiss_index
+[2025-10-26 13:21:10] INFO - ChatSession: Save chat history for session 1761459656.3459878
+[2025-10-26 13:21:10] INFO - ChatSession:  update title for display
+[2025-10-26 13:21:12] INFO - ChatSession:  Intialize Chat SEssion for uer demo, session 1761459656.3459878
+[2025-10-26 13:21:12] INFO - ChatSession:  Deleted session folder data/sessions\user_demo\session_1761459656.3459878
+[2025-10-26 13:21:53] INFO - ChatSession:  Intialize Chat SEssion for uer demo, session None
+[2025-10-26 13:21:53] INFO - ChatSession:  Copied file to data/sessions\user_demo\session_1761459713.4759717\uploads\CV_AI_Intern_HoQuocTuan.pdf 
+ Starting pipe line with data/sessions\user_demo\session_1761459713.4759717\uploads\CV_AI_Intern_HoQuocTuan.pdf
+[2025-10-26 13:21:57] INFO - ChatSession:  file process and FAISS index strore at data/sessions\user_demo\session_1761459713.4759717\vector_store\faiss_index
+[2025-10-26 13:22:16] INFO - ChatSession: Save chat history for session 1761459713.4759717
+[2025-10-26 13:22:16] INFO - ChatSession:  update title for display
+[2025-10-26 13:22:19] INFO - ChatSession:  Intialize Chat SEssion for uer demo, session 1761459713.4759717
+[2025-10-26 13:22:19] INFO - ChatSession:  Deleted session folder data/sessions\user_demo\session_1761459713.4759717

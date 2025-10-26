@@ -19,7 +19,7 @@ class Config:
     - Cung cấp cấu hình thống nhất cho toàn project
     '''
         # load  API from .env
-        load_dotenv()
+        # load_dotenv()  Loai bo do chay tren streamlit cloud
         # Load YAML settings
         setting_path = os.path.join(os.path.dirname(__file__),"..","configs","setting.yaml")
         with open(setting_path,"r", encoding= "utf-8") as f:
@@ -60,16 +60,22 @@ class Config:
         self.ENABLE = reranker_cfg.get('enabled')
         
     def _get_secret(self, key: str):
-        """Ưu tiên lấy key từ Streamlit secrets, sau đó tới .env"""
+        """
+        2. Chỉ lấy key từ Streamlit secrets.
+        Nếu không tìm thấy, sẽ trả về None.
+        """
         value = None
         try:
-            if st and hasattr(st, "secrets") and key in st.secrets:
+            # Chỉ kiểm tra trong st.secrets
+            if hasattr(st, 'secrets') and key in st.secrets:
                 value = st.secrets[key]
         except Exception:
-            pass  # Không gây crash nếu chạy ngoài Streamlit
-
-        if not value:
-            value = os.getenv(key)
+            # Bỏ qua lỗi nếu không thể truy cập st.secrets
+            pass
+        
+        # 3. Xóa bỏ phần code dự phòng lấy từ os.getenv
+        # if not value:
+        #     value = os.getenv(key) # <--- Toàn bộ khối if này đã được xóa
 
         return value
 

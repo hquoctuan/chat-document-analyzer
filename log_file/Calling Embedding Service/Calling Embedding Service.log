@@ -126,3 +126,9 @@
 [2025-10-26 10:46:07] INFO - Calling Embedding Service: Generated embedding for text of length 36
 [2025-10-26 11:09:26] INFO - Calling Embedding Service: Embedding model sentence-transformers/all-MiniLM-L6-v2 laoding successfull: (time: 19.18)
 [2025-10-26 11:09:27] INFO - Calling Embedding Service: Generated embedding for text of length 36
+[2025-10-26 13:20:15] INFO - Calling Embedding Service: Embedding model sentence-transformers/all-MiniLM-L6-v2 laoding successfull: (time: 10.83)
+[2025-10-26 13:20:15] INFO - Calling Embedding Service: Generated embedding for text of length 36
+[2025-10-26 13:20:56] INFO - Calling Embedding Service: Embedding model sentence-transformers/all-MiniLM-L6-v2 laoding successfull: (time: 3.69)
+[2025-10-26 13:20:56] INFO - Calling Embedding Service: Generated embedding for text of length 36
+[2025-10-26 13:21:46] INFO - Calling Embedding Service: Embedding model sentence-transformers/all-MiniLM-L6-v2 laoding successfull: (time: 8.06)
+[2025-10-26 13:21:46] INFO - Calling Embedding Service: Generated embedding for text of length 36

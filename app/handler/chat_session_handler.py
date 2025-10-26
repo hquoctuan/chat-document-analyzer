@@ -101,10 +101,11 @@ class ChatSessionHandler:
             embedding_model= self.embedding_service
             
         )
-        self.retriever = self.retriever_handler.build(
+        self.retriever_handler.build(
             vector_store= vt_store,
             all_docs= chunks
         )
+        self.retriever = self.retriever_handler.retriever
         self.engine = RagEngine(retriever=self.retriever)
         #update meta data
         self.update_metadata(file_uploaded =True, file_name = os.path.basename(file_path))
@@ -283,7 +284,8 @@ class ChatSessionHandler:
                     save_dir=self.vector_dir,
                     embedding_model=self.embedding_service
                 )
-            self.retriever = self.retriever_handler.build(vector_store=vt_store, all_docs=chunks)
+            self.retriever_handler.build(vector_store=vt_store, all_docs=chunks)
+            self.retriever = self.retriever_handler.retriever
             self.engine = RagEngine(retriever=self.retriever)
             logger.info(f"✅ RAG Engine for session {self.session_id} successfully restored.")
             return True
