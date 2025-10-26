@@ -521,3 +521,21 @@
 [2025-10-25 22:31:47] INFO - ChatSession:  update title for display
 [2025-10-25 22:32:12] INFO - ChatSession:  Intialize Chat SEssion for uer demo, session 1761406279.6388128
 [2025-10-25 22:32:12] INFO - ChatSession:  Deleted session folder data/sessions\user_demo\session_1761406279.6388128
+[2025-10-26 10:30:25] INFO - ChatSession:  Intialize Chat SEssion for uer demo, session 1761448766.0236323
+[2025-10-26 10:30:25] INFO - ChatSession:  Deleted session folder data/sessions\user_demo\session_1761448766.0236323
+[2025-10-26 10:30:29] INFO - ChatSession:  Intialize Chat SEssion for uer demo, session 1761414726.5082638
+[2025-10-26 10:30:29] INFO - ChatSession:  Deleted session folder data/sessions\user_demo\session_1761414726.5082638
+[2025-10-26 10:31:55] INFO - ChatSession:  Intialize Chat SEssion for uer demo, session None
+[2025-10-26 10:31:55] INFO - ChatSession:  Copied file to data/sessions\user_demo\session_1761449515.052171\uploads\CV_AI_Intern_HoQuocTuan.pdf 
+ Starting pipe line with data/sessions\user_demo\session_1761449515.052171\uploads\CV_AI_Intern_HoQuocTuan.pdf
+[2025-10-26 10:31:59] INFO - ChatSession:  file process and FAISS index strore at data/sessions\user_demo\session_1761449515.052171\vector_store\faiss_index
+[2025-10-26 10:32:25] INFO - ChatSession: Save chat history for session 1761449515.052171
+[2025-10-26 10:32:25] INFO - ChatSession:  update title for display
+[2025-10-26 10:34:37] INFO - ChatSession:  Intialize Chat SEssion for uer demo, session 1761449515.052171
+[2025-10-26 10:34:37] INFO - ChatSession:  Deleted session folder data/sessions\user_demo\session_1761449515.052171
+[2025-10-26 10:42:03] INFO - ChatSession:  Intialize Chat SEssion for uer demo, session None
+[2025-10-26 10:42:03] INFO - ChatSession:  Copied file to data/sessions\user_demo\session_1761450122.90321\uploads\CV_AI_Intern_HoQuocTuan.pdf 
+ Starting pipe line with data/sessions\user_demo\session_1761450122.90321\uploads\CV_AI_Intern_HoQuocTuan.pdf
+[2025-10-26 10:42:07] INFO - ChatSession:  file process and FAISS index strore at data/sessions\user_demo\session_1761450122.90321\vector_store\faiss_index
+[2025-10-26 10:46:11] INFO - ChatSession:  Intialize Chat SEssion for uer demo, session 1761450122.90321
+[2025-10-26 10:46:11] INFO - ChatSession:  Deleted session folder data/sessions\user_demo\session_1761450122.90321

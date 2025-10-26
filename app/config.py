@@ -1,7 +1,7 @@
 import os
 import yaml
 from dotenv import load_dotenv
-
+import streamlit as st
 
 class Config:
     _instance = None
@@ -45,7 +45,8 @@ class Config:
         self.CHUNK_SIZE = model_rag.get('chunk_size')
         self.CHUNK_OVERLAP = model_rag.get('chunk_overlap')
         
-        self.GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+        #self.GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+        self.GROQ_API_KEY = self._get_secret("GROQ_API_KEY")
         
         # Other environments
         retrival_config = yaml_data.get("retrieval",{})
@@ -58,9 +59,21 @@ class Config:
         self.RERANKER_MODEL = reranker_cfg.get("model", "cross-encoder/ms-marco-MiniLM-L-6-v2")
         self.ENABLE = reranker_cfg.get('enabled')
         
-        
+    def _get_secret(self, key: str):
+        """Ưu tiên lấy key từ Streamlit secrets, sau đó tới .env"""
+        value = None
+        try:
+            if st and hasattr(st, "secrets") and key in st.secrets:
+                value = st.secrets[key]
+        except Exception:
+            pass  # Không gây crash nếu chạy ngoài Streamlit
 
-        
+        if not value:
+            value = os.getenv(key)
+
+        return value
+
+
     
     def summary(self):
         '''  in nhanh cau hinh hien tai'''

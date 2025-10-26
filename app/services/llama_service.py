@@ -4,7 +4,7 @@ from langchain.schema import HumanMessage
 from langchain.chat_models import init_chat_model
 
 import os 
-import streamlit as st
+
 import requests
 
 logger = get_logger("llama_service")
@@ -12,13 +12,8 @@ logger = get_logger("llama_service")
 class GroqLlamaService:
     ''' Service se goi groq API de truy van Llama model '''
     def __init__(self):
-             
-        if hasattr(st, "secrets") and "GROQ_API_KEY" in st.secrets:
-            self.api_key = st.secrets["GROQ_API_KEY"]
-        
-        
-        elif os.getenv("GROQ_API_KEY"):
-            self.api_key = os.getenv("GROQ_API_KEY")
+        if not os.environ.get("GROQ_API_KEY"):
+            os.environ["GROQ_API_KEY"] = config.GROQ_API_KEY
         self.api_key = config.GROQ_API_KEY
         self.model_name = config.LLM_MODEL
         self.temperature = config.TEMPERATURE
