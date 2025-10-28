@@ -48,9 +48,9 @@ chat-document-analyzer/
 ```
 ## Architecture
 ### App 
-![App] (chat-document-analyzer\Images\Streamlit.png)
+![App](Images\Streamlit.png)
 ### Core Flow AI
-![AI] (chat-document-analyzer\Images\Core.png)
+![AI](Images\Core.png)
 ## Features
 ### RAG Pipeline
 
