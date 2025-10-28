@@ -505,3 +505,10 @@
 [2025-10-26 14:11:35] INFO - PipelineRAG: FAISS vector store built successfully
 [2025-10-26 14:11:35] INFO - PipelineRAG: Vector Store saved at: data/sessions\user_demo\session_1761462694.1111844\vector_store\faiss_index
 [2025-10-26 14:11:35] INFO - PipelineRAG: Pipeline completed successfully
+[2025-10-28 20:37:30] INFO - PipelineRAG: Starting data pipe line for file: data/sessions\user_demo\session_1761658635.5216286\uploads\QuocTuan_Cv_new_version.pdf
+[2025-10-28 20:37:30] INFO - PipelineRAG: Loaded 2 documents of type: pdf
+[2025-10-28 20:37:30] INFO - PipelineRAG: Split into 6 chunks
+[2025-10-28 20:37:30] INFO - PipelineRAG: Using embedding model: sentence-transformers/all-MiniLM-L6-v2
+[2025-10-28 20:37:31] INFO - PipelineRAG: FAISS vector store built successfully
+[2025-10-28 20:37:31] INFO - PipelineRAG: Vector Store saved at: data/sessions\user_demo\session_1761658635.5216286\vector_store\faiss_index
+[2025-10-28 20:37:31] INFO - PipelineRAG: Pipeline completed successfully

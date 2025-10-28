@@ -16,7 +16,7 @@ from app.core.vector_store import VectorStore
 from app.core.rag_engine import RagEngine
 from app.core.retriaval_handler import RetrivalHandler
 from app.core.data_pipeline import DataPipeLine
-from app.config import config
+from app.helper.config import config
 
 logger = get_logger('ChatHandler')
 

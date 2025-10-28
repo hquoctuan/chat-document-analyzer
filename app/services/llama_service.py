@@ -1,4 +1,4 @@
-from app.config import config
+from app.helper.config import config
 from app.helper.logger import get_logger
 from langchain.schema import HumanMessage
 from langchain.chat_models import init_chat_model

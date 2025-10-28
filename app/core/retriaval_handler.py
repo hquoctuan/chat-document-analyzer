@@ -4,7 +4,7 @@ from langchain.retrievers.document_compressors import CrossEncoderReranker
 from sentence_transformers import CrossEncoder
 from langchain.vectorstores.base import VectorStoreRetriever
 from langchain_community.cross_encoders import HuggingFaceCrossEncoder
-from app.config import config
+from app.helper.config import config
 from app.helper.logger import get_logger
 logger = get_logger("RetrivalHandler")
 

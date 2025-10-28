@@ -1,7 +1,7 @@
 import os
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain.docstore.document import Document
-from app.config import config
+from app.helper.config import config
 from app.helper.logger import get_logger
 
 logger = get_logger("ChunkHandler")
