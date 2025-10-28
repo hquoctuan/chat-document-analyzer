@@ -48,7 +48,7 @@ chat-document-analyzer/
 ```
 ## Architecture
 ### App 
-![App](Images/Core.pngStreamlit.png)
+![App](Images/Streamlit.png)
 ### Core Flow AI
 ![AI](Images/Core.png)
 ## Features
