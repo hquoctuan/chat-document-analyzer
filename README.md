@@ -47,11 +47,11 @@ Users can upload files such as PDF, CSV and the system will:
     └── README.md                # Project documentation
 
     ```
-    ## Architecture
-    ### App 
-    ![App](Images/Streamlit.png)
-    ### Core Flow AI
-    ![AI](Images/Core.png)
+## Architecture
+### App 
+![App](Images/Streamlit.png)
+### Core Flow AI
+![AI](Images/Core.png)
 
 ## ⚙️ Features
 
