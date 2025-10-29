@@ -4,14 +4,11 @@
 ## 🌟 Introduction
 Document Analyzer is a personal project that applies the Retrieval-Augmented Generation (RAG) model to build a chatbot capable of analyzing and conversing based on the content of user-uploaded documents.
 Users can upload files such as PDF, CSV and the system will:
+- Extract and process the document content.
+- Generate embeddings for semantic search and retrieval.
+- Analyze, summarize, or answer questions based on the document’s information.
 
-    - Extract and process the document content.
-
-    - Generate embeddings for semantic search and retrieval.
-
-    - Analyze, summarize, or answer questions based on the document’s information.
-
-    This project is developed as a non-commercial initiative to explore the integration of Large Language Models (LLMs) with user-provided data , featuring a lightweight, extensible architecture suitable for learning, experimentation, or demo purposes.
+This project is developed as a non-commercial initiative to explore the integration of Large Language Models (LLMs) with user-provided data , featuring a lightweight, extensible architecture suitable for learning, experimentation, or demo purposes.
 
     
     
