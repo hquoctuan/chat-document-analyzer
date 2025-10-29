@@ -45,8 +45,9 @@ Users can upload files such as PDF, CSV and the system will:
     ├── requirements.txt         # Python dependencies
     ├── runtime.txt              # Python version
     └── README.md                # Project documentation
-
     ```
+
+
 ## Architecture
 ### App 
 ![App](Images/Streamlit.png)
