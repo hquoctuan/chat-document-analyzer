@@ -94,6 +94,14 @@ The **Retrieval-Augmented Generation (RAG) Pipeline** is the core of the system.
    - Maintain contextual understanding throughout the conversation  
    - Retrieve related information from multiple documents  
    - Provide references and citation sources for transparency 
+
+## Demo
+### Chat with PDF file
+![PDFchat](Images/image.png)
+
+### Chat with csv file
+![CSVchat](Images/csv_chat.png)
+
 ## Usage Guide
 1.Clone Project
 ```bash
@@ -125,8 +133,13 @@ streamlit run app/main.py
 And app will deploy local: http://localhost:8501
 Once the application is running, you can monitor its progress in the log file
 
+
+
 ### Acknowledgements
 
  - [LangChain](https://python.langchain.com/docs/introduction/)
  - [BM25 Algorithm](https://www.geeksforgeeks.org/nlp/what-is-bm25-best-matching-25-algorithm/)
  - [Hugging Face](https://huggingface.co/docs)
+
+
+
