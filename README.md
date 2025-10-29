@@ -20,6 +20,7 @@
     ## Project Structure
 
     ```
+    bash
     chat-document-analyzer/
     ├── .streamlit/              # Streamlit  configuration
     ├── .venv/                   # Virtual environment
