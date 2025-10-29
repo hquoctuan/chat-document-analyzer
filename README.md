@@ -124,3 +124,9 @@ streamlit run app/main.py
 ```
 And app will deploy local: http://localhost:8501
 Once the application is running, you can monitor its progress in the log file
+
+### Acknowledgements
+
+ - [LangChain](https://python.langchain.com/docs/introduction/)
+ - [BM25 Algorithm](https://www.geeksforgeeks.org/nlp/what-is-bm25-best-matching-25-algorithm/)
+ - [Hugging Face](https://huggingface.co/docs)
