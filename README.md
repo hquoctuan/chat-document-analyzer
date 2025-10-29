@@ -1,11 +1,7 @@
 
-    # Chat Document Analyzer 
+# Chat Document Analyzer 
 
-
-
-
-
-    ## 🌟 Introduction 
+## 🌟 Introduction 
     Document Analyzer is a personal project that applies the Retrieval-Augmented Generation (RAG) model to build a chatbot capable of analyzing and conversing based on the content of user-uploaded documents.
 
     Users can upload files such as PDF, CSV and the system will:
@@ -52,6 +48,7 @@
     ![App](Images/Streamlit.png)
     ### Core Flow AI
     ![AI](Images/Core.png)
+    
 ## ⚙️ Features
 
 ### 🧠 RAG Pipeline
