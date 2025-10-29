@@ -140,6 +140,7 @@ Once the application is running, you can monitor its progress in the log file
  - [LangChain](https://python.langchain.com/docs/introduction/)
  - [BM25 Algorithm](https://www.geeksforgeeks.org/nlp/what-is-bm25-best-matching-25-algorithm/)
  - [Hugging Face](https://huggingface.co/docs)
+## 📜 License
 
-
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
 
