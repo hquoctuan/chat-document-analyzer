@@ -15,7 +15,7 @@ model:
 rag:
   chunk_size: 800
   chunk_overlap: 100
-  top_k: 4
+  top_k: 10
   similarity_threshold: 0.75
 
 retrieval:
