@@ -2,6 +2,8 @@ import os
 import yaml
 from dotenv import load_dotenv
 import streamlit as st
+from pathlib import Path
+
 
 class Config:
     _instance = None
@@ -21,7 +23,8 @@ class Config:
         # load  API from .env
         # load_dotenv()  Loai bo do chay tren streamlit cloud
         # Load YAML settings
-        setting_path = os.path.join(os.path.dirname(__file__),"..","configs","setting.yaml")
+        root_dir = Path(__file__).parent.parent.parent
+        setting_path = os.path.join(root_dir, 'configs', 'setting.yaml')
         with open(setting_path,"r", encoding= "utf-8") as f:
             yaml_data = yaml.safe_load(f)
         
@@ -58,29 +61,27 @@ class Config:
         reranker_cfg = yaml_data.get("reranker",{})
         self.RERANKER_MODEL = reranker_cfg.get("model", "cross-encoder/ms-marco-MiniLM-L-6-v2")
         self.ENABLE = reranker_cfg.get('enabled')
+    
+    
+        
         
     def _get_secret(self, key: str):
-        """
-        2. Chỉ lấy key từ Streamlit secrets.
-        Nếu không tìm thấy, sẽ trả về None.
-        """
-        value = None
         try:
-            # Chỉ kiểm tra trong st.secrets
-            if hasattr(st, 'secrets') and key in st.secrets:
-                value = st.secrets[key]
-        except Exception:
-            # Bỏ qua lỗi nếu không thể truy cập st.secrets
-            pass
-        
-        # 3. Xóa bỏ phần code dự phòng lấy từ os.getenv
-        # if not value:
-        #     value = os.getenv(key) # <--- Toàn bộ khối if này đã được xóa
+        # 1. Kiểm tra trong Streamlit secrets
+            if hasattr(st, 'secrets'):
+                if key in st.secrets:
+                    value = st.secrets[key]
+                    if value:
+                        print(f"INFO: Đã lấy thành công {key} từ Streamlit secrets")
+                        return value
 
-        return value
+            print(f"WARNING: Không tìm thấy {key} trong Streamlit secrets.")
+            return None
 
+        except Exception as e:
+            print(f"ERROR: Lỗi khi truy cập {key}: {str(e)}")
+            return None
 
-    
     def summary(self):
         '''  in nhanh cau hinh hien tai'''
         return {
@@ -94,3 +95,5 @@ class Config:
 
 config =Config()
 config._load_config()
+print(config.summary())
+print(config.GROQ_API_KEY)

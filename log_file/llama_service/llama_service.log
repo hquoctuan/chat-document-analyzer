@@ -253,3 +253,28 @@
 [2025-10-26 14:11:52] INFO - llama_service:  => GroqLlamaService initialized with model: llama-3.1-8b-instant
 [2025-10-28 20:37:15] INFO - llama_service:  => GroqLlamaService initialized with model: llama-3.1-8b-instant
 [2025-10-28 20:37:34] INFO - llama_service:  => GroqLlamaService initialized with model: llama-3.1-8b-instant
+[2025-10-29 13:29:24] INFO - llama_service:  => GroqLlamaService initialized with model: llama-3.1-8b-instant
+[2025-10-29 13:29:31] INFO - llama_service:  => GroqLlamaService initialized with model: llama-3.1-8b-instant
+[2025-10-29 13:29:35] INFO - llama_service:  => GroqLlamaService initialized with model: llama-3.1-8b-instant
+[2025-10-29 13:33:54] INFO - llama_service:  => GroqLlamaService initialized with model: llama-3.1-8b-instant
+[2025-10-29 13:40:21] INFO - llama_service:  => GroqLlamaService initialized with model: llama-3.1-8b-instant
+[2025-10-29 13:40:25] INFO - llama_service:  => GroqLlamaService initialized with model: llama-3.1-8b-instant
+[2025-10-29 13:43:35] INFO - llama_service:  => GroqLlamaService initialized with model: llama-3.1-8b-instant
+[2025-10-29 13:46:07] INFO - llama_service:  => GroqLlamaService initialized with model: llama-3.1-8b-instant
+[2025-10-29 13:46:11] INFO - llama_service:  => GroqLlamaService initialized with model: llama-3.1-8b-instant
+[2025-10-29 13:53:00] INFO - llama_service:  => GroqLlamaService initialized with model: llama-3.1-8b-instant
+[2025-10-29 16:07:23] INFO - llama_service:  => GroqLlamaService initialized with model: llama-3.1-8b-instant
+[2025-10-29 16:07:23] INFO - llama_service:  Prompt input  The capital of Vieitnamese?...
+[2025-10-29 16:07:23] ERROR - llama_service:  Erro calling API Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+[2025-10-29 16:17:45] INFO - llama_service:  => GroqLlamaService initialized with model: llama-3.1-8b-instant
+[2025-10-29 16:17:45] INFO - llama_service:  Prompt input  The capital of Vieitnamese?...
+[2025-10-29 16:17:46] INFO - llama_service:  Groq repone recived (32 chars)
+[2025-10-29 16:18:51] INFO - llama_service:  => GroqLlamaService initialized with model: llama-3.1-8b-instant
+[2025-10-29 16:18:59] INFO - llama_service:  => GroqLlamaService initialized with model: llama-3.1-8b-instant
+[2025-10-29 16:19:28] INFO - llama_service:  => GroqLlamaService initialized with model: llama-3.1-8b-instant
+[2025-10-29 16:20:43] INFO - llama_service:  => GroqLlamaService initialized with model: llama-3.1-8b-instant
+[2025-10-29 16:20:48] INFO - llama_service:  => GroqLlamaService initialized with model: llama-3.1-8b-instant
+[2025-10-29 16:23:29] INFO - llama_service:  => GroqLlamaService initialized with model: llama-3.1-8b-instant
+[2025-10-29 16:23:35] INFO - llama_service:  => GroqLlamaService initialized with model: llama-3.1-8b-instant
+[2025-10-29 16:27:19] INFO - llama_service:  => GroqLlamaService initialized with model: llama-3.1-8b-instant
+[2025-10-29 16:27:21] INFO - llama_service:  => GroqLlamaService initialized with model: llama-3.1-8b-instant

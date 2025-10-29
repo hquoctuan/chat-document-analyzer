@@ -95,7 +95,7 @@ if chat_obj is not None:
 else:
     meta = {"title": "New Chat", "file_uploaded": False}
 
-st.markdown("<h2 style='text-align:center;'>🤖 Chat Document Analyzer </h2>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align:center;'> Chat Document Analyzer </h2>", unsafe_allow_html=True)
 st.markdown(f"<p style='text-align:center;'> In chat session: <b>{meta.get('title', 'New Chat')}</b></p>", unsafe_allow_html=True)
 st.markdown("---")
 

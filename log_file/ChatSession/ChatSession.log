@@ -598,3 +598,57 @@
 [2025-10-28 20:39:01] INFO - ChatSession: Save chat history for session 1761658635.5216286
 [2025-10-28 20:39:37] INFO - ChatSession: Save chat history for session 1761658635.5216286
 [2025-10-28 20:40:28] INFO - ChatSession: Save chat history for session 1761658635.5216286
+[2025-10-29 13:29:24] INFO - ChatSession:  Intialize Chat SEssion for uer demo, session 1761658635.5216286
+[2025-10-29 13:29:24] INFO - ChatSession:  Deleted session folder data/sessions\user_demo\session_1761658635.5216286
+[2025-10-29 13:29:31] INFO - ChatSession:  Intialize Chat SEssion for uer demo, session None
+[2025-10-29 13:29:31] INFO - ChatSession:  Copied file to data/sessions\user_demo\session_1761719371.8023863\uploads\CV_AI_Intern_HoQuocTuan.pdf 
+ Starting pipe line with data/sessions\user_demo\session_1761719371.8023863\uploads\CV_AI_Intern_HoQuocTuan.pdf
+[2025-10-29 13:29:35] INFO - ChatSession:  file process and FAISS index strore at data/sessions\user_demo\session_1761719371.8023863\vector_store\faiss_index
+[2025-10-29 13:30:01] ERROR - ChatSession:  Error during streaming chat: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+[2025-10-29 13:30:01] INFO - ChatSession:  update title for display
+[2025-10-29 13:33:54] INFO - ChatSession:  Intialize Chat SEssion for uer demo, session 1761719371.8023863
+[2025-10-29 13:33:54] INFO - ChatSession:  Deleted session folder data/sessions\user_demo\session_1761719371.8023863
+[2025-10-29 13:40:21] INFO - ChatSession:  Intialize Chat SEssion for uer demo, session None
+[2025-10-29 13:40:21] INFO - ChatSession:  Copied file to data/sessions\user_demo\session_1761720020.9455862\uploads\CV_AI_Intern_HoQuocTuan.pdf 
+ Starting pipe line with data/sessions\user_demo\session_1761720020.9455862\uploads\CV_AI_Intern_HoQuocTuan.pdf
+[2025-10-29 13:40:25] INFO - ChatSession:  file process and FAISS index strore at data/sessions\user_demo\session_1761720020.9455862\vector_store\faiss_index
+[2025-10-29 13:40:36] ERROR - ChatSession:  Error during streaming chat: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+[2025-10-29 13:40:36] INFO - ChatSession:  update title for display
+[2025-10-29 13:43:35] INFO - ChatSession:  Intialize Chat SEssion for uer demo, session 1761720020.9455862
+[2025-10-29 13:43:35] INFO - ChatSession:  Deleted session folder data/sessions\user_demo\session_1761720020.9455862
+[2025-10-29 13:46:07] INFO - ChatSession:  Intialize Chat SEssion for uer demo, session None
+[2025-10-29 13:46:07] INFO - ChatSession:  Copied file to data/sessions\user_demo\session_1761720367.4845264\uploads\CV_AI_Intern_HoQuocTuan.pdf 
+ Starting pipe line with data/sessions\user_demo\session_1761720367.4845264\uploads\CV_AI_Intern_HoQuocTuan.pdf
+[2025-10-29 13:46:11] INFO - ChatSession:  file process and FAISS index strore at data/sessions\user_demo\session_1761720367.4845264\vector_store\faiss_index
+[2025-10-29 13:46:18] ERROR - ChatSession:  Error during streaming chat: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+[2025-10-29 13:46:18] INFO - ChatSession:  update title for display
+[2025-10-29 13:53:00] INFO - ChatSession:  Intialize Chat SEssion for uer demo, session 1761720367.4845264
+[2025-10-29 13:53:00] INFO - ChatSession:  Deleted session folder data/sessions\user_demo\session_1761720367.4845264
+[2025-10-29 16:18:51] INFO - ChatSession:  Intialize Chat SEssion for uer demo, session None
+[2025-10-29 16:18:51] INFO - ChatSession:  Copied file to data/sessions\user_demo\session_1761729530.630915\uploads\CV_AI_Intern_HoQuocTuan.pdf 
+ Starting pipe line with data/sessions\user_demo\session_1761729530.630915\uploads\CV_AI_Intern_HoQuocTuan.pdf
+[2025-10-29 16:18:59] INFO - ChatSession:  file process and FAISS index strore at data/sessions\user_demo\session_1761729530.630915\vector_store\faiss_index
+[2025-10-29 16:19:14] INFO - ChatSession: Save chat history for session 1761729530.630915
+[2025-10-29 16:19:14] INFO - ChatSession:  update title for display
+[2025-10-29 16:19:28] INFO - ChatSession:  Intialize Chat SEssion for uer demo, session 1761729530.630915
+[2025-10-29 16:19:28] INFO - ChatSession:  Deleted session folder data/sessions\user_demo\session_1761729530.630915
+[2025-10-29 16:20:43] INFO - ChatSession:  Intialize Chat SEssion for uer demo, session None
+[2025-10-29 16:20:43] INFO - ChatSession:  Copied file to data/sessions\user_demo\session_1761729643.6752913\uploads\CV_AI_Intern_HoQuocTuan.pdf 
+ Starting pipe line with data/sessions\user_demo\session_1761729643.6752913\uploads\CV_AI_Intern_HoQuocTuan.pdf
+[2025-10-29 16:20:48] INFO - ChatSession:  file process and FAISS index strore at data/sessions\user_demo\session_1761729643.6752913\vector_store\faiss_index
+[2025-10-29 16:21:17] INFO - ChatSession: Save chat history for session 1761729643.6752913
+[2025-10-29 16:21:17] INFO - ChatSession:  update title for display
+[2025-10-29 16:22:41] INFO - ChatSession: Save chat history for session 1761729643.6752913
+[2025-10-29 16:23:29] INFO - ChatSession:  Intialize Chat SEssion for uer demo, session None
+[2025-10-29 16:23:30] INFO - ChatSession:  Copied file to data/sessions\user_demo\session_1761729807.4529555\uploads\laptop.csv 
+ Starting pipe line with data/sessions\user_demo\session_1761729807.4529555\uploads\laptop.csv
+[2025-10-29 16:23:35] INFO - ChatSession:  file process and FAISS index strore at data/sessions\user_demo\session_1761729807.4529555\vector_store\faiss_index
+[2025-10-29 16:24:31] INFO - ChatSession: Save chat history for session 1761729807.4529555
+[2025-10-29 16:24:31] INFO - ChatSession:  update title for display
+[2025-10-29 16:25:05] INFO - ChatSession: Save chat history for session 1761729807.4529555
+[2025-10-29 16:26:19] INFO - ChatSession: Save chat history for session 1761729807.4529555
+[2025-10-29 16:26:57] INFO - ChatSession: Save chat history for session 1761729807.4529555
+[2025-10-29 16:27:19] INFO - ChatSession:  Intialize Chat SEssion for uer demo, session 1761729807.4529555
+[2025-10-29 16:27:19] INFO - ChatSession:  Deleted session folder data/sessions\user_demo\session_1761729807.4529555
+[2025-10-29 16:27:21] INFO - ChatSession:  Intialize Chat SEssion for uer demo, session 1761729643.6752913
+[2025-10-29 16:27:21] INFO - ChatSession:  Deleted session folder data/sessions\user_demo\session_1761729643.6752913

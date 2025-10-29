@@ -247,3 +247,21 @@
 [2025-10-28 20:37:30] INFO - ChunkHandler: Selected PDF splitter.
 [2025-10-28 20:37:30] INFO - ChunkHandler: Initializing RecursiveCharacterTextSplitter for PDF.
 [2025-10-28 20:37:30] INFO - ChunkHandler: 📘 Using text splitter for PDF or text-like content.
+[2025-10-29 13:29:32] INFO - ChunkHandler: Selected PDF splitter.
+[2025-10-29 13:29:32] INFO - ChunkHandler: Initializing RecursiveCharacterTextSplitter for PDF.
+[2025-10-29 13:29:32] INFO - ChunkHandler: 📘 Using text splitter for PDF or text-like content.
+[2025-10-29 13:40:21] INFO - ChunkHandler: Selected PDF splitter.
+[2025-10-29 13:40:21] INFO - ChunkHandler: Initializing RecursiveCharacterTextSplitter for PDF.
+[2025-10-29 13:40:21] INFO - ChunkHandler: 📘 Using text splitter for PDF or text-like content.
+[2025-10-29 13:46:08] INFO - ChunkHandler: Selected PDF splitter.
+[2025-10-29 13:46:08] INFO - ChunkHandler: Initializing RecursiveCharacterTextSplitter for PDF.
+[2025-10-29 13:46:08] INFO - ChunkHandler: 📘 Using text splitter for PDF or text-like content.
+[2025-10-29 16:18:52] INFO - ChunkHandler: Selected PDF splitter.
+[2025-10-29 16:18:52] INFO - ChunkHandler: Initializing RecursiveCharacterTextSplitter for PDF.
+[2025-10-29 16:18:52] INFO - ChunkHandler: 📘 Using text splitter for PDF or text-like content.
+[2025-10-29 16:20:43] INFO - ChunkHandler: Selected PDF splitter.
+[2025-10-29 16:20:43] INFO - ChunkHandler: Initializing RecursiveCharacterTextSplitter for PDF.
+[2025-10-29 16:20:43] INFO - ChunkHandler: 📘 Using text splitter for PDF or text-like content.
+[2025-10-29 16:23:31] INFO - ChunkHandler: Selected CSV splitter.
+[2025-10-29 16:23:31] INFO - ChunkHandler: 🧩 Using CSV chunking strategy.
+[2025-10-29 16:23:31] INFO - ChunkHandler: 📊 CSV grouped into 5 chunks (each ~2 rows).

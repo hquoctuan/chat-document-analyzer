@@ -296,3 +296,15 @@ RuntimeError: Error loading data/sessions\user_demo\session_1761387708.2495747\u
 [2025-10-26 14:11:34] INFO - DataLoader: Successfully loaded file: data/sessions\user_demo\session_1761462694.1111844\uploads\CV_AI_Intern_HoQuocTuan.pdf
 [2025-10-28 20:37:30] INFO - DataLoader:  Loaded 2 pages from PDF: QuocTuan_Cv_new_version.pdf
 [2025-10-28 20:37:30] INFO - DataLoader: Successfully loaded file: data/sessions\user_demo\session_1761658635.5216286\uploads\QuocTuan_Cv_new_version.pdf
+[2025-10-29 13:29:32] INFO - DataLoader:  Loaded 2 pages from PDF: CV_AI_Intern_HoQuocTuan.pdf
+[2025-10-29 13:29:32] INFO - DataLoader: Successfully loaded file: data/sessions\user_demo\session_1761719371.8023863\uploads\CV_AI_Intern_HoQuocTuan.pdf
+[2025-10-29 13:40:21] INFO - DataLoader:  Loaded 2 pages from PDF: CV_AI_Intern_HoQuocTuan.pdf
+[2025-10-29 13:40:21] INFO - DataLoader: Successfully loaded file: data/sessions\user_demo\session_1761720020.9455862\uploads\CV_AI_Intern_HoQuocTuan.pdf
+[2025-10-29 13:46:08] INFO - DataLoader:  Loaded 2 pages from PDF: CV_AI_Intern_HoQuocTuan.pdf
+[2025-10-29 13:46:08] INFO - DataLoader: Successfully loaded file: data/sessions\user_demo\session_1761720367.4845264\uploads\CV_AI_Intern_HoQuocTuan.pdf
+[2025-10-29 16:18:52] INFO - DataLoader:  Loaded 2 pages from PDF: CV_AI_Intern_HoQuocTuan.pdf
+[2025-10-29 16:18:52] INFO - DataLoader: Successfully loaded file: data/sessions\user_demo\session_1761729530.630915\uploads\CV_AI_Intern_HoQuocTuan.pdf
+[2025-10-29 16:20:43] INFO - DataLoader:  Loaded 2 pages from PDF: CV_AI_Intern_HoQuocTuan.pdf
+[2025-10-29 16:20:43] INFO - DataLoader: Successfully loaded file: data/sessions\user_demo\session_1761729643.6752913\uploads\CV_AI_Intern_HoQuocTuan.pdf
+[2025-10-29 16:23:31] INFO - DataLoader:  Loaded 9 rows from CSV: laptop.csv
+[2025-10-29 16:23:31] INFO - DataLoader: Successfully loaded file: data/sessions\user_demo\session_1761729807.4529555\uploads\laptop.csv
