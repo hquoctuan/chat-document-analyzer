@@ -12,15 +12,13 @@ logger = get_logger("llama_service")
 class GroqLlamaService:
     ''' Service se goi groq API de truy van Llama model '''
     def __init__(self):
-        #groq_api_key = config.GROQ_API_KEY
+        groq_api_key = config.GROQ_API_KEY
 
-        #if not groq_api_key:
-            # Thông báo lỗi này sẽ xuất hiện trên log của Streamlit Cloud nếu bạn quên set secret
-            #raise ValueError("GROQ_API_KEY not found. Please set it in Streamlit secrets.")
+        if not groq_api_key:
+            
+            raise ValueError("GROQ_API_KEY not found. Please set it in Streamlit secrets.")
 
-        # Một số thư viện của LangChain vẫn đọc key từ biến môi trường
-        # nên việc gán os.environ là một cách làm an toàn.
-        os.environ["GROQ_API_KEY"] = "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"
+        os.environ["GROQ_API_KEY"] = groq_api_key
         
         #if not os.environ.get("GROQ_API_KEY"):
             #os.environ["GROQ_API_KEY"] = config.GROQ_API_KEY

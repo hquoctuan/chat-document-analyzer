@@ -1,0 +1,9 @@
+[2025-10-29 16:40:58] INFO - ChatSession:  Intialize Chat SEssion for uer demo, session None
+[2025-10-29 16:40:58] INFO - ChatSession:  Copied file to data/sessions\user_demo\session_1761730858.3399673\uploads\laptop.csv 
+ Starting pipe line with data/sessions\user_demo\session_1761730858.3399673\uploads\laptop.csv
+[2025-10-29 16:41:02] INFO - ChatSession:  file process and FAISS index strore at data/sessions\user_demo\session_1761730858.3399673\vector_store\faiss_index
+[2025-10-29 16:41:12] INFO - ChatSession: Save chat history for session 1761730858.3399673
+[2025-10-29 16:41:12] INFO - ChatSession:  update title for display
+[2025-10-29 16:41:25] INFO - ChatSession: Save chat history for session 1761730858.3399673
+[2025-10-29 16:41:27] INFO - ChatSession:  Intialize Chat SEssion for uer demo, session 1761730858.3399673
+[2025-10-29 16:41:27] INFO - ChatSession:  Deleted session folder data/sessions\user_demo\session_1761730858.3399673

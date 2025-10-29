@@ -72,14 +72,14 @@ class Config:
                 if key in st.secrets:
                     value = st.secrets[key]
                     if value:
-                        print(f"INFO: Đã lấy thành công {key} từ Streamlit secrets")
-                        return value
+                        print(f"INFO: Get key successfully from Streamlit secrets:")
 
-            print(f"WARNING: Không tìm thấy {key} trong Streamlit secrets.")
+
+            print(f"WARNING:Not found {key} in Streamlit secrets.")
             return None
 
         except Exception as e:
-            print(f"ERROR: Lỗi khi truy cập {key}: {str(e)}")
+            print(f"ERROR:  {str(e)}")
             return None
 
     def summary(self):
