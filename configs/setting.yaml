@@ -11,10 +11,6 @@ model:
   temperature: 0.7
   max_tokens: 512
 
-data:
-  raw_data_path: "data/raw"
-  processed_data_path: "data/processed"
-  vector_store_path: "data/vector_store"
 
 rag:
   chunk_size: 800

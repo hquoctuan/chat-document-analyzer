@@ -1,4 +1,3 @@
-
 # Chat Document Analyzer 
 
 ## 🌟 Introduction
@@ -76,9 +75,8 @@ The **Retrieval-Augmented Generation (RAG) Pipeline** is the core of the system.
    - Context compression for large documents  
    - Long-context handling through adaptive chunking  
 
----
 
-### 🤖 AI Chatbot Features
+### AI Chatbot Features
 
 1. **Chat Session Management**
    - Create and manage multiple independent chat sessions  
@@ -88,12 +86,41 @@ The **Retrieval-Augmented Generation (RAG) Pipeline** is the core of the system.
 
 2. **Intelligent Document Interaction**
    - Chat and ask questions directly about document content  
-   - Perform **semantic search** within uploaded files  
-   - Compare information across different sections or documents  
+   - Perform **semantic search** within uploaded files   
    - Summarize and analyze document content  
    - Extract **insights** and **key points** automatically  
 
 3. **Contextual Document Handling**
    - Maintain contextual understanding throughout the conversation  
    - Retrieve related information from multiple documents  
-   - Provide references and citation sources for transparency  
+   - Provide references and citation sources for transparency 
+## Usage Guide
+1.Clone Project
+```bash
+https://github.com/hquoctuan/chat-document-analyzer.git
+```
+2.Create a virtual environment
+```
+python -m venv .venv
+source .venv/bin/activate (Mac)
+.venv\Scripts\activate    (Win)
+
+```
+3.Install dependencies
+```
+pip install -r requirements.txt
+```
+4.Setting Config
+You can define the model,ebedding, and retrieval parameters used by the chat bot in file setting.yaml:
+- Application information (name, version, environment)
+- LLM provider and embedding model
+- RAG pipeline options (chunk size, overlap, similarity threshold)
+- Retrieval modes and weights
+- Re-ranking model settings
+And API GROQ you can congfig in .streamlit (For deploy) or create .env file and config this here.
+5. Run app
+``` bash
+streamlit run app/main.py
+```
+And app will deploy local: http://localhost:8501
+Once the application is running, you can monitor its progress in the log file
