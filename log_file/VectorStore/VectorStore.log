@@ -1,2 +1,4 @@
 [2025-10-29 16:40:59] INFO - VectorStore: FAISS saved in data/sessions\user_demo\session_1761730858.3399673\vector_store\faiss_index
 [2025-10-29 16:40:59] INFO - VectorStore:  Loaded FAISS index from data/sessions\user_demo\session_1761730858.3399673\vector_store\faiss_index
+[2025-10-29 16:56:33] INFO - VectorStore: FAISS saved in data/sessions\user_demo\session_1761731792.917261\vector_store\faiss_index
+[2025-10-29 16:56:33] INFO - VectorStore:  Loaded FAISS index from data/sessions\user_demo\session_1761731792.917261\vector_store\faiss_index

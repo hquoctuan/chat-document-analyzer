@@ -73,6 +73,7 @@ class Config:
                     value = st.secrets[key]
                     if value:
                         print(f"INFO: Get key successfully from Streamlit secrets:")
+                        return value
 
 
             print(f"WARNING:Not found {key} in Streamlit secrets.")
@@ -96,4 +97,3 @@ class Config:
 config =Config()
 config._load_config()
 print(config.summary())
-print(config.GROQ_API_KEY)
