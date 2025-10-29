@@ -105,7 +105,7 @@ The **Retrieval-Augmented Generation (RAG) Pipeline** is the core of the system.
 ## Usage Guide
 1.Clone Project
 ```bash
-https://github.com/hquoctuan/chat-document-analyzer.git
+git clone https://github.com/hquoctuan/chat-document-analyzer.git
 ```
 2.Create a virtual environment
 ```
